@@ -13,8 +13,16 @@ export default function Home() {
   );
   return (
     <Layout>
-      <main className="text-black bg-blue-500/10 flex justify-center items-center h-full">
-        <Map position={[-7.801363, 110.364787]} zoom={13} />
+      <main className="text-[#1D282D] bg-blue-500/0 flex flex-col justify-center items-center h-full gap-8">
+        <div
+          className="
+        bg-white p-5 w-full rounded-[10px] shadow-md"
+        >
+          <h1 className="text-3xl font-bold">Prototype</h1>
+        </div>
+        <div className="bg-white p-5 w-full min-h-screen rounded-[10px] shadow-md">
+          <Map position={[-7.801363, 110.364787]} zoom={13} />
+        </div>
       </main>
     </Layout>
   );
