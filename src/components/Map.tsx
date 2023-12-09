@@ -8,7 +8,7 @@ export default function Map(props: any) {
   const { position, zoom } = props;
 
   return (
-    <MapContainer className="w-full h-full select-none" center={position} zoom={zoom}>
+    <MapContainer className="w-full h-full select-none" center={position} zoom={zoom} scrollWheelZoom={false}>
       <TileLayer
         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
