@@ -46,5 +46,6 @@ module.exports = {
       "warn",
       "always"
     ],
+    "@typescript-eslint/no-explicit-any": "off"
   }
 };
