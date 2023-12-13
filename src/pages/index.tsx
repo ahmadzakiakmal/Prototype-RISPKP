@@ -13,7 +13,7 @@ export default function Home() {
   );
   return (
     <Layout>
-      <main className="text-proto-300 bg-blue-500/0 flex flex-col justify-center items-center h-full gap-8">
+      <main className="text-proto-300 bg-blue-500/0 flex flex-col justify-start items-center h-full gap-8">
         <div
           className="
         bg-white p-5 w-full rounded-[10px] shadow-md"
