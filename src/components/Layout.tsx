@@ -17,7 +17,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             <FaMapLocationDot className="text-[30px] flex-shrink-0" /> 
             <span className="text-[18px] font-medium hidden lg:block">Map</span>
           </Link>
-          <Link href="#" className="flex justify-start px-4 items-center gap-3 hover:bg-white/10 py-2 rounded-[8px] transition">
+          <Link href="/data" className="flex justify-start px-4 items-center gap-3 hover:bg-white/10 py-2 rounded-[8px] transition">
             <IoStatsChart className="text-[30px] flex-shrink-0" /> 
             <span className="text-[18px] font-medium hidden lg:block">Data</span>
           </Link>
