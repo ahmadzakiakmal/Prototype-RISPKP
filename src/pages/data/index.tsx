@@ -14,6 +14,7 @@ export default function DataPage() {
         <section className="bg-white p-5 w-full rounded-[10px] shadow-md">
           <div className="p-5 outline outline-1 outline-proto-200 shadow-md w-fit rounded-[5px]">
             <h1 className="font-semibold">Kota Yogyakarta</h1>
+            <hr />
             <h2>Riwayat Kasus Kebakaran</h2>
             <ul>
               <li>2023: N/A</li>

@@ -2,6 +2,7 @@
 import {
   Circle,
   MapContainer,
+  Polygon,
   TileLayer,
 } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
@@ -48,6 +49,7 @@ export default function Map(props: any) {
       }
       <Circle center={[-7.7700939, 110.3778412]} radius={300} color="rgba(255,0,0)">
       </Circle>
+      <Polygon positions={[locations[0].position, locations[1].position, locations[2].position]} />
     </MapContainer>
   );
 }
