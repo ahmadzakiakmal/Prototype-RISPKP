@@ -44,10 +44,10 @@ export default function DataPage() {
           <h1 className="text-3xl font-bold">Data</h1>
         </section>
 
-        <section className="bg-white p-5 w-full rounded-[10px] shadow-md grid grid-cols-1 min-[425px]:grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-5">
+        <section className="bg-white p-5 w-full rounded-[10px] shadow-md grid grid-cols-1 min-[425px]:grid-cols-2 sm:grid-cols-3 lg:grid-cols-3 gap-5">
           <RegionCard name="Kota Yogyakarta" />
           <RegionCard name="Kabupaten Sleman" />
-          <RegionCard name="Kabupatan Bantul" />
+          <RegionCard name="Kabupaten Bantul" />
           <RegionCard name="Kabupaten Gunung Kidul" />
           <RegionCard name="Kabupaten Kulon Progo" />
         </section>
