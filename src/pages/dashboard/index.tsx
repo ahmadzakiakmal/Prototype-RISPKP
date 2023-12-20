@@ -1,5 +1,9 @@
+import Layout from "@/components/Layout";
+
 export default function Dashboard() {
   return(
-    <main></main>
+    <Layout>
+      <h1 className="mt-20">Dashboard</h1>
+    </Layout>
   );
 }
