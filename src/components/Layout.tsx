@@ -4,7 +4,7 @@ import Navbar from "./Navbar";
 import Link from "next/link";
 
 export default function Layout({ children }: { children: React.ReactNode }) {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isMenuOpen, setIsMenuOpen] = useState(true);
   return (
     <main className="min-h-screen bg-proto-100 flex font-poppins">
       <Navbar />
