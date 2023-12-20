@@ -1,57 +1,37 @@
-import { MapContainer, Polygon, TileLayer, Tooltip } from "react-leaflet";
+import {
+  MapContainer,
+  TileLayer,
+  GeoJSON,
+} from "react-leaflet";
 import "leaflet/dist/leaflet.css";
 import "leaflet-defaulticon-compatibility";
 import "leaflet-defaulticon-compatibility/dist/leaflet-defaulticon-compatibility.css";
-import data from "@/data/Kepadatan_Penduduk.json";
-import { useEffect, useState } from "react";
+import geojsonData from "@/data/Kepadatan_Penduduk.json";
+import { useEffect } from "react";
 
 export default function MapKepadatanPenduduk(props: any) {
   const { position, zoom } = props;
-  const [areas, setAreas] = useState<any>([]);
-  const [maxKepDuk, setMaxKepDuk] = useState<number>(0);
-
-  const invertCoordinate = (coord: Array<any>): Array<any> => {
-    return [coord[1], coord[0]];
-  };
+  const data: GeoJSON.GeoJsonObject = geojsonData as GeoJSON.GeoJsonObject;
 
   useEffect(() => {
-    console.log(data.features);
-    // let max = 0;
-    const cleanedData: Array<any> = data.features.map((area) => {
-      const coordinates = area.geometry.coordinates[0].map((coord) =>
-        invertCoordinate(coord)
-      );
-      // if (area.properties.kepadatan_penduduk > max)
-      //   max = area.properties.kepadatan_penduduk;
-      if(area.properties.Klas_ha === "Sangat Rendah") console.log(area);
-      return {
-        coordinates,
-        kecamatan: area.properties.DESA,
-        level: area.properties.Klas_ha,
-        ...area,
-      };
-    });
-    console.log(cleanedData);
-    setAreas(cleanedData);
-    // setMaxKepDuk(max);
+    console.log(geojsonData.features);
   }, []);
 
-  if (areas.length > 0)
-    return (
-      <MapContainer
-        className="w-full h-full select-none"
-        center={position}
-        zoom={zoom}
-        scrollWheelZoom={false}
-      >
-        <TileLayer
-          attribution='&copy; <a href="https://www.openstreetmap.org/copyright">
+  return (
+    <MapContainer
+      className="w-full h-full select-none"
+      center={position}
+      zoom={zoom}
+      scrollWheelZoom={false}
+    >
+      <TileLayer
+        attribution='&copy; <a href="https://www.openstreetmap.org/copyright">
           OpenStreetMap</a> contributors'
-          url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-        />
-        {/* <Polygon positions={areas[0]} color="blue" />
+        url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+      />
+      {/* <Polygon positions={areas[0]} color="blue" />
       <Polygon positions={areas[1]} color="blue" /> */}
-        {areas.map((area: any, i: number) => (
+      {/*areas.map((area: any, i: number) => (
           <Polygon
             key={i}
             positions={area.coordinates}
@@ -69,7 +49,7 @@ export default function MapKepadatanPenduduk(props: any) {
                         : ""
             }
             fill={true}
-            fillOpacity={0.8}
+            fillOpacity={0.7}
           >
             <Tooltip>
               <span>{area.kecamatan}</span>
@@ -77,7 +57,38 @@ export default function MapKepadatanPenduduk(props: any) {
               <span>Kepadatan: {area.level}</span>
             </Tooltip>
           </Polygon>
-        ))}
-      </MapContainer>
-    );
+          ))*/}
+      <GeoJSON
+        // eslint-disable-next-line
+        data={data}
+        style={(feature) => {
+          const level = feature?.properties.Klas_ha;
+          return {
+            fillColor:
+              level === "Sangat Rendah"
+                ? "#D8F2ED"
+                : level === "Rendah"
+                  ? "#8EB8B1"
+                  : level === "Sedang"
+                    ? "#6B9993"
+                    : level === "Tinggi"
+                      ? "#3F736D"
+                      : level === "Sangat Tinggi"
+                        ? "#154F4A"
+                        : "",
+            fillOpacity: 0.65,
+            color: "#23272A",
+          };
+        }}
+        onEachFeature={(feature, layer) => {
+          const kecamatan = feature.properties.KECAMATAN;
+          const level = feature.properties.Klas_ha;
+          layer.bindTooltip(
+            `<span style="font-weight:600">${kecamatan}</span><br/>
+            <span>Kepadatan: ${level}</span>`
+          );
+        }}
+      ></GeoJSON>
+    </MapContainer>
+  );
 }

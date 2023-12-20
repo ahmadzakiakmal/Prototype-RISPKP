@@ -15,7 +15,7 @@ export default function MapKepadatanPendudukPage() {
   return(
     <Layout>
       <main className="h-[800px] w-full">
-        <Map position={[-7.801363, 110.364787]} zoom={13} />
+        <Map position={[-7.801363, 110.364787]} zoom={14} />
       </main>
     </Layout>
   );
