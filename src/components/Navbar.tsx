@@ -6,7 +6,7 @@ export default function Navbar() {
   const [openProfile, setOpenProfile] = useState(false);
 
   return (
-    <nav className="w-full p-5 bg-neutral-400 fixed top-0 z-[1] flex text-white items-center justify-between">
+    <nav className="w-full p-5 bg-neutral-400 fixed top-0 z-[10] flex text-white items-center justify-between">
       <Link href="/dashboard" className="flex">
         <div className="w-[40px] aspect-square bg-white rounded-full shadow-[0_0_5px_#000]" />
         <div className="w-[40px] aspect-square bg-white rounded-full shadow-[0_0_5px_#000] ml-[-10px]" />

@@ -11,7 +11,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
 
       <section
         className={
-          "bg-green-400 relative transition-[width] " +
+          "bg-green-400 relative transition-[width] !z-[2] " +
           (isMenuOpen ? "w-[270px]" : "w-0")
         }
       >
@@ -48,7 +48,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
               <li>
                 <Link href="#">Metode Analisis Risiko Kebakaran</Link>
               </li>
-              <Link href="#">Peta Kepadatan Penduduk</Link>
+              <Link href="/dashboard/peta-kepadatan-penduduk">Peta Kepadatan Penduduk</Link>
               <Link href="#">Peta Kepadatan Bangunan</Link>
               <Link href="#">Peta Bahaya SPBU</Link>
               <Link href="#">Peta Bahaya SPBU Mini</Link>
@@ -89,7 +89,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
           </section>
         </div>
       </section>
-      <section className="w-full p-10">{children}</section>
+      <section className="w-full px-10 mt-[120px] relative z-[1]">{children}</section>
     </main>
   );
 }
