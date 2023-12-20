@@ -1,1 +1,119 @@
-{"type":"FeatureCollection","features":[{"type":"Feature","id":0,"geometry":{"type":"Point","coordinates":[110.36237147899757,-7.7833022355969259]},"properties":{"FID":0,"Id":0,"Pos":"Pos Kantor Kemantren Jetis"}},{"type":"Feature","id":1,"geometry":{"type":"Point","coordinates":[110.37670748570434,-7.7861657482313822]},"properties":{"FID":1,"Id":0,"Pos":"Pos Balai Gotong Royong Kotabaru"}},{"type":"Feature","id":2,"geometry":{"type":"Point","coordinates":[110.37549783696224,-7.7976348067872463]},"properties":{"FID":2,"Id":0,"Pos":"Pos Eks Kampus AKUB (Purwanggan)"}},{"type":"Feature","id":3,"geometry":{"type":"Point","coordinates":[110.39116343379803,-7.8002506101056523]},"properties":{"FID":3,"Id":0,"Pos":"Pos Balai Kota"}},{"type":"Feature","id":4,"geometry":{"type":"Point","coordinates":[110.35182872618657,-7.802532786280806]},"properties":{"FID":4,"Id":0,"Pos":"Pos Sebelah SMP Muh 3 Yogyakarta"}},{"type":"Feature","id":5,"geometry":{"type":"Point","coordinates":[110.37806159898039,-7.8029903336015947]},"properties":{"FID":5,"Id":0,"Pos":"Pos Lahan Sebelah SDN Margoyasan"}},{"type":"Feature","id":6,"geometry":{"type":"Point","coordinates":[110.35572001954651,-7.8043877378728164]},"properties":{"FID":6,"Id":0,"Pos":"Pos Terminal Ngabean"}},{"type":"Feature","id":7,"geometry":{"type":"Point","coordinates":[110.36117144850363,-7.8240515570525515]},"properties":{"FID":7,"Id":0,"Pos":"Pos Aset Pemkot Simpang Jl. Panjaitan-Jogokaryan"}},{"type":"Feature","id":8,"geometry":{"type":"Point","coordinates":[110.38823422359714,-7.8089069539291946]},"properties":{"FID":8,"Id":0,"Pos":"Pos Kantor Kemantren Umbulharjo"}},{"type":"Feature","id":9,"geometry":{"type":"Point","coordinates":[110.3933265068129,-7.8264166997708697]},"properties":{"FID":9,"Id":0,"Pos":"Pos Taman Pintar 2"}}]}
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": 0,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.36237147899757, -7.7833022355969259]
+      },
+      "properties": { "FID": 0, "Id": 0, "Pos": "Pos Kantor Kemantren Jetis" }
+    },
+    {
+      "type": "Feature",
+      "id": 1,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.37670748570434, -7.7861657482313822]
+      },
+      "properties": {
+        "FID": 1,
+        "Id": 0,
+        "Pos": "Pos Balai Gotong Royong Kotabaru"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.37549783696224, -7.7976348067872463]
+      },
+      "properties": {
+        "FID": 2,
+        "Id": 0,
+        "Pos": "Pos Eks Kampus AKUB (Purwanggan)"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.39116343379803, -7.8002506101056523]
+      },
+      "properties": { "FID": 3, "Id": 0, "Pos": "Pos Balai Kota" }
+    },
+    {
+      "type": "Feature",
+      "id": 4,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.35182872618657, -7.802532786280806]
+      },
+      "properties": {
+        "FID": 4,
+        "Id": 0,
+        "Pos": "Pos Sebelah SMP Muh 3 Yogyakarta"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.37806159898039, -7.8029903336015947]
+      },
+      "properties": {
+        "FID": 5,
+        "Id": 0,
+        "Pos": "Pos Lahan Sebelah SDN Margoyasan"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.35572001954651, -7.8043877378728164]
+      },
+      "properties": { "FID": 6, "Id": 0, "Pos": "Pos Terminal Ngabean" }
+    },
+    {
+      "type": "Feature",
+      "id": 7,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.36117144850363, -7.8240515570525515]
+      },
+      "properties": {
+        "FID": 7,
+        "Id": 0,
+        "Pos": "Pos Aset Pemkot Simpang Jl. Panjaitan-Jogokaryan"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.38823422359714, -7.8089069539291946]
+      },
+      "properties": {
+        "FID": 8,
+        "Id": 0,
+        "Pos": "Pos Kantor Kemantren Umbulharjo"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3933265068129, -7.8264166997708697]
+      },
+      "properties": { "FID": 9, "Id": 0, "Pos": "Pos Taman Pintar 2" }
+    }
+  ]
+}

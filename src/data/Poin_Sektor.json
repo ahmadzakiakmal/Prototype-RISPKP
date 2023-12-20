@@ -1,1 +1,56 @@
-{"type":"FeatureCollection","features":[{"type":"Feature","id":0,"geometry":{"type":"Point","coordinates":[110.39152873146581,-7.8360012280741556]},"properties":{"FID":0,"Id":0,"Sektor":"Sektor Terminal Giwangan","WMK":" "}},{"type":"Feature","id":1,"geometry":{"type":"Point","coordinates":[110.39116343379803,-7.8002506101056523]},"properties":{"FID":1,"Id":0,"Sektor":"Sektor Balai Kota","WMK":"WMK"}},{"type":"Feature","id":2,"geometry":{"type":"Point","coordinates":[110.35497947951944,-7.7821744401982187]},"properties":{"FID":2,"Id":0,"Sektor":"Sektor Mojo","WMK":""}},{"type":"Feature","id":3,"geometry":{"type":"Point","coordinates":[110.36303103522719,-7.8062703479789866]},"properties":{"FID":3,"Id":0,"Sektor":"Sektor Kraton (Ex-Gedung Koni)","WMK":""}}]}
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": 0,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.39152873146581, -7.8360012280741556]
+      },
+      "properties": {
+        "FID": 0,
+        "Id": 0,
+        "Sektor": "Sektor Terminal Giwangan",
+        "WMK": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 1,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.39116343379803, -7.8002506101056523]
+      },
+      "properties": {
+        "FID": 1,
+        "Id": 0,
+        "Sektor": "Sektor Balai Kota",
+        "WMK": "WMK"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.35497947951944, -7.7821744401982187]
+      },
+      "properties": { "FID": 2, "Id": 0, "Sektor": "Sektor Mojo", "WMK": "" }
+    },
+    {
+      "type": "Feature",
+      "id": 3,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.36303103522719, -7.8062703479789866]
+      },
+      "properties": {
+        "FID": 3,
+        "Id": 0,
+        "Sektor": "Sektor Kraton (Ex-Gedung Koni)",
+        "WMK": ""
+      }
+    }
+  ]
+}
