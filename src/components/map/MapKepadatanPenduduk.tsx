@@ -81,10 +81,10 @@ export default function MapKepadatanPenduduk(props: any) {
           };
         }}
         onEachFeature={(feature, layer) => {
-          const kecamatan = feature.properties.KECAMATAN;
+          const kelurahan = feature.properties.DESA;
           const level = feature.properties.Klas_ha;
           layer.bindTooltip(
-            `<span style="font-weight:600">${kecamatan}</span><br/>
+            `<span style="font-weight:600">${kelurahan}</span><br/>
             <span>Kepadatan: ${level}</span>`
           );
         }}
