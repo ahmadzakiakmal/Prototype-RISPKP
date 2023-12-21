@@ -1,5 +1,10 @@
 import { useState } from "react";
 import { FaEye } from "react-icons/fa";
+import Image from "next/image";
+import UGM from "../../public/logos/ugm.png";
+import Damkar from "../../public/logos/damkar.png";
+import Pemkot from "../../public/logos/pemkot.png";
+import { useRouter } from "next/router";
 
 export default function Home() {
   const [username, setUsername] = useState("");
@@ -7,15 +12,16 @@ export default function Home() {
   const [isUsernameValid, setIsUsernameValid] = useState(false);
   const [isPasswordValid, setIsPasswordValid] = useState(false);
   const [showPassword, setShowPassword] = useState(false);
+  const router = useRouter();
 
   const Login = (e: any) => {
     e.preventDefault();
-    alert("Login");
+    router.replace("/dashboard");
   };
 
   return (
-    <main className="flex min-h-screen bg-white">
-      <section className="w-1/2 min-h-screen flex-shrink-0 bg-neutral-100 grid place-items-center">
+    <main className="flex min-h-screen bg-white max-w-[100vw]">
+      <section className="w-full min-h-screen bg-neutral-100 grid place-items-center">
         <form
           className="flex flex-col justify-center items-center max-w-[410px] min-w-[300px] h-full gap-7 w-1/2"
           onSubmit={(e) => Login(e)}
@@ -73,16 +79,19 @@ export default function Home() {
         </form>
       </section>
 
-      <section className="w-1/2 relative flex flex-col justify-center items-center">
+      <section className="w-1/2 flex-shrink-0 relative hidden md:flex flex-col justify-center items-center">
         <div className="w-full h-full absolute top-0 bg-gradient-to-tr from-green-300/60 to-navy/60 backdrop-blur-[2px]" />
         <div className="w-full h-full bg-[url(/Landing.jpg)] bg-cover" />
         <div className="absolute flex flex-col justify-center items-center gap-10">
-          <div className="flex gap-5">
+          <div className="flex gap-5 items-center">
+            {/* <div className="bg-white w-[100px] aspect-square rounded-full" />
             <div className="bg-white w-[100px] aspect-square rounded-full" />
-            <div className="bg-white w-[100px] aspect-square rounded-full" />
-            <div className="bg-white w-[100px] aspect-square rounded-full" />
+            <div className="bg-white w-[100px] aspect-square rounded-full" /> */}
+            <Image src={Pemkot} alt="Pemkot" className="w-[50px] lg:w-[80px]" />
+            <Image src={Damkar} alt="Damkar" className="w-[70px] lg:w-[100px]" />
+            <Image src={UGM} alt="UGM" className="w-[70px] lg:w-[100px]" />
           </div>
-          <h1 className="max-w-[80%] text-center font-bold text-white text-[28px]">
+          <h1 className="max-w-[90%] lg:max-w-[80%] text-center font-bold text-white text-[25px] lg:text-[28px]">
             RENCANA INDUK SISTEM PROTEKSI KEBAKARAN DAN PENYELAMATAN (RISPKP)
             <br />
             KOTA YOGYAKARTA
