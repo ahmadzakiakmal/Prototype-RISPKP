@@ -19,9 +19,6 @@ export default function Navbar() {
     <nav className={"w-full p-5 bg-neutral-400 fixed top-0 transition duration-300 z-[10] flex text-white items-center justify-between " +
       (lastScrollDir === "up" ? "" : "-translate-y-[100%]")}>
       <Link href="/dashboard" className="flex items-center">
-        {/* <div className="w-[40px] aspect-square bg-white rounded-full shadow-[0_0_5px_#000]" />
-        <div className="w-[40px] aspect-square bg-white rounded-full shadow-[0_0_5px_#000] ml-[-10px]" />
-        <div className="w-[40px] aspect-square bg-white rounded-full shadow-[0_0_5px_#000] ml-[-10px]" /> */}
         <div className="flex gap-1 items-start">
           <Image src={Pemkot} alt="Pemkot" className="w-[30px]" />
           <Image src={Damkar} alt="Damkar" className="w-[40px]" />
