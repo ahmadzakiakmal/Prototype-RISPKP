@@ -59,6 +59,7 @@ export default function MapKepadatanPenduduk(props: any) {
                       : "",
             fillOpacity: 0.65,
             color: "#23272A",
+            weight: 2
           };
         }}
         onEachFeature={(feature, layer) => {
