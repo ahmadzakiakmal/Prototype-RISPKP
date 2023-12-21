@@ -24,7 +24,7 @@ export default function Navbar() {
           <Image src={Damkar} alt="Damkar" className="w-[40px]" />
           <Image src={UGM} alt="UGM" className="w-[40px]" />
         </div>
-        <h1 className="ml-[20px] text-[24px] font-bold">RISPKP</h1>
+        <h1 className="ml-[20px] text-[24px] font-bold">e-RISPKP</h1>
       </Link>
 
       <section className="relative">
