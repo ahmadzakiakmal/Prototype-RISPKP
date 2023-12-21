@@ -10,6 +10,7 @@ export default function MapKepadatanBangunan(props: any) {
   const data: GeoJSON.GeoJsonObject = geojsonData as GeoJSON.GeoJsonObject;
 
   useEffect(() => {
+    // @ts-expect-error: GeoJsonObject has no property features
     data.features.forEach((f) => {
       console.log(f.properties.gridcode);
     });
