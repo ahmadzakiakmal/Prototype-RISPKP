@@ -2,10 +2,10 @@ import Layout from "@/components/Layout";
 import dynamic from "next/dynamic";
 import { useMemo } from "react";
 
-export default function BahayaSPBUPage() {
+export default function BahayaSPBUMiniPage() {
   const Map = useMemo(
     () =>
-      dynamic(() => import("@/components/map/MapBahayaSPBU"), {
+      dynamic(() => import("@/components/map/MapBahayaSPBUMini"), {
         ssr: false,
         loading: () => <p>Loading...</p>,
       }),
