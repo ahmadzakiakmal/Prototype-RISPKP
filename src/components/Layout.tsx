@@ -19,9 +19,11 @@ export default function Layout({ children }: { children: React.ReactNode }) {
       >
         {/* open menu button */}
         <button
-          className={"sticky bg-green-400 left-[100%] outline outline-1 outline-white transition duration-300 top-[100px] w-10 aspect-square grid place-items-center "
-            + (isMenuOpen ? " rounded-l-[5px]" : "rounded-r-[5px]") + " "
-            + (lastScrollDir === "up" ? "" : "-translate-y-[200%]")
+          className={
+            "sticky bg-green-400 left-[100%] outline outline-1 outline-white transition duration-300 top-[100px] w-10 aspect-square grid place-items-center " +
+            (isMenuOpen ? " rounded-l-[5px]" : "rounded-r-[5px]") +
+            " " +
+            (lastScrollDir === "up" ? "" : "-translate-y-[200%]")
           }
           onClick={() => {
             setIsMenuOpen(!isMenuOpen);
@@ -50,16 +52,22 @@ export default function Layout({ children }: { children: React.ReactNode }) {
               ANALISIS RISIKO KEBAKARAN
             </h2>
             <ul className="flex flex-col text-[15px] mt-2 gap-2 leading-[105%] list-disc">
-              <li>
-                <Link href="#">Metode Analisis Risiko Kebakaran</Link>
-              </li>
-              <Link href="/dashboard/peta-kepadatan-penduduk">Peta Kepadatan Penduduk</Link>
-              <Link href="/dashboard/peta-kepadatan-bangunan">Peta Kepadatan Bangunan</Link>
-              <Link href="#">Peta Bahaya SPBU</Link>
-              <Link href="#">Peta Bahaya SPBU Mini</Link>
-              <Link href="#">Peta Jangkauan Pos</Link>
-              <Link href="#">Peta Kepadatan Komersial</Link>
-              <Link href="#">Peta Analisis Risiko Kebakaran</Link>
+              <Link href="/dashboard/metode-analisis-risiko-kebakaran">Metode Analisis Risiko Kebakaran</Link>
+              <Link href="/dashboard/peta-kepadatan-penduduk">
+                Peta Kepadatan Penduduk
+              </Link>
+              <Link href="/dashboard/peta-kepadatan-bangunan">
+                Peta Kepadatan Bangunan
+              </Link>
+              <Link href="/dashboard/peta-bahaya-spbu">Peta Bahaya SPBU</Link>
+              <Link href="/dashboard/peta-bahaya-spbu-mini">
+                Peta Bahaya SPBU Mini
+              </Link>
+              <Link href="/dashboard/peta-jangkauan-pos">
+                Peta Jangkauan Pos
+              </Link>
+              <Link href="/dashboard/peta-kepadatan-komersial">Peta Kepadatan Komersial</Link>
+              <Link href="/dashboard/peta-analisis-risiko-kebakaran">Peta Analisis Risiko Kebakaran</Link>
             </ul>
           </section>
           <section
@@ -94,7 +102,9 @@ export default function Layout({ children }: { children: React.ReactNode }) {
           </section>
         </div>
       </section>
-      <section className="w-full px-10 mt-[120px] pb-10 relative z-[1]">{children}</section>
+      <section className="w-full px-10 mt-[120px] pb-10 relative z-[1]">
+        {children}
+      </section>
     </main>
   );
 }
