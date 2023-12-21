@@ -1,16 +1,23 @@
 import Link from "next/link";
 import { TbLogout2 } from "react-icons/tb";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Image from "next/image";
 import UGM from "../../public/logos/ugm.png";
 import Damkar from "../../public/logos/damkar.png";
 import Pemkot from "../../public/logos/pemkot.png";
+import useLastScrollDirection from "@/hooks/useLastScrollDirection";
 
 export default function Navbar() {
   const [openProfile, setOpenProfile] = useState(false);
+  const lastScrollDir = useLastScrollDirection();
+
+  useEffect(() => {
+    setOpenProfile(false);
+  }, [lastScrollDir]);
 
   return (
-    <nav className="w-full p-5 bg-neutral-400 fixed top-0 z-[10] flex text-white items-center justify-between">
+    <nav className={"w-full p-5 bg-neutral-400 fixed top-0 transition duration-300 z-[10] flex text-white items-center justify-between " +
+      (lastScrollDir === "up" ? "" : "-translate-y-[100%]")}>
       <Link href="/dashboard" className="flex items-center">
         {/* <div className="w-[40px] aspect-square bg-white rounded-full shadow-[0_0_5px_#000]" />
         <div className="w-[40px] aspect-square bg-white rounded-full shadow-[0_0_5px_#000] ml-[-10px]" />
