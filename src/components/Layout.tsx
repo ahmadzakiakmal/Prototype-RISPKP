@@ -54,7 +54,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
                 <Link href="#">Metode Analisis Risiko Kebakaran</Link>
               </li>
               <Link href="/dashboard/peta-kepadatan-penduduk">Peta Kepadatan Penduduk</Link>
-              <Link href="#">Peta Kepadatan Bangunan</Link>
+              <Link href="/dashboard/peta-kepadatan-bangunan">Peta Kepadatan Bangunan</Link>
               <Link href="#">Peta Bahaya SPBU</Link>
               <Link href="#">Peta Bahaya SPBU Mini</Link>
               <Link href="#">Peta Jangkauan Pos</Link>
