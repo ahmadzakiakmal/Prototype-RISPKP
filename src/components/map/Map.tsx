@@ -3,7 +3,7 @@ import { Circle, MapContainer, Polygon, TileLayer } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
 import "leaflet-defaulticon-compatibility";
 import "leaflet-defaulticon-compatibility/dist/leaflet-defaulticon-compatibility.css";
-import MapMarker from "./MapMarker";
+import MapMarker from "./utilities/MapMarker";
 
 export default function Map(props: any) {
   const { position, zoom } = props;
