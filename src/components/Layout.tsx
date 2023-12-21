@@ -2,9 +2,11 @@ import { useState } from "react";
 import { FaAngleDoubleRight } from "react-icons/fa";
 import Navbar from "./Navbar";
 import Link from "next/link";
+import useLastScrollDirection from "@/hooks/useLastScrollDirection";
 
 export default function Layout({ children }: { children: React.ReactNode }) {
   const [isMenuOpen, setIsMenuOpen] = useState(true);
+  const lastScrollDir = useLastScrollDirection();
   return (
     <main className="min-h-screen bg-proto-100 flex font-poppins">
       <Navbar />
@@ -17,7 +19,10 @@ export default function Layout({ children }: { children: React.ReactNode }) {
       >
         {/* open menu button */}
         <button
-          className="absolute bg-green-400 left-[100%] top-[100px] w-10 aspect-square grid place-items-center rounded-r-[5px]"
+          className={"sticky bg-green-400 left-[100%] outline outline-1 outline-white transition duration-300 top-[100px] w-10 aspect-square grid place-items-center "
+            + (isMenuOpen ? " rounded-l-[5px]" : "rounded-r-[5px]") + " "
+            + (lastScrollDir === "up" ? "" : "-translate-y-[200%]")
+          }
           onClick={() => {
             setIsMenuOpen(!isMenuOpen);
           }}
@@ -89,7 +94,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
           </section>
         </div>
       </section>
-      <section className="w-full px-10 mt-[120px] relative z-[1]">{children}</section>
+      <section className="w-full px-10 mt-[120px] pb-10 relative z-[1]">{children}</section>
     </main>
   );
 }
