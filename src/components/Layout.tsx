@@ -39,7 +39,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
 
         <div
           className={
-            "pt-[120px] px-3 !overflow-x-hidden " + (isMenuOpen ? "" : "!p-0")
+            "pt-[120px] pb-10 px-3 !overflow-x-hidden " + (isMenuOpen ? "" : "!p-0")
           }
         >
           <section
@@ -52,7 +52,9 @@ export default function Layout({ children }: { children: React.ReactNode }) {
               ANALISIS RISIKO KEBAKARAN
             </h2>
             <ul className="flex flex-col text-[15px] mt-2 gap-2 leading-[105%] list-disc">
-              <Link href="/dashboard/metode-analisis-risiko-kebakaran">Metode Analisis Risiko Kebakaran</Link>
+              <Link href="/dashboard/metode-analisis-risiko-kebakaran">
+                Metode Analisis Risiko Kebakaran
+              </Link>
               <Link href="/dashboard/peta-kepadatan-penduduk">
                 Peta Kepadatan Penduduk
               </Link>
@@ -66,8 +68,12 @@ export default function Layout({ children }: { children: React.ReactNode }) {
               <Link href="/dashboard/peta-jangkauan-pos">
                 Peta Jangkauan Pos
               </Link>
-              <Link href="/dashboard/peta-kepadatan-komersial">Peta Kepadatan Komersial</Link>
-              <Link href="/dashboard/peta-analisis-risiko-kebakaran">Peta Analisis Risiko Kebakaran</Link>
+              <Link href="/dashboard/peta-kepadatan-komersial">
+                Peta Kepadatan Komersial
+              </Link>
+              <Link href="/dashboard/peta-analisis-risiko-kebakaran">
+                Peta Analisis Risiko Kebakaran
+              </Link>
             </ul>
           </section>
           <section
@@ -79,6 +85,20 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             <h2 className="text-[14px] font-bold leading-[105%]">
               STATISTIK KEJADIAN KEBAKARAN
             </h2>
+            <ul className="flex flex-col text-[15px] mt-2 gap-2 leading-[105%] list-disc">
+              <Link href="/dashboard/peta-kejadian-kebakaran">
+                Peta Kejadian Kebakaran
+              </Link>
+              <Link href="/dashboard/statistik-ketangguhan-kebakaran">
+                Statistik Ketangguhan Kebakaran
+              </Link>
+              <Link href="/dashboard/peta-tanggap-kebakaran">
+                Peta Tanggap Kebakaran
+              </Link>
+              <Link href="/dashboard/akumulasi-penyelamatan">
+                Akumulasi Penyelamatan
+              </Link>
+            </ul>
           </section>
           <section
             className={
@@ -89,6 +109,14 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             <h2 className="text-[14px] font-bold leading-[105%]">
               WILAYAH MANAJEMEN KEBAKARAN
             </h2>
+            <ul className="flex flex-col text-[15px] mt-2 gap-2 leading-[105%] list-disc">
+              <Link href="/dashboard/peta-waktu-tanggap">
+                Peta Waktu Tanggap
+              </Link>
+              <Link href="/dashboard/peta-wmk">Peta WMK</Link>
+              <Link href="/dashboard/peta-sektor">Peta Sektor</Link>
+              <Link href="/dashboard/peta-pos">Peta Pos</Link>
+            </ul>
           </section>
           <section
             className={
@@ -97,8 +125,11 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             }
           >
             <h2 className="text-[14px] font-bold leading-[105%]">
-              USER MANAGEMENT
+              ADMIN MENU
             </h2>
+            <ul className="flex flex-col text-[15px] mt-2 gap-2 leading-[105%] list-disc">
+              <Link href="/admin/user-management">User Management</Link>
+            </ul>
           </section>
         </div>
       </section>
