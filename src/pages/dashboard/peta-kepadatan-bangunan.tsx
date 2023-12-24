@@ -12,7 +12,7 @@ export default function KepadatanBangunanPage() {
   return (
     <Layout>
       <main className="w-full h-[800px]">
-        <Map zoom={13} position={[-7.801363, 110.364787]} />
+        <Map zoom={14} position={[-7.801363, 110.364787]} />
       </main>
     </Layout>
   );
