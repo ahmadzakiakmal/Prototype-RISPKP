@@ -32,18 +32,17 @@ export default function MapKepadatanKomersial(props: any) {
           const level = feature?.properties.gridcode;
           return {
             fillColor:
-              level == 3 ? "#FAD155" : level == 2 ? "#F2A72E" : "#AD5313",
+              level == 1 ? "#59A8CC" : level == 2 ? "#F6F682" : "#F2745F",
             fillOpacity: 0.65,
-            color: "#23272A",
-            weight: 2
+            weight: 0
           };
         }}
         onEachFeature={(feature, layer) => {
           const kelurahan = feature.properties.Id;
-          const level = feature.properties.Klas_ha;
+          const level = feature.properties.gridcode;
           layer.bindTooltip(
             `<span style="font-weight:600">${kelurahan}</span><br/>
-          <span>Kepadatan Penduduk: ${level}</span>`
+          <span>Kepadatan Penduduk: ${level === 1 ? "Rendah" : level === 2 ? "Sedang" : "Tinggi"}</span>`
           );
         }}
       ></GeoJSON>
