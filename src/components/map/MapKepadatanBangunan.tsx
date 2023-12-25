@@ -35,7 +35,7 @@ export default function MapKepadatanBangunan(props: any) {
           const level = feature?.properties.gridcode;
           return {
             fillColor:
-              level == 3 ? "#FAD155" : level == 2 ? "#F2A72E" : "#AD5313",
+              level == 1 ? "#FAD155" : level == 2 ? "#F2A72E" : "#AD5313",
             fillOpacity: 0.65,
             color: "#23272A",
             weight: 2
