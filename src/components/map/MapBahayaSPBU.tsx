@@ -45,7 +45,7 @@ export default function MapBahayaSPBU(props: any) {
           const level = feature.properties.gridcode;
           layer.bindTooltip(
             `<span style="font-weight:600">${kelurahan}</span><br/>
-          <span>Kepadatan Penduduk: ${level === 1 ? "Tinggi" : level === 2 ? "Sedang" : "Rendah"}</span>`
+          <span>Sebaran SPBU: ${level === 1 ? "Tinggi" : level === 2 ? "Sedang" : "Rendah"}</span>`
           );
         }}
       ></GeoJSON>
