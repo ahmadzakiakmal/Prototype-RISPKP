@@ -35,7 +35,7 @@ export default function MapFrekuensiKebakaran(props: any) {
           const level = feature?.properties.Klasifik_1;
           return {
             fillColor:
-              level == "Rendah" ? "#FAD155" : level == "Sedang" ? "#F2A72E" : "#AD5313",
+              level == "Rendah" ? "#FFBEBE" : level == "Sedang" ? "#FF7F7F" : "#E60000",
             fillOpacity: 0.65,
             color: "#23272A",
             weight: 2
