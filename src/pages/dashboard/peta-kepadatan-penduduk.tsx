@@ -15,6 +15,7 @@ export default function MapKepadatanPendudukPage() {
   return(
     <Layout>
       <main className="h-[800px] w-full">
+        <h1 className="text-2xl font-bold mb-5">Peta Kepadatan Penduduk</h1>
         <Map position={[-7.801363, 110.364787]} zoom={14} />
       </main>
     </Layout>
