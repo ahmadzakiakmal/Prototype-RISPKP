@@ -36,7 +36,12 @@ export default function MapWaktuTanggap(props: any) {
         // eslint-disable-next-line
         data={data}
         style={(feature) => {
-          const posIdx = feature?.properties.Sektor[4];
+          let posIdx = feature?.properties.Sektor[4];
+          if(feature?.properties.Sektor[5]) {
+            posIdx += feature?.properties.Sektor[5];
+          }
+          posIdx = parseInt(posIdx) - 1;
+          console.log(posIdx);
           const colors = [
             "#C7EDF6",
             "#EAF8DE",
