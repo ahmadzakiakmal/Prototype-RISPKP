@@ -38,6 +38,7 @@ export default function MapWaktuTanggap(props: any) {
         style={(feature) => {
           const sektor = feature?.properties.Sektor;
           return {
+            fillOpacity: 0.65,
             fillColor:
               sektor == "Sektor 1"
                 ? "#C8FCEA"
@@ -46,7 +47,6 @@ export default function MapWaktuTanggap(props: any) {
                   : sektor == "Sektor 3"
                     ? "#FED7AA"
                     : "#F9C6CD",
-            fillOpacity: 0.65,
             color: "#23272A",
             weight: 2,
           };
