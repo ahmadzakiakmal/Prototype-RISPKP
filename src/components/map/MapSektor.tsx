@@ -35,20 +35,26 @@ export default function MapWaktuTanggap(props: any) {
       <GeoJSON
         // eslint-disable-next-line
         data={data}
-        style={() => {
+        style={(feature) => {
+          const sektor = feature?.properties.Sektor;
           return {
-            fillColor: "#C8FCEA",
+            fillColor:
+              sektor == "Sektor 1"
+                ? "#C8FCEA"
+                : sektor == "Sektor 2"
+                  ? "#D4C4F5"
+                  : sektor == "Sektor 3"
+                    ? "#FED7AA"
+                    : "#F9C6CD",
             fillOpacity: 0.65,
             color: "#23272A",
             weight: 2,
           };
         }}
         onEachFeature={(feature, layer) => {
-          const desa = feature.properties.DESA;
-          const level = feature.properties.Jumlah;
+          const sektor = feature.properties.Sektor;
           layer.bindTooltip(
-            `<span style="font-weight:600">${desa}</span><br/>
-          <span>Frekuensi: ${level}</span>`
+            `<span style="font-weight:600">${sektor}</span><br/>`
           );
         }}
       ></GeoJSON>
