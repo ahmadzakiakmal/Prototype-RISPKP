@@ -44,11 +44,12 @@ export default function MapWaktuTanggap(props: any) {
           };
         }}
         onEachFeature={(feature, layer) => {
-          const desa = feature.properties.DESA;
-          const level = feature.properties.Jumlah;
+          const point = feature.properties.Point;
+          const area = feature.properties.Kota;
           layer.bindTooltip(
-            `<span style="font-weight:600">${desa}</span><br/>
-          <span>Frekuensi: ${level}</span>`
+            `<span style="font-weight:600;display:">${
+              point ?? area
+            }</span><br/>`
           );
         }}
       ></GeoJSON>
