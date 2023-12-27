@@ -20,8 +20,8 @@ export default function Layout({ children }: { children: React.ReactNode }) {
 
       <section
         className={
-          "bg-green-400 fixed top-0 sm:relative flex-shrink-0 min-h-screen transition-[width] !z-[2] " +
-          (isMenuOpen ? "w-[230px] sm:w-[270px]" : "w-0")
+          "bg-green-400 fixed top-0 sm:relative flex-shrink-0 h-full max-h-screen sm:min-h-screen transition-[width] !z-[2] " +
+          (isMenuOpen ? "w-[230px] sm:w-[270px] overflow-scroll" : "w-0")
         }
       >
         {/* open menu button */}
@@ -46,7 +46,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
 
         <div
           className={
-            "pt-[120px] pb-10 px-3 !overflow-x-hidden " + (isMenuOpen ? "" : "!p-0")
+            "pt-[120px] sm:mb-10 px-3 !overflow-x-hidden overflow-y-scroll " + (isMenuOpen ? "" : "!p-0")
           }
         >
           <section
