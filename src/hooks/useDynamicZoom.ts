@@ -2,8 +2,8 @@ import { useState, useEffect } from "react";
 
 const calculateZoomLevel = (windowWidth:number) => {
   // Logic to calculate zoom level based on window width
-  if (windowWidth < 400) return 11;
-  if (windowWidth < 1000) return 12;
+  if (windowWidth < 500) return 11;
+  if (windowWidth < 800) return 12;
   return 13;
 };
 

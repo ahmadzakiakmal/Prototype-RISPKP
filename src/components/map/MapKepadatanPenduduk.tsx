@@ -2,7 +2,6 @@ import {
   MapContainer,
   TileLayer,
   GeoJSON,
-  useMap,
 } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
 import "leaflet-defaulticon-compatibility";
@@ -10,6 +9,7 @@ import "leaflet-defaulticon-compatibility/dist/leaflet-defaulticon-compatibility
 import geojsonData from "@/data/Kepadatan_Penduduk.json";
 import { useEffect } from "react";
 import useDynamicZoom from "@/hooks/useDynamicZoom";
+import DynamicZoom from "./utilities/DynamicZoom";
 
 export default function MapKepadatanPenduduk(props: any) {
   const { position } = props;
@@ -32,21 +32,12 @@ export default function MapKepadatanPenduduk(props: any) {
     console.log(counts);
   }, []);
 
-  function SetZoom({zoom} : any) {
-    const map = useMap();
-    useEffect(() => {
-      map.setZoom(zoom);
-    }, [zoom, map]);
-
-    return null;
-  }
-
   return (
     <MapContainer
       className="w-full h-full select-none"
       center={position}
-      zoom={zoom}
       scrollWheelZoom={false}
+      zoom={zoom}
     >
       <TileLayer
         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">
@@ -83,7 +74,7 @@ export default function MapKepadatanPenduduk(props: any) {
           );
         }}
       ></GeoJSON>
-      <SetZoom zoom={zoom} />
+      <DynamicZoom zoom={zoom} />
     </MapContainer>
   );
 }
