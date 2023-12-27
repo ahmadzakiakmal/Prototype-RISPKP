@@ -14,7 +14,7 @@ export default function BahayaSPBUPage() {
   return (
     <Layout>
       <main className="w-full">
-        <h1 className="text-2xl font-bold mb-5">Peta Sebaran SPBU</h1>
+        <h1 className="text-xl sm:text-2xl font-bold mb-5">Peta Sebaran SPBU</h1>
         <section className="h-[800px]">
           <Map position={[-7.801363, 110.364787]} zoom={14} />
         </section>
