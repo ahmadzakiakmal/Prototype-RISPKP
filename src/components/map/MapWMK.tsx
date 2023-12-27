@@ -5,9 +5,12 @@ import "leaflet-defaulticon-compatibility/dist/leaflet-defaulticon-compatibility
 import geojsonData1 from "@/data/Poin_WMK.json";
 import geojsonData2 from "@/data/Cakupan_WMK.json";
 import { useEffect } from "react";
+import useDynamicZoom from "@/hooks/useDynamicZoom";
+import DynamicZoom from "./utilities/DynamicZoom";
 
 export default function MapWaktuTanggap(props: any) {
-  const { zoom, position } = props;
+  const { position } = props;
+  const zoom = useDynamicZoom();
   const data: GeoJSON.GeoJsonObject = geojsonData1 as GeoJSON.GeoJsonObject;
   const data2: GeoJSON.GeoJsonObject = geojsonData2 as GeoJSON.GeoJsonObject;
   // @ts-expect-error: GeoJsonObject has no property features
@@ -27,6 +30,7 @@ export default function MapWaktuTanggap(props: any) {
       zoom={zoom}
       scrollWheelZoom={false}
     >
+      <DynamicZoom zoom={zoom} />
       <TileLayer
         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">
         OpenStreetMap</a> contributors'

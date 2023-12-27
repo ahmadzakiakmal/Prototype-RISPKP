@@ -4,9 +4,12 @@ import "leaflet-defaulticon-compatibility";
 import "leaflet-defaulticon-compatibility/dist/leaflet-defaulticon-compatibility.css";
 import geojsonData from "@/data/Kepadatan_Bangunan.json";
 import { useEffect } from "react";
+import useDynamicZoom from "@/hooks/useDynamicZoom";
+import DynamicZoom from "./utilities/DynamicZoom";
 
 export default function MapKepadatanBangunan(props: any) {
-  const { zoom, position } = props;
+  const { position } = props;
+  const zoom = useDynamicZoom();
   const data: GeoJSON.GeoJsonObject = geojsonData as GeoJSON.GeoJsonObject;
 
   useEffect(() => {
@@ -23,6 +26,7 @@ export default function MapKepadatanBangunan(props: any) {
       zoom={zoom}
       scrollWheelZoom={false}
     >
+      <DynamicZoom zoom={zoom} />
       <TileLayer
         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">
         OpenStreetMap</a> contributors'

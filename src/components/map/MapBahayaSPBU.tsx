@@ -4,10 +4,13 @@ import "leaflet-defaulticon-compatibility";
 import "leaflet-defaulticon-compatibility/dist/leaflet-defaulticon-compatibility.css";
 import geojsonData from "@/data/Bahaya_SPBU.json";
 import { useEffect } from "react";
+import useDynamicZoom from "@/hooks/useDynamicZoom";
+import DynamicZoom from "./utilities/DynamicZoom";
 
 export default function MapBahayaSPBU(props: any) {
-  const { zoom, position } = props;
+  const { position } = props;
   const data: GeoJSON.GeoJsonObject = geojsonData as GeoJSON.GeoJsonObject;
+  const zoom = useDynamicZoom();
 
   useEffect(() => {
     // @ts-expect-error: GeoJsonObject has no property features
@@ -23,6 +26,7 @@ export default function MapBahayaSPBU(props: any) {
       zoom={zoom}
       scrollWheelZoom={false}
     >
+      <DynamicZoom zoom={zoom} />
       <TileLayer
         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">
         OpenStreetMap</a> contributors'
