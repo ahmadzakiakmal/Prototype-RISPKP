@@ -19,12 +19,12 @@ export default function Navbar() {
     <nav className={"w-full p-5 bg-neutral-400 fixed top-0 transition duration-300 z-[10] flex text-white items-center justify-between " +
       (lastScrollDir === "up" ? "" : "-translate-y-[100%]")}>
       <Link href="/dashboard" className="flex items-center">
-        <div className="flex gap-1 items-start">
+        <div className="hidden sm:flex gap-1 items-start">
           <Image src={Pemkot} alt="Pemkot" className="w-[30px]" />
           <Image src={Damkar} alt="Damkar" className="w-[40px]" />
           <Image src={UGM} alt="UGM" className="w-[40px]" />
         </div>
-        <h1 className="ml-[20px] text-[24px] font-bold">e-RISPKP</h1>
+        <h1 className="sm:ml-[20px] text-[24px] font-bold">e-RISPKP</h1>
       </Link>
 
       <section className="relative">
@@ -33,7 +33,7 @@ export default function Navbar() {
           onClick={() => setOpenProfile(!openProfile)}
         >
           <div className="w-[35px] bg-white rounded-full aspect-square"></div>
-          <h1>Username</h1>
+          <h1 className="hidden sm:block">Username</h1>
         </div>
 
         <div
