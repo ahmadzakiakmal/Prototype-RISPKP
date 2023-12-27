@@ -2,15 +2,18 @@ import {
   MapContainer,
   TileLayer,
   GeoJSON,
+  useMap,
 } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
 import "leaflet-defaulticon-compatibility";
 import "leaflet-defaulticon-compatibility/dist/leaflet-defaulticon-compatibility.css";
 import geojsonData from "@/data/Kepadatan_Penduduk.json";
 import { useEffect } from "react";
+import useDynamicZoom from "@/hooks/useDynamicZoom";
 
 export default function MapKepadatanPenduduk(props: any) {
-  const { position, zoom } = props;
+  const { position } = props;
+  const zoom = useDynamicZoom();
   const data: GeoJSON.GeoJsonObject = geojsonData as GeoJSON.GeoJsonObject;
 
   useEffect(() => {
@@ -28,6 +31,15 @@ export default function MapKepadatanPenduduk(props: any) {
     });
     console.log(counts);
   }, []);
+
+  function SetZoom({zoom} : any) {
+    const map = useMap();
+    useEffect(() => {
+      map.setZoom(zoom);
+    }, [zoom, map]);
+
+    return null;
+  }
 
   return (
     <MapContainer
@@ -71,6 +83,7 @@ export default function MapKepadatanPenduduk(props: any) {
           );
         }}
       ></GeoJSON>
+      <SetZoom zoom={zoom} />
     </MapContainer>
   );
 }
