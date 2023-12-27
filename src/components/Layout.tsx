@@ -1,20 +1,27 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { FaAngleDoubleRight } from "react-icons/fa";
 import Navbar from "./Navbar";
 import Link from "next/link";
 import useLastScrollDirection from "@/hooks/useLastScrollDirection";
+import { useRouter } from "next/router";
 
 export default function Layout({ children }: { children: React.ReactNode }) {
   const [isMenuOpen, setIsMenuOpen] = useState(true);
   const lastScrollDir = useLastScrollDirection();
+  const router = useRouter();
+
+  useEffect(() => {
+    if(window.innerWidth < 640) setIsMenuOpen(false);
+  }, [router]);
+
   return (
     <main className="min-h-screen bg-proto-100 flex font-poppins">
       <Navbar />
 
       <section
         className={
-          "bg-green-400 relative transition-[width] !z-[2] " +
-          (isMenuOpen ? "w-[270px]" : "w-0")
+          "bg-green-400 fixed top-0 sm:relative flex-shrink-0 min-h-screen transition-[width] !z-[2] " +
+          (isMenuOpen ? "w-[230px] sm:w-[270px]" : "w-0")
         }
       >
         {/* open menu button */}
@@ -45,7 +52,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
           <section
             className={
               "border-t-2 border-neutral-400 py-3 " +
-              (isMenuOpen ? "" : "hidden")
+              (isMenuOpen ? "" : "sm:hidden")
             }
           >
             <h2 className="text-[14px] font-bold leading-[105%]">
@@ -79,7 +86,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
           <section
             className={
               "border-t-2 border-neutral-400 py-3 " +
-              (isMenuOpen ? "" : "hidden")
+              (isMenuOpen ? "" : "sm:hidden")
             }
           >
             <h2 className="text-[14px] font-bold leading-[105%]">
@@ -103,7 +110,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
           <section
             className={
               "border-t-2 border-neutral-400 py-3 " +
-              (isMenuOpen ? "" : "hidden")
+              (isMenuOpen ? "" : "sm:hidden")
             }
           >
             <h2 className="text-[14px] font-bold leading-[105%]">
@@ -121,7 +128,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
           <section
             className={
               "border-t-2 border-neutral-400 py-3 " +
-              (isMenuOpen ? "" : "hidden")
+              (isMenuOpen ? "" : "sm:hidden")
             }
           >
             <h2 className="text-[14px] font-bold leading-[105%]">
@@ -133,7 +140,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
           </section>
         </div>
       </section>
-      <section className="w-full px-10 mt-[120px] pb-10 relative z-[1]">
+      <section className="w-full px-[5%] sm:pl-12 sm:pr-10 mt-[140px] sm:mt-[120px] pb-10 relative z-[1] overflow-x-hidden">
         {children}
       </section>
     </main>
