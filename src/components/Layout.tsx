@@ -15,12 +15,12 @@ export default function Layout({ children }: { children: React.ReactNode }) {
   }, [router]);
 
   return (
-    <main className="min-h-screen bg-proto-100 flex font-poppins">
+    <main className="max-h-screen h-[200vh] bg-proto-100 flex font-poppins">
       <Navbar />
 
       <section
         className={
-          "bg-green-400 fixed top-0 sm:relative flex-shrink-0 min-h-screen transition-[width] pb-10 sm:pb-0 !z-[2] " +
+          "bg-green-400 fixed top-0 sm:relative flex-shrink-0 h-screen sm:h-full sm:min-h-[100vh] transition-[width] pb-10 sm:pb-0 !z-[2] " +
           (isMenuOpen ? "w-[230px] sm:w-[270px] overflow-y-scroll" : "w-0")
         }
       >
@@ -30,7 +30,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             "sticky bg-green-400 left-[100%] outline outline-1 outline-white transition duration-300 top-[100px] w-10 aspect-square grid place-items-center " +
             (isMenuOpen ? " rounded-l-[5px]" : "rounded-r-[5px]") +
             " " +
-            (lastScrollDir === "up" ? "" : "-translate-y-[200%]")
+            (lastScrollDir === "up" ? "" : "-translate-y-[50%]")
           }
           onClick={() => {
             setIsMenuOpen(!isMenuOpen);
@@ -46,7 +46,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
 
         <div
           className={
-            "pt-[120px] sm:mb-10 px-3 !overflow-x-hidden " + (isMenuOpen ? "" : "!p-0")
+            "pt-[120px] sm:mb-10 px-3 !overflow-x-hidden h-max " + (isMenuOpen ? "" : "!p-0")
           }
         >
           <section
@@ -140,7 +140,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
           </section>
         </div>
       </section>
-      <section className="w-full px-[5%] sm:pl-7 sm:pr-5 md:pl-12 md:pr-10 mt-[140px] sm:mt-[120px] pb-10 relative z-[1] overflow-x-hidden">
+      <section className="w-full px-[5%] sm:pl-7 sm:pr-5 md:pl-12 md:pr-10 pt-[140px] sm:pt-[120px] pb-20 relative z-[1] overflow-x-hidden">
         {children}
       </section>
     </main>
