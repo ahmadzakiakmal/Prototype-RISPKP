@@ -21,7 +21,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
       <section
         className={
           "bg-green-400 fixed top-0 sm:relative flex-shrink-0 h-screen sm:h-full sm:min-h-[100vh] transition-[width] pb-10 sm:pb-0 !z-[2] " +
-          (isMenuOpen ? "w-[230px] sm:w-[270px] overflow-y-scroll" : "w-0")
+          (isMenuOpen ? "w-[230px] sm:w-[270px] overflow-y-auto" : "w-0")
         }
       >
         {/* open menu button */}

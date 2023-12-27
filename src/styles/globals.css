@@ -18,6 +18,20 @@
   }
 }
 
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #23272A;
+  border-radius: 100px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #08A78B;
+  border-radius: 100px;
+}
+
 body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
