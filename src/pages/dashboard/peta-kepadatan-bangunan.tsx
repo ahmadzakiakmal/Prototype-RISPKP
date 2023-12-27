@@ -11,9 +11,11 @@ export default function KepadatanBangunanPage() {
   );
   return (
     <Layout>
-      <main className="w-full h-[800px]">
+      <main className="w-full">
         <h1 className="text-2xl font-bold mb-5">Peta Kepadatan Bangunan</h1>
-        <Map zoom={14} position={[-7.801363, 110.364787]} />
+        <section className="h-[800px]">
+          <Map position={[-7.801363, 110.364787]} zoom={14} />
+        </section>
       </main>
     </Layout>
   );

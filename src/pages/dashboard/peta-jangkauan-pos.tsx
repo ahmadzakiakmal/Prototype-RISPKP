@@ -13,8 +13,10 @@ export default function JangkauanPosPage() {
   );
   return (
     <Layout>
-      <main className="w-full h-[800px]">
-        <Map position={[-7.801363, 110.364787]} zoom={14} />
+      <main className="w-full">
+        <section className="h-[800px]">
+          <Map position={[-7.801363, 110.364787]} zoom={14} />
+        </section>
       </main>
     </Layout>
   );
