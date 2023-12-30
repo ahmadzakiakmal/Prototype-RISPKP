@@ -163,7 +163,8 @@ export default function MetodeAnalisisPage() {
               Priambodo, D. (2018) Penentuan Nilai Jarak Aman
               SumberTidakBergerak: Skenario Kebakaran dan Ledakan pada SPBU dan
               SPPBE di Sekitar Tapak RDE. Jurnal Pengembangan EnergiNuklir;
-              <br />
+            </li>
+            <li>
               Yulianto, B., Tejamaya, M., (2022) AnalisisRisiko Kebakaran dan
               Ledakan Kegiatan Unloading Bahan Bakar Minyak di SPBU dengan
               menggunakan Dow's Fire & Explosion Index, ALOHA dan MARPLOT.
