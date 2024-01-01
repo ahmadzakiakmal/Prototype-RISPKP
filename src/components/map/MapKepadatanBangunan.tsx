@@ -21,7 +21,7 @@ export default function MapKepadatanBangunan(props: any) {
 
   return (
     <MapContainer
-      className="w-full h-full select-none"
+      className="w-full h-full select-none z-[1]"
       center={position}
       zoom={zoom}
       scrollWheelZoom={false}
@@ -41,15 +41,16 @@ export default function MapKepadatanBangunan(props: any) {
             fillColor:
               level == 1 ? "#FAD155" : level == 2 ? "#F2A72E" : "#AD5313",
             fillOpacity: 0.65,
-            weight: 0
+            weight: 0,
           };
         }}
         onEachFeature={(feature, layer) => {
-          const kelurahan = feature.properties.Id;
           const level = feature.properties.gridcode;
           layer.bindTooltip(
-            `<span style="font-weight:600">${kelurahan}</span><br/>
-          <span>Kepadatan Penduduk: ${level === 3 ? "Tinggi" : level === 2 ? "Sedang" : "Rendah"}</span>`
+            `
+            <span style="font-weight:600">Kepadatan Penduduk: ${level === 3 ? "Tinggi" : level === 2 ? "Sedang" : "Rendah"}
+            </span>
+            `
           );
         }}
       ></GeoJSON>
