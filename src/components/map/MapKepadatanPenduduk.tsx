@@ -34,7 +34,7 @@ export default function MapKepadatanPenduduk(props: any) {
 
   return (
     <MapContainer
-      className="w-full h-full select-none"
+      className="w-full h-full select-none z-[1]"
       center={position}
       scrollWheelZoom={false}
       zoom={zoom}
