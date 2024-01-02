@@ -21,7 +21,7 @@ export default function MapWaktuTanggap(props: any) {
 
   return (
     <MapContainer
-      className="w-full h-full select-none"
+      className="w-full h-full select-none z-[1]"
       center={position}
       zoom={zoom}
       scrollWheelZoom={false}
