@@ -21,7 +21,7 @@ export default function MapWaktuTanggap(props: any) {
 
   return (
     <MapContainer
-      className="w-full h-full select-none"
+      className="w-full h-full select-none z-[1]"
       center={position}
       zoom={zoom}
       scrollWheelZoom={false}
@@ -50,15 +50,23 @@ export default function MapWaktuTanggap(props: any) {
                       : "#FF4D4D",
             fillOpacity: 0.65,
             color: "#23272A",
-            weight: 2,
+            weight: 0,
           };
         }}
         onEachFeature={(feature, layer) => {
-          const desa = feature.properties.DESA;
           const level = feature.properties.gridcode;
           layer.bindTooltip(
-            `<span style="font-weight:600">${desa}</span><br/>
-          <span>Frekuensi: ${level}</span>`
+            `<span style="font-weight:600">${
+              level === 1
+                ? "5 Menit"
+                : level === 2
+                  ? "7.5 Menit"
+                  : level === 3
+                    ? "10 Menit"
+                    : level === 4
+                      ? "12.5 Menit"
+                      : "15 Menit"
+            }</span>`
           );
         }}
       ></GeoJSON>
