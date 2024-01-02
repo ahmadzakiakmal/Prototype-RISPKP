@@ -6,7 +6,7 @@ import {
   BarElement,
   Title,
   Tooltip,
-  // Legend,
+  Legend,
   ArcElement,
 } from "chart.js";
 
@@ -16,7 +16,7 @@ ChartJS.register(
   BarElement,
   Title,
   Tooltip,
-  // Legend,
+  Legend,
   ArcElement
 );
 
@@ -38,7 +38,7 @@ export default function PieChart() {
     datasets: [
       {
         label: "Data Penyebab Kebakaran",
-        data: [81.40, 39.19, 25.12, 24.12, 24.12, 3.1, 3.1, 2.1, 1.1, 1.1, 1.0],
+        data: [81.4, 39.19, 25.12, 24.12, 24.12, 3.1, 3.1, 2.1, 1.1, 1.1, 1.0],
         backgroundColor: [
           "#003E5D",
           "#68E7EA",
@@ -50,12 +50,24 @@ export default function PieChart() {
           "#F9BA54",
           "#FF4F6F",
           "#600222",
-          "#006F65"
+          "#006F65",
         ],
         hoverOffset: 4,
       },
     ],
   };
 
-  return <Doughnut data={data} />;
+  return (
+    <Doughnut
+      options={{
+        plugins: {
+          legend: {
+            display: true,
+            position: "bottom",
+          },
+        },
+      }}
+      data={data}
+    />
+  );
 }
