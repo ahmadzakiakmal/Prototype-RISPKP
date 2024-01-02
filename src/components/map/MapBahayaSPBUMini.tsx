@@ -21,7 +21,7 @@ export default function MapBahayaSPBU(props: any) {
 
   return (
     <MapContainer
-      className="w-full h-full select-none"
+      className="w-full h-full select-none z-[1]"
       center={position}
       zoom={zoom}
       scrollWheelZoom={false}
@@ -41,15 +41,15 @@ export default function MapBahayaSPBU(props: any) {
             fillColor:
               level == 3 ? "#5EBA30" : level == 2 ? "#FFFF30" : "#FF3030",
             fillOpacity: 0.65,
-            weight: 0
+            weight: 0,
           };
         }}
         onEachFeature={(feature, layer) => {
-          const kelurahan = feature.properties.Id;
           const level = feature.properties.gridcode;
           layer.bindTooltip(
-            `<span style="font-weight:600">${kelurahan}</span><br/>
-          <span>Sebaran SPBU Mini: ${level === 1 ? "Tinggi" : level === 2 ? "Sedang" : "Rendah"}</span>`
+            `<span style="font-weight:600">Sebaran SPBU Mini: ${
+              level === 1 ? "Tinggi" : level === 2 ? "Sedang" : "Rendah"
+            }</span>`
           );
         }}
       ></GeoJSON>
