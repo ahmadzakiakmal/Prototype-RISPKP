@@ -43,5 +43,5 @@ body {
 }
 
 .blur-polygon {
-  filter: blur(15px);
+  filter: blur(8px);
 }

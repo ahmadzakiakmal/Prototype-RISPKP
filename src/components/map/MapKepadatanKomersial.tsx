@@ -7,6 +7,8 @@ import geojsonData from "@/data/Kepadatan_Komersial.json";
 import "leaflet/dist/leaflet.css";
 import "leaflet-defaulticon-compatibility";
 import "leaflet-defaulticon-compatibility/dist/leaflet-defaulticon-compatibility.css";
+import useDynamicZoom from "@/hooks/useDynamicZoom";
+import DynamicZoom from "./utilities/DynamicZoom";
 
 // eslint-disable-next-line 
 const HeatmapLayer = () => {
@@ -64,14 +66,16 @@ const HeatmapLayer = () => {
 
 const HeatmapComponent = () => {
   const data = geojsonData as GeoJSON.GeoJsonObject;
+  const zoom = useDynamicZoom();
   return (
-    <div className="w-full h-full select-none">
+    <div className="w-full h-full select-none !z-[1] relative">
       <MapContainer
         center={[-7.801363, 110.364787]}
         zoom={14}
         className="w-full h-full select-none"
         scrollWheelZoom={false}
       >
+        <DynamicZoom zoom={zoom} />
         <TileLayer
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
           attribution="&amp;copy OpenStreetMap contributors"
