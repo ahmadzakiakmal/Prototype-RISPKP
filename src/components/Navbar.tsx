@@ -16,8 +16,9 @@ export default function Navbar() {
   }, [lastScrollDir]);
 
   return (
-    <nav className={"w-full p-5 bg-neutral-400 fixed top-0 transition duration-300 z-[10] flex text-white items-center justify-between " +
-      (lastScrollDir === "up" ? "" : "-translate-y-[100%]")}>
+    <nav className={"w-full p-5 bg-neutral-400 fixed top-0 transition duration-300 z-[10] flex text-white items-center justify-between " 
+      // + (lastScrollDir === "up" ? "" : "//-translate-y-[100%]")
+    }>
       <Link href="/dashboard" className="flex items-center">
         <div className="hidden sm:flex gap-1 items-start">
           <Image src={Pemkot} alt="Pemkot" className="w-[30px]" />
