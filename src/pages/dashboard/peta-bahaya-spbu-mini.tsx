@@ -1,4 +1,5 @@
 import Layout from "@/components/Layout";
+import Loading from "@/components/Loading";
 import Legend from "@/components/map/utilities/Legend";
 import dynamic from "next/dynamic";
 import { useMemo } from "react";
@@ -8,7 +9,7 @@ export default function BahayaSPBUMiniPage() {
     () =>
       dynamic(() => import("@/components/map/MapBahayaSPBUMini"), {
         ssr: false,
-        loading: () => <p>Loading...</p>,
+        loading: () => <Loading />,
       }),
     []
   );

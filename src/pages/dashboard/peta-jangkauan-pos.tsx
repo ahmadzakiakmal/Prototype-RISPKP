@@ -1,4 +1,5 @@
 import Layout from "@/components/Layout";
+import Loading from "@/components/Loading";
 import dynamic from "next/dynamic";
 import { useMemo } from "react";
 
@@ -7,7 +8,7 @@ export default function JangkauanPosPage() {
     () =>
       dynamic(() => import("@/components/map/MapJangkauanPos"), {
         ssr: false,
-        loading: () => <p>Loading...</p>,
+        loading: () => <Loading />,
       }),
     []
   );
