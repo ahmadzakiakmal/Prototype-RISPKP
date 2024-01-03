@@ -41,3 +41,7 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.blur-polygon {
+  filter: blur(15px);
+}

@@ -16,8 +16,8 @@ export default function KepadatanKomersialPage() {
     <Layout>
       <main className="w-full">
         <h1 className="text-xl sm:text-2xl font-bold mb-5">Peta Kepadatan Komersial</h1>
-        <section className="h-[80vh] max-h-[800px]">
-          <Map position={[-7.801363, 110.364787]} zoom={14} />
+        <section className="h-[90vh] max-h-[900px] bg-red-500/10">
+          <Map />
         </section>
       </main>
     </Layout>

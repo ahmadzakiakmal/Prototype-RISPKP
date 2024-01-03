@@ -1,55 +1,126 @@
-import { MapContainer, TileLayer, GeoJSON } from "react-leaflet";
+import React from "react";
+import { MapContainer, TileLayer, useMap, GeoJSON } from "react-leaflet";
+import "leaflet.heat";
+import L from "leaflet";
+import heatmapData from "@/data/Kepadatan_Komersial_Points.json";
+import geojsonData from "@/data/Kepadatan_Komersial.json";
 import "leaflet/dist/leaflet.css";
 import "leaflet-defaulticon-compatibility";
 import "leaflet-defaulticon-compatibility/dist/leaflet-defaulticon-compatibility.css";
-import geojsondata from "@/data/Kepadatan_Komersial.json";
-import { useEffect } from "react";
-import useDynamicZoom from "@/hooks/useDynamicZoom";
-import DynamicZoom from "./utilities/DynamicZoom";
 
-export default function MapKepadatanKomersial(props: any) {
-  const { position } = props;
-  const zoom = useDynamicZoom();
-  const data: GeoJSON.GeoJsonObject = geojsondata as GeoJSON.GeoJsonObject;
+// eslint-disable-next-line 
+const HeatmapLayer = () => {
+  const map = useMap();
 
-  useEffect(() => {
-    console.log(data);
-  }, []);
+  const count = {
+    1: 0,
+    2: 0,
+    3: 0,
+  };
 
+  React.useEffect(() => {
+    // geojsonData.features.forEach((feature) => {
+    //   console.log(feature.properties.gridcode);
+    // });
+    // Convert heatmap data to the format required by leaflet.heat
+    const heatPoints = heatmapData.map((point) => [
+      point.lat,
+      point.lng,
+      point.intensity,
+    ]);
+
+    heatPoints.forEach((p: number[]) => {
+      console.log(p[2]);
+      if (p[2] == 1) {
+        count[1] += 1;
+      } else if (p[2] == 2) {
+        count[2] += 1;
+      } else {
+        count[3] += 1;
+      }
+    });
+    console.log(count);
+
+    // @ts-expect-error: leaflet-heat type definitions are incomplete
+    const heatLayer = L.heatLayer(heatPoints, {
+      radius: 25,
+      // max: 3,
+      blur: 15,
+      gradient: {
+        0.0: "blue",
+        0.5: "yellow",
+        1: "red",
+      },
+    }).addTo(map);
+
+    // Cleanup on unmount
+    return () => {
+      heatLayer.remove();
+    };
+  }, [map]);
+
+  return null;
+};
+
+const HeatmapComponent = () => {
+  const data = geojsonData as GeoJSON.GeoJsonObject;
   return (
-    <MapContainer
-      className="w-full h-full select-none"
-      center={position}
-      zoom={zoom}
-      scrollWheelZoom={false}
-    >
-      <DynamicZoom zoom={zoom} />
-      <TileLayer
-        attribution='&copy; <a href="https://www.openstreetmap.org/copyright">
-        OpenStreetMap</a> contributors'
-        url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-      />
-      <GeoJSON
-        // eslint-disable-next-line
-        data={data}
-        style={(feature) => {
-          const level = feature?.properties.gridcode;
-          return {
-            fillColor:
-              level == 1 ? "#59A8CC" : level == 2 ? "#F6F682" : "#F2745F",
-            fillOpacity: 0.65,
-            weight: 0
-          };
-        }}
-        onEachFeature={(feature, layer) => {
-          const kelurahan = feature.properties.Id;
-          const level = feature.properties.gridcode;
+    <div className="w-full h-full select-none">
+      <MapContainer
+        center={[-7.801363, 110.364787]}
+        zoom={14}
+        className="w-full h-full select-none"
+        scrollWheelZoom={false}
+      >
+        <TileLayer
+          url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+          attribution="&amp;copy OpenStreetMap contributors"
+        />
+        <GeoJSON
+          data={data}
+          onEachFeature={(feature, layer) => {
+            layer.on("add", () => {
+              // @ts-expect-error: Leaflet type definitions are incomplete
+              if (layer._path) {
+                // @ts-expect-error: Leaflet type definitions are incomplete
+                L.DomUtil.addClass(layer._path, "blur-polygon");
+              }
+            });
+            layer.bindTooltip(
+              `<span style="font-weight:600">${feature.properties.gridcode}</span><br/>`
+            );
+          }}
+          style={(feature) => {
+            const colors = ["#59A8CC", "#FFFF4D", "#FF4D4D"];
+            return {
+              fillColor: colors[feature?.properties.gridcode - 1],
+              fillOpacity: 0.65,
+              color: "#23272A",
+              weight: 0,
+              blur: 15,
+            };
+          }}
+        />
+        {/* <HeatmapLayer /> */}
+      </MapContainer>
+      <br />
+      {/* <MapContainer
+        center={[-7.801363, 110.364787]}
+        zoom={14}
+        className="w-full h-full select-none"
+      >
+        <GeoJSON data={data} onEachFeature={(feature, layer) => {
           layer.bindTooltip(
-            `<span style="font-weight:600">${kelurahan}</span><br/>
-          <span>Kepadatan Penduduk: ${level === 1 ? "Rendah" : level === 2 ? "Sedang" : "Tinggi"}</span>`
+            `<span style="font-weight:600">${feature.properties.gridcode}</span><br/>`
           );
-        }}
-      ></GeoJSON>
-    </MapContainer>
+        }} />
+        <TileLayer
+          url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+          attribution="&amp;copy OpenStreetMap contributors"
+        />
+      </MapContainer> */}
+    </div>
   );
-}
+};
+
+export default HeatmapComponent;
