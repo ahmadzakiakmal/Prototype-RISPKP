@@ -7,7 +7,6 @@ import "leaflet/dist/leaflet.css";
 import "leaflet-defaulticon-compatibility";
 import "leaflet-defaulticon-compatibility/dist/leaflet-defaulticon-compatibility.css";
 import geojsonData from "@/data/Kepadatan_Penduduk.json";
-import { useEffect } from "react";
 import useDynamicZoom from "@/hooks/useDynamicZoom";
 import DynamicZoom from "./utilities/DynamicZoom";
 
@@ -15,22 +14,6 @@ export default function MapKepadatanPenduduk(props: any) {
   const { position } = props;
   const zoom = useDynamicZoom();
   const data: GeoJSON.GeoJsonObject = geojsonData as GeoJSON.GeoJsonObject;
-
-  useEffect(() => {
-    console.log(geojsonData.features);
-    const counts:any = {
-      "Sangat Rendah": 0,
-      Rendah: 0,
-      Sedang: 0,
-      Tinggi: 0,
-      "Sangat Tinggi": 0,
-    };
-    geojsonData.features.forEach((feature) => {
-      const level:any = feature.properties.Klas_ha;
-      counts[level] += 1;
-    });
-    console.log(counts);
-  }, []);
 
   return (
     <MapContainer

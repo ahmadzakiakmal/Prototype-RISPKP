@@ -4,7 +4,6 @@ import "leaflet-defaulticon-compatibility";
 import "leaflet-defaulticon-compatibility/dist/leaflet-defaulticon-compatibility.css";
 import geojsonData1 from "@/data/Poin_Sektor.json";
 import geojsonData2 from "@/data/Cakupan_Sektor.json";
-import { useEffect } from "react";
 import useDynamicZoom from "@/hooks/useDynamicZoom";
 import DynamicZoom from "./utilities/DynamicZoom";
 
@@ -15,13 +14,6 @@ export default function MapWaktuTanggap(props: any) {
   const data2: GeoJSON.GeoJsonObject = geojsonData2 as GeoJSON.GeoJsonObject;
   // @ts-expect-error: GeoJsonObject has no property features
   data.features = data.features.concat(data2.features);
-
-  useEffect(() => {
-    // @ts-expect-error: GeoJsonObject has no property features
-    data.features.forEach((f) => {
-      console.log(f.properties);
-    });
-  }, []);
 
   return (
     <MapContainer

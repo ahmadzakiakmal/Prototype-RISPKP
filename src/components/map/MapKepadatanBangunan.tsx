@@ -3,7 +3,6 @@ import "leaflet/dist/leaflet.css";
 import "leaflet-defaulticon-compatibility";
 import "leaflet-defaulticon-compatibility/dist/leaflet-defaulticon-compatibility.css";
 import geojsonData from "@/data/Kepadatan_Bangunan.json";
-import { useEffect } from "react";
 import useDynamicZoom from "@/hooks/useDynamicZoom";
 import DynamicZoom from "./utilities/DynamicZoom";
 
@@ -11,13 +10,6 @@ export default function MapKepadatanBangunan(props: any) {
   const { position } = props;
   const zoom = useDynamicZoom();
   const data: GeoJSON.GeoJsonObject = geojsonData as GeoJSON.GeoJsonObject;
-
-  useEffect(() => {
-    // @ts-expect-error: GeoJsonObject has no property features
-    data.features.forEach((f) => {
-      console.log(f.properties.gridcode);
-    });
-  }, []);
 
   return (
     <MapContainer
@@ -33,7 +25,6 @@ export default function MapKepadatanBangunan(props: any) {
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
       />
       <GeoJSON
-        // eslint-disable-next-line
         data={data}
         style={(feature) => {
           const level = feature?.properties.gridcode;

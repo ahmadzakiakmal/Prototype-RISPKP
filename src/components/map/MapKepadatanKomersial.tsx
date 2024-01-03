@@ -32,7 +32,7 @@ const HeatmapLayer = () => {
     ]);
 
     heatPoints.forEach((p: number[]) => {
-      console.log(p[2]);
+      // console.log(p[2]);
       if (p[2] == 1) {
         count[1] += 1;
       } else if (p[2] == 2) {
@@ -41,7 +41,7 @@ const HeatmapLayer = () => {
         count[3] += 1;
       }
     });
-    console.log(count);
+    // console.log(count);
 
     // @ts-expect-error: leaflet-heat type definitions are incomplete
     const heatLayer = L.heatLayer(heatPoints, {
