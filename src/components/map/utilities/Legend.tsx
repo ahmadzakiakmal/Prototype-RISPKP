@@ -1,5 +1,5 @@
 interface LegendProps {
-  title: string;
+  title?: string;
   colorArr: string[];
   labelArr: string[];
 }
