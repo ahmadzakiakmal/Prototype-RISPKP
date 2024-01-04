@@ -15,6 +15,7 @@ export default function Navbar() {
   const [openProfile, setOpenProfile] = useState(false);
   const lastScrollDir = useLastScrollDirection();
   const router = useRouter();
+  const [username, setUsername] = useState("");
 
   useEffect(() => {
     setOpenProfile(false);
@@ -25,8 +26,10 @@ export default function Navbar() {
       .get(process.env.NEXT_PUBLIC_API_URL + "users/data", {
         withCredentials: true,
       })
+      .then((res) => {
+        setUsername(res.data.username);
+      })
       .catch((err) => {
-        console.log(err);
         if (err?.response?.status === 401) {
           toast.error("Anda belum login!");
           router.push("/");
@@ -56,24 +59,30 @@ export default function Navbar() {
           onClick={() => setOpenProfile(!openProfile)}
         >
           <div className="w-[35px] bg-white rounded-full aspect-square"></div>
-          <h1 className="hidden sm:block">Username</h1>
+          <h1 className="hidden sm:block">
+            {username ? (
+              <p className="min-w-[70px]">{username}</p>
+            ) : (
+              <div className="w-[100px] h-[24px] rounded-[8px] bg-slate-300 animate-pulse" />
+            )}
+          </h1>
         </div>
 
         <div
           className={
-            "bg-neutral-400 px-3 absolute top-[calc(100%+30px)] rounded-[5px] right-0 w-full grid transition-[grid-template-rows,padding] " +
-            (openProfile ? "grid-rows-[1fr] py-5" : "grid-rows-[0fr] !py-0")
+            "bg-neutral-400 px-3 absolute top-[calc(100%+30px)] rounded-[5px] right-0 w-max grid transition-[grid-template-rows,padding] " +
+            (openProfile ? "grid-rows-[1fr] py-2 md:py-3" : "grid-rows-[0fr] !py-0")
           }
           onMouseLeave={() => setOpenProfile(false)}
         >
-          <div className="overflow-hidden">
+          <div className="overflow-hidden w-max">
             <button
               onClick={() => {
                 setOpenProfile(false);
                 Cookies.remove("token");
                 router.push("/");
               }}
-              className="flex items-center gap-3 hover:bg-neutral-100/10 w-full py-1 px-2 rounded-[5px]"
+              className="flex items-center gap-3 hover:bg-neutral-100/10 w-max py-1 px-2 rounded-[5px]"
             >
               <TbLogout2 /> Logout
             </button>
