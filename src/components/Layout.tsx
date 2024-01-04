@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import { FaAngleDoubleRight } from "react-icons/fa";
-import Navbar from "./Navbar";
 import Link from "next/link";
 import useLastScrollDirection from "@/hooks/useLastScrollDirection";
 import { useRouter } from "next/router";
@@ -16,8 +15,6 @@ export default function Layout({ children }: { children: React.ReactNode }) {
 
   return (
     <main className="max-h-screen h-[200vh] bg-proto-100 flex font-poppins">
-      <Navbar />
-
       <section
         className={
           "bg-green-400 fixed top-0 sm:relative flex-shrink-0 h-screen sm:h-full sm:min-h-[100vh] transition-[width] pb-10 sm:pb-0 !z-[2] " +
