@@ -5,6 +5,8 @@ import UGM from "../../public/logos/ugm.png";
 import Damkar from "../../public/logos/damkar.png";
 import Pemkot from "../../public/logos/pemkot.png";
 import { useRouter } from "next/router";
+import { toast } from "react-toastify";
+import axios from "axios";
 
 export default function Home() {
   const [username, setUsername] = useState("");
@@ -14,9 +16,63 @@ export default function Home() {
   const [showPassword, setShowPassword] = useState(false);
   const router = useRouter();
 
-  const Login = (e: any) => {
+  const Login = (e: any): void => {
     e.preventDefault();
-    router.replace("/dashboard");
+    try {
+      if (!isUsernameValid) throw new Error("Username tidak boleh kosong");
+      if (!isPasswordValid) throw new Error("Password tidak boleh kosong");
+      const toastLoading = toast.loading("Sedang memproses login...");
+      axios
+        .post(
+          process.env.NEXT_PUBLIC_API_URL + "users/login",
+          {
+            username,
+            password,
+          },
+          {
+            withCredentials: true,
+            headers: {
+              "Content-Type": "application/json",
+              "Access-Control-Allow-Origin": "http//:localhost:3000",
+              "Access-Control-Allow-Credentials": true,
+            },
+          }
+        )
+        .then(() => {
+          toast.update(toastLoading, {
+            render: "Login berhasil!",
+            type: "success",
+            isLoading: false,
+          });
+          router.push("/dashboard");
+        })
+        .catch((err) => {
+          const statusCode = err?.response?.status;
+          if (!statusCode)
+            return toast.update(toastLoading, {
+              render: "Terjadi kesalahan!",
+              type: "error",
+              isLoading: false,
+            });
+          toast.update(toastLoading, {
+            render:
+              statusCode === 401
+                ? "Username atau password salah!"
+                : statusCode === 404
+                  ? "User tidak ditemukan"
+                  : "Terjadi kesalahan!",
+            type: "error",
+            isLoading: false,
+          });
+        })
+        .finally(() => {
+          setTimeout(() => {
+            toast.dismiss(toastLoading);
+          }, 3000);
+        });
+    } catch (error: any) {
+      toast.error(error.message);
+    }
   };
 
   return (
@@ -88,7 +144,11 @@ export default function Home() {
             <div className="bg-white w-[100px] aspect-square rounded-full" />
             <div className="bg-white w-[100px] aspect-square rounded-full" /> */}
             <Image src={Pemkot} alt="Pemkot" className="w-[50px] lg:w-[80px]" />
-            <Image src={Damkar} alt="Damkar" className="w-[70px] lg:w-[100px]" />
+            <Image
+              src={Damkar}
+              alt="Damkar"
+              className="w-[70px] lg:w-[100px]"
+            />
             <Image src={UGM} alt="UGM" className="w-[70px] lg:w-[100px]" />
           </div>
           <h1 className="max-w-[90%] lg:max-w-[80%] text-center font-bold text-white text-[25px] lg:text-[28px]">
