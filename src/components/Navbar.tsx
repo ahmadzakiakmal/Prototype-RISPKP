@@ -6,19 +6,41 @@ import UGM from "../../public/logos/ugm.png";
 import Damkar from "../../public/logos/damkar.png";
 import Pemkot from "../../public/logos/pemkot.png";
 import useLastScrollDirection from "@/hooks/useLastScrollDirection";
+import { useRouter } from "next/router";
+import axios from "axios";
+import { toast } from "react-toastify";
+import Cookies from "js-cookie";
 
 export default function Navbar() {
   const [openProfile, setOpenProfile] = useState(false);
   const lastScrollDir = useLastScrollDirection();
+  const router = useRouter();
 
   useEffect(() => {
     setOpenProfile(false);
   }, [lastScrollDir]);
 
+  useEffect(() => {
+    axios
+      .get(process.env.NEXT_PUBLIC_API_URL + "users/data", {
+        withCredentials: true,
+      })
+      .catch((err) => {
+        console.log(err);
+        if (err?.response?.status === 401) {
+          toast.error("Anda belum login!");
+          router.push("/");
+        }
+      });
+  }, [router]);
+
   return (
-    <nav className={"w-full p-5 bg-neutral-400 fixed top-0 transition duration-300 z-[10] flex text-white items-center justify-between " 
-      // + (lastScrollDir === "up" ? "" : "//-translate-y-[100%]")
-    }>
+    <nav
+      className={
+        "w-full p-5 bg-neutral-400 fixed top-0 transition duration-300 z-[10] flex text-white items-center justify-between "
+        // + (lastScrollDir === "up" ? "" : "//-translate-y-[100%]")
+      }
+    >
       <Link href="/dashboard" className="flex items-center">
         <div className="hidden sm:flex gap-1 items-start">
           <Image src={Pemkot} alt="Pemkot" className="w-[30px]" />
@@ -45,7 +67,14 @@ export default function Navbar() {
           onMouseLeave={() => setOpenProfile(false)}
         >
           <div className="overflow-hidden">
-            <button className="flex items-center gap-3 hover:bg-neutral-100/10 w-full py-1 px-2 rounded-[5px]">
+            <button
+              onClick={() => {
+                setOpenProfile(false);
+                Cookies.remove("token");
+                router.push("/");
+              }}
+              className="flex items-center gap-3 hover:bg-neutral-100/10 w-full py-1 px-2 rounded-[5px]"
+            >
               <TbLogout2 /> Logout
             </button>
           </div>
