@@ -10,7 +10,10 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
     <main className="font-poppins text-neutral-400">
       <ToastContainer position="bottom-right" />
-      {router.pathname.includes("dashboard") ? <Navbar /> : null}
+      {router.pathname.includes("dashboard") ||
+      router.pathname.includes("admin") ? (
+          <Navbar />
+        ) : null}
       <Component {...pageProps} />
     </main>
   );
