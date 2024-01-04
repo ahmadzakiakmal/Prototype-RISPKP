@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@nivo/line": "^0.84.0",
+    "axios": "^1.6.4",
     "chart.js": "^4.4.1",
     "leaflet": "^1.9.4",
     "leaflet-defaulticon-compatibility": "^0.1.2",
