@@ -79,7 +79,8 @@ export default function Navbar() {
             <button
               onClick={() => {
                 setOpenProfile(false);
-                Cookies.remove("token");
+                // Cookies.remove("token");
+                Cookies.set("token", "", { expires: -1, path: "/" });
                 router.push("/");
               }}
               className="flex items-center gap-3 hover:bg-neutral-100/10 w-max py-1 px-2 rounded-[5px]"
