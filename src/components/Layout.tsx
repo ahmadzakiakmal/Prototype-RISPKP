@@ -3,14 +3,41 @@ import { FaAngleDoubleRight } from "react-icons/fa";
 import Link from "next/link";
 import useLastScrollDirection from "@/hooks/useLastScrollDirection";
 import { useRouter } from "next/router";
+import axios from "axios";
+import { toast } from "react-toastify";
+
+interface User {
+  username: string;
+  role: string;
+}
 
 export default function Layout({ children }: { children: React.ReactNode }) {
   const [isMenuOpen, setIsMenuOpen] = useState(true);
   const lastScrollDir = useLastScrollDirection();
+  const [user, setUser] = useState<User>({
+    username: "",
+    role: "",
+  });
   const router = useRouter();
 
   useEffect(() => {
-    if(window.innerWidth < 640) setIsMenuOpen(false);
+    if (window.innerWidth < 640) setIsMenuOpen(false);
+  }, [router]);
+
+  useEffect(() => {
+    axios
+      .get(process.env.NEXT_PUBLIC_API_URL + "users/data", {
+        withCredentials: true,
+      })
+      .then((res) => {
+        setUser(res.data);
+      })
+      .catch((err) => {
+        if (err?.response?.status === 401) {
+          toast.error("Anda belum login!");
+          router.push("/");
+        }
+      });
   }, [router]);
 
   return (
@@ -43,7 +70,8 @@ export default function Layout({ children }: { children: React.ReactNode }) {
 
         <div
           className={
-            "pt-[120px] sm:mb-10 px-3 !overflow-x-hidden h-max " + (isMenuOpen ? "" : "!p-0")
+            "pt-[120px] sm:mb-10 px-3 !overflow-x-hidden h-max " +
+            (isMenuOpen ? "" : "!p-0")
           }
         >
           <section
@@ -128,9 +156,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
               (isMenuOpen ? "" : "sm:hidden")
             }
           >
-            <h2 className="text-[14px] font-bold leading-[105%]">
-              ADMIN MENU
-            </h2>
+            <h2 className="text-[14px] font-bold leading-[105%]">ADMIN MENU</h2>
             <ul className="flex flex-col text-[15px] mt-2 gap-2 leading-[105%] list-disc">
               <Link href="/admin/user-management">User Management</Link>
             </ul>
@@ -138,7 +164,16 @@ export default function Layout({ children }: { children: React.ReactNode }) {
         </div>
       </section>
       <section className="w-full px-[5%] sm:pl-7 sm:pr-5 md:pl-12 md:pr-10 pt-[140px] sm:pt-[120px] pb-20 relative z-[1] overflow-x-hidden">
-        {children}
+        {user.username !== "" ? (
+          children
+        ) : (
+          <div className="relative w-full h-full backdrop-blur-[8px] flex flex-col gap-5 justify-center items-center z-[1]">
+            <div className="w-[100px] aspect-square border-b-[5px] border-t-[5px] border-neutral-400 rounded-full animate-spin" />
+            <p className="animate-pulse text-[20px] font-semibold">
+              Loading...
+            </p>
+          </div>
+        )}
       </section>
     </main>
   );
