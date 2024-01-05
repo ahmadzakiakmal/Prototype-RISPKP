@@ -4,7 +4,6 @@ import Link from "next/link";
 import useLastScrollDirection from "@/hooks/useLastScrollDirection";
 import { useRouter } from "next/router";
 import axios from "axios";
-import { toast } from "react-toastify";
 
 interface User {
   username: string;
@@ -31,12 +30,6 @@ export default function Layout({ children }: { children: React.ReactNode }) {
       })
       .then((res) => {
         setUser(res.data);
-      })
-      .catch((err) => {
-        if (err?.response?.status === 401) {
-          toast.error("Anda belum login!");
-          router.push("/");
-        }
       });
   }, [router]);
 
