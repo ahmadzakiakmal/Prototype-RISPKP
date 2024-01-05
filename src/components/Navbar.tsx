@@ -82,7 +82,7 @@ export default function Navbar() {
               onClick={() => {
                 setOpenProfile(false);
                 // Cookies.remove("token");
-                Cookies.set("token", "", {
+                Cookies.remove("token", {
                   expires: -1,
                   path: "/",
                   domain:
