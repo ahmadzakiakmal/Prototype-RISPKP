@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { FaEye } from "react-icons/fa";
 import Image from "next/image";
 import UGM from "../../public/logos/ugm.png";
@@ -74,6 +74,15 @@ export default function Home() {
       toast.error(error.message);
     }
   };
+
+  useEffect(() => {
+    const logoutFlag = localStorage.getItem("logout-flag");
+    if (logoutFlag) {
+      localStorage.removeItem("logout-flag");
+      toast.success("Logout berhasil!");
+      window.location.reload();
+    }
+  }, [router]);
 
   return (
     <main className="flex min-h-screen bg-white max-w-[100vw]">

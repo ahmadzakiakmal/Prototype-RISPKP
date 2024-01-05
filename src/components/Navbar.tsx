@@ -82,6 +82,7 @@ export default function Navbar() {
               onClick={() => {
                 setOpenProfile(false);
                 // Cookies.remove("token");
+                localStorage.setItem("logout-flag", "true");
                 Cookies.remove("token", {
                   expires: -1,
                   path: "/",
