@@ -1,9 +1,15 @@
 import Layout from "@/components/Layout";
+import { useRouter } from "next/router";
+import { useEffect } from "react";
 
 export default function Dashboard() {
+  const router = useRouter();
+  useEffect(() => {
+    router.push("/dashboard/peta-kepadatan-penduduk");
+  }, []);
   return(
     <Layout>
-      <h1 className="mt-20">Dashboard</h1>
+      <h1 className="mt-20"></h1>
     </Layout>
   );
 }
