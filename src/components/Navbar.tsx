@@ -71,7 +71,9 @@ export default function Navbar() {
         <div
           className={
             "bg-neutral-400 px-3 absolute top-[calc(100%+30px)] rounded-[5px] right-0 w-max grid transition-[grid-template-rows,padding] " +
-            (openProfile ? "grid-rows-[1fr] py-2 md:py-3" : "grid-rows-[0fr] !py-0")
+            (openProfile
+              ? "grid-rows-[1fr] py-2 md:py-3"
+              : "grid-rows-[0fr] !py-0")
           }
           onMouseLeave={() => setOpenProfile(false)}
         >
@@ -80,7 +82,14 @@ export default function Navbar() {
               onClick={() => {
                 setOpenProfile(false);
                 // Cookies.remove("token");
-                Cookies.set("token", "", { expires: -1, path: "/" });
+                Cookies.set("token", "", {
+                  expires: -1,
+                  path: "/",
+                  domain:
+                    process.env.NEXT_PUBLIC_STATUS === "dev"
+                      ? "localhost"
+                      : "rispkp-backend.vercel.app",
+                });
                 router.push("/");
               }}
               className="flex items-center gap-3 hover:bg-neutral-100/10 w-max py-1 px-2 rounded-[5px]"
