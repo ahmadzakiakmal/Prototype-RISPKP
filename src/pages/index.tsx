@@ -80,7 +80,6 @@ export default function Home() {
     if (logoutFlag) {
       localStorage.removeItem("logout-flag");
       toast.success("Logout berhasil!");
-      window.location.reload();
     }
   }, [router]);
 

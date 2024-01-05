@@ -80,18 +80,37 @@ export default function Navbar() {
           <div className="overflow-hidden w-max">
             <button
               onClick={() => {
+                const toastLoading = toast.loading("Loading...");
+                axios
+                  .post(
+                    process.env.NEXT_PUBLIC_API_URL + "users/logout",
+                    {},
+                    { withCredentials: true }
+                  )
+                  .then(() => {
+                    Cookies.remove("token");
+                    toast.update(toastLoading, {
+                      render: "Berhasil logout!",
+                      type: "success",
+                      isLoading: false,
+                      autoClose: 2000,
+                    });
+                    setOpenProfile(false);
+                    router.push("/");
+                  })
+                  .catch(() => {
+                    toast.update(toastLoading, {
+                      render: "Gagal logout!",
+                      type: "error",
+                      isLoading: false,
+                      autoClose: 2000,
+                    });
+                  })
+                  .finally(() => {
+                    setOpenProfile(false);
+                    toast.dismiss(toastLoading);
+                  });
                 setOpenProfile(false);
-                // Cookies.remove("token");
-                localStorage.setItem("logout-flag", "true");
-                Cookies.remove("token", {
-                  expires: -1,
-                  path: "/",
-                  domain:
-                    process.env.NEXT_PUBLIC_STATUS === "dev"
-                      ? "localhost"
-                      : "rispkp-backend.vercel.app",
-                });
-                router.push("/");
               }}
               className="flex items-center gap-3 hover:bg-neutral-100/10 w-max py-1 px-2 rounded-[5px]"
             >
