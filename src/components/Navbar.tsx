@@ -108,7 +108,6 @@ export default function Navbar() {
                   })
                   .finally(() => {
                     setOpenProfile(false);
-                    toast.dismiss(toastLoading);
                   });
                 setOpenProfile(false);
               }}
