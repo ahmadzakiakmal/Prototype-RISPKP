@@ -19,11 +19,16 @@ export default function Layout({ children }: { children: React.ReactNode }) {
   });
   const router = useRouter();
 
+  function isMenuActive(route: string): string {
+    return router.pathname === route ? " font-semibold underline" : "";
+  }
+
   useEffect(() => {
     if (window.innerWidth < 640) setIsMenuOpen(false);
   }, [router]);
 
   useEffect(() => {
+    console.log(router.pathname);
     axios
       .get(process.env.NEXT_PUBLIC_API_URL + "users/data", {
         withCredentials: true,
@@ -80,27 +85,58 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             <h2 className="text-[14px] font-bold leading-[105%]">
               ANALISIS RISIKO KEBAKARAN
             </h2>
-            <ul className="flex flex-col text-[15px] mt-2 gap-2 leading-[105%] list-disc">
-              <Link href="/dashboard/metode-analisis-risiko-kebakaran">
+            <ul className="flex flex-col text-[15px] mt-2 gap-2 leading-[105%]">
+              <Link
+                className={isMenuActive(
+                  "/dashboard/metode-analisis-risiko-kebakaran"
+                )}
+                href="/dashboard/metode-analisis-risiko-kebakaran"
+              >
                 Metode Analisis Risiko Kebakaran
               </Link>
-              <Link href="/dashboard/peta-kepadatan-penduduk">
+              <Link
+                className={isMenuActive("/dashboard/peta-kepadatan-penduduk")}
+                href="/dashboard/peta-kepadatan-penduduk"
+              >
                 Peta Kepadatan Penduduk
               </Link>
-              <Link href="/dashboard/peta-kepadatan-bangunan">
+              <Link
+                className={isMenuActive("/dashboard/peta-kepadatan-bangunan")}
+                href="/dashboard/peta-kepadatan-bangunan"
+              >
                 Peta Kepadatan Bangunan
               </Link>
-              <Link href="/dashboard/peta-bahaya-spbu">Peta Bahaya SPBU</Link>
-              <Link href="/dashboard/peta-bahaya-spbu-mini">
+              <Link
+                className={isMenuActive("/dashboard/peta-bahaya-spbu")}
+                href="/dashboard/peta-bahaya-spbu"
+              >
+                Peta Bahaya SPBU
+              </Link>
+              <Link
+                href="/dashboard/peta-bahaya-spbu-mini"
+                className={isMenuActive("/dashboard/peta-bahaya-spbu-mini")}
+              >
                 Peta Bahaya SPBU Mini
               </Link>
-              <Link href="/dashboard/peta-jangkauan-pos">
+              {/* //! Enable when GeoJSON is ready */}
+              {/* <Link
+                href="/dashboard/peta-jangkauan-pos"
+                className={isMenuActive("/dashboard/peta-jangkauan-pos")}
+              >
                 Peta Jangkauan Pos
-              </Link>
-              <Link href="/dashboard/peta-kepadatan-komersial">
+              </Link> */}
+              <Link
+                href="/dashboard/peta-kepadatan-komersial"
+                className={isMenuActive("/dashboard/peta-kepadatan-komersial")}
+              >
                 Peta Kepadatan Komersial
               </Link>
-              <Link href="/dashboard/peta-analisis-risiko-kebakaran">
+              <Link
+                href="/dashboard/peta-analisis-risiko-kebakaran"
+                className={isMenuActive(
+                  "/dashboard/peta-analisis-risiko-kebakaran"
+                )}
+              >
                 Peta Analisis Risiko Kebakaran
               </Link>
             </ul>
@@ -115,16 +151,31 @@ export default function Layout({ children }: { children: React.ReactNode }) {
               STATISTIK KEJADIAN KEBAKARAN
             </h2>
             <ul className="flex flex-col text-[15px] mt-2 gap-2 leading-[105%] list-disc">
-              <Link href="/dashboard/peta-kejadian-kebakaran">
+              <Link
+                href="/dashboard/peta-kejadian-kebakaran"
+                className={isMenuActive("/dashboard/peta-kejadian-kebakaran")}
+              >
                 Peta Kejadian Kebakaran
               </Link>
-              <Link href="/dashboard/statistik-ketangguhan-kebakaran">
+              <Link
+                href="/dashboard/statistik-ketangguhan-kebakaran"
+                className={isMenuActive(
+                  "/dashboard/statistik-ketangguhan-kebakaran"
+                )}
+              >
                 Statistik Ketangguhan Kebakaran
               </Link>
-              <Link href="/dashboard/peta-tanggap-kebakaran">
+              {/* //! Enable when GeoJSON is ready */}
+              {/* <Link
+                href="/dashboard/peta-tanggap-kebakaran"
+                className={isMenuActive("/dashboard/peta-tanggap-kebakaran")}
+              >
                 Peta Tanggap Kebakaran
-              </Link>
-              <Link href="/dashboard/akumulasi-penyelamatan">
+              </Link> */}
+              <Link
+                href="/dashboard/akumulasi-penyelamatan"
+                className={isMenuActive("/dashboard/akumulasi-penyelamatan")}
+              >
                 Akumulasi Penyelamatan
               </Link>
             </ul>
@@ -139,12 +190,30 @@ export default function Layout({ children }: { children: React.ReactNode }) {
               WILAYAH MANAJEMEN KEBAKARAN
             </h2>
             <ul className="flex flex-col text-[15px] mt-2 gap-2 leading-[105%] list-disc">
-              <Link href="/dashboard/peta-waktu-tanggap">
+              <Link
+                href="/dashboard/peta-waktu-tanggap"
+                className={isMenuActive("/dashboard/peta-waktu-tanggap")}
+              >
                 Peta Waktu Tanggap
               </Link>
-              <Link href="/dashboard/peta-wmk">Peta WMK</Link>
-              <Link href="/dashboard/peta-sektor">Peta Sektor</Link>
-              <Link href="/dashboard/peta-pos">Peta Pos</Link>
+              <Link
+                href="/dashboard/peta-wmk"
+                className={isMenuActive("/dashboard/peta-wmk")}
+              >
+                Peta WMK
+              </Link>
+              <Link
+                href="/dashboard/peta-sektor"
+                className={isMenuActive("/dashboard/peta-sektor")}
+              >
+                Peta Sektor
+              </Link>
+              <Link
+                href="/dashboard/peta-pos"
+                className={isMenuActive("/dashboard/peta-pos")}
+              >
+                Peta Pos
+              </Link>
             </ul>
           </section>
           <section
