@@ -28,7 +28,6 @@ export default function Layout({ children }: { children: React.ReactNode }) {
   }, [router]);
 
   useEffect(() => {
-    console.log(router.pathname);
     axios
       .get(process.env.NEXT_PUBLIC_API_URL + "users/data", {
         withCredentials: true,
