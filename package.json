@@ -9,7 +9,6 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@nivo/line": "^0.84.0",
     "axios": "^1.6.4",
     "chart.js": "^4.4.1",
     "js-cookie": "^3.0.5",
