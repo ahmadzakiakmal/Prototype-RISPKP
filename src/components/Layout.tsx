@@ -30,6 +30,10 @@ export default function Layout({ children }: { children: React.ReactNode }) {
       })
       .then((res) => {
         setUser(res.data);
+      })
+      .catch(() => {
+        // eslint-disable-next-line no-console
+        console.log("User authentication failed!");
       });
   }, [router]);
 
