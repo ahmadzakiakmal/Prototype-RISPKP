@@ -215,17 +215,21 @@ export default function Layout({ children }: { children: React.ReactNode }) {
               </Link>
             </ul>
           </section>
-          <section
-            className={
-              "border-t-2 border-neutral-400 py-3 " +
-              (isMenuOpen ? "" : "sm:hidden")
-            }
-          >
-            <h2 className="text-[14px] font-bold leading-[105%]">ADMIN MENU</h2>
-            <ul className="flex flex-col text-[15px] mt-2 gap-2 leading-[105%] list-disc">
-              <Link href="/admin/user-management">User Management</Link>
-            </ul>
-          </section>
+          {user.role === "admin" && (
+            <section
+              className={
+                "border-t-2 border-neutral-400 py-3 " +
+                (isMenuOpen ? "" : "sm:hidden")
+              }
+            >
+              <h2 className="text-[14px] font-bold leading-[105%]">
+                ADMIN MENU
+              </h2>
+              <ul className="flex flex-col text-[15px] mt-2 gap-2 leading-[105%] list-disc">
+                <Link href="/admin/user-management">User Management</Link>
+              </ul>
+            </section>
+          )}
         </div>
       </section>
       <section className="w-full px-[5%] sm:pl-7 sm:pr-5 md:pl-12 md:pr-10 pt-[140px] sm:pt-[120px] pb-20 relative z-[1] overflow-x-hidden">
