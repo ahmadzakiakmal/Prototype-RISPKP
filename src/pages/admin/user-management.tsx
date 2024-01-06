@@ -7,13 +7,15 @@ import { toast } from "react-toastify";
 
 export default function UserManagementPage() {
   interface User {
-    _id: number;
+    _id: string;
     role: string;
     username: string;
   }
 
   const [users, setUsers] = useState([] as User[]);
   const [isModalOpen, setIsModalOpen] = useState<boolean>(false);
+  const [refetchTrigger, setRefetchTrigger] = useState<boolean>(false);
+  const [loaded, setLoaded] = useState<boolean>(false); 
   const router = useRouter();
 
   const getUsers = () => {
@@ -24,22 +26,31 @@ export default function UserManagementPage() {
       })
       .then((res) => {
         setUsers(res.data);
-        toast.update(toastLoading, {
-          render: "Berhasil",
-          type: "success",
-          isLoading: false,
-          autoClose: 2000,
-        });
-        return;
-      })
-      .catch((err) => {
-        if(err.response?.status === 401) {
+        if(loaded) {
+          toast.dismiss(toastLoading);
+        } else {
           toast.update(toastLoading, {
-            render: "Autentikasi gagal!",
-            type: "error",
+            render: "Berhasil",
+            type: "success",
             isLoading: false,
             autoClose: 2000,
           });
+        }
+        setLoaded(true);
+        return;
+      })
+      .catch((err) => {
+        if (err.response?.status === 401) {
+          if(loaded) {
+            toast.dismiss(toastLoading);
+          } else {
+            toast.update(toastLoading, {
+              render: "Autentikasi gagal!",
+              type: "error",
+              isLoading: false,
+              autoClose: 2000,
+            });
+          }
           // ! Change to "/dashboard" if dashboard is ready
           router.push("/dashboard/peta-kepadatan-penduduk");
           return;
@@ -53,9 +64,34 @@ export default function UserManagementPage() {
       });
   };
 
+  const deleteUser = (id: string) => {
+    const toastLoading = toast.loading("Menghapus user...");
+    axios
+      .delete(process.env.NEXT_PUBLIC_API_URL + "users/" + id, {
+        withCredentials: true,
+      })
+      .then(() => {
+        toast.update(toastLoading, {
+          render: "Berhasil Menghapus User",
+          type: "success",
+          isLoading: false,
+          autoClose: 2000,
+        });
+        setRefetchTrigger(!refetchTrigger);
+      })
+      .catch(() => {
+        toast.update(toastLoading, {
+          render: "Gagal Menghapus User",
+          type: "error",
+          isLoading: false,
+          autoClose: 2000,
+        });
+      });
+  };
+
   useEffect(() => {
-    if(isModalOpen === false) getUsers();
-  }, [isModalOpen]);
+    if (isModalOpen === false) getUsers();
+  }, [isModalOpen, refetchTrigger]);
 
   return (
     <>
@@ -89,7 +125,12 @@ export default function UserManagementPage() {
                   </div>
                 </div>
                 <div className="flex flex-row items-center">
-                  <button className="px-3 py-1 transition rounded-md bg-red-500 hover:bg-red-800 text-white">
+                  <button
+                    onClick={() => {
+                      deleteUser(user._id);
+                    }}
+                    className="px-3 py-1 transition rounded-md bg-red-500 hover:bg-red-800 text-white"
+                  >
                     Delete
                   </button>
                 </div>
