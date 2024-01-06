@@ -4,6 +4,7 @@ import Image from "next/image";
 import UGM from "../../public/logos/ugm.png";
 import Damkar from "../../public/logos/damkar.png";
 import Pemkot from "../../public/logos/pemkot.png";
+import Background from "@/../public/Landing.jpg";
 import { useRouter } from "next/router";
 import { toast } from "react-toastify";
 import axios from "axios";
@@ -145,21 +146,38 @@ export default function Home() {
         </form>
       </section>
 
-      <section className="w-1/2 flex-shrink-0 relative hidden md:flex flex-col justify-center items-center">
-        <div className="w-full h-full absolute top-0 bg-gradient-to-tr from-green-300/60 to-navy/60 backdrop-blur-[2px]" />
-        <div className="w-full h-full bg-[url(/Landing.jpg)] bg-cover" />
-        <div className="absolute flex flex-col justify-center items-center gap-10">
+      <section className="w-1/2 flex-shrink-0 relative hidden md:flex flex-col justify-center items-center overflow-hidden">
+        <Image
+          src={Background}
+          alt="Background"
+          className="w-full h-full absolute z-[3] min-w-[800px] min-h-[1140px] aspect-[720/1024]"
+          priority
+          placeholder="blur"
+        />
+        <div className="w-full h-full absolute z-[5] top-0 bg-gradient-to-tr from-green-300/60 to-navy/60 backdrop-blur-[2px]" />
+        <div className="absolute flex flex-col justify-center items-center gap-10 z-[6]">
           <div className="flex gap-5 items-center">
-            {/* <div className="bg-white w-[100px] aspect-square rounded-full" />
-            <div className="bg-white w-[100px] aspect-square rounded-full" />
-            <div className="bg-white w-[100px] aspect-square rounded-full" /> */}
-            <Image src={Pemkot} alt="Pemkot" className="w-[50px] lg:w-[80px]" />
+            <Image
+              src={Pemkot}
+              priority
+              alt="Pemkot"
+              className="w-[50px] lg:w-[80px]"
+              placeholder="blur"
+            />
             <Image
               src={Damkar}
+              priority
               alt="Damkar"
               className="w-[70px] lg:w-[100px]"
+              placeholder="blur"
             />
-            <Image src={UGM} alt="UGM" className="w-[70px] lg:w-[100px]" />
+            <Image
+              src={UGM}
+              priority
+              alt="UGM"
+              className="w-[70px] lg:w-[100px]"
+              placeholder="blur"
+            />
           </div>
           <h1 className="max-w-[90%] lg:max-w-[80%] text-center font-bold text-white text-[25px] lg:text-[28px]">
             RENCANA INDUK SISTEM PROTEKSI KEBAKARAN DAN PENYELAMATAN (RISPKP)
