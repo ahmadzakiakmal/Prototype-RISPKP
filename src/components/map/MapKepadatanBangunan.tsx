@@ -39,7 +39,7 @@ export default function MapKepadatanBangunan(props: any) {
           const level = feature.properties.gridcode;
           layer.bindTooltip(
             `
-            <span style="font-weight:600">Kepadatan Penduduk: ${level === 3 ? "Tinggi" : level === 2 ? "Sedang" : "Rendah"}
+            <span style="font-weight:600">Kepadatan Bangunan: ${level === 3 ? "Tinggi" : level === 2 ? "Sedang" : "Rendah"}
             </span>
             `
           );
