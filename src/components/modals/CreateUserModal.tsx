@@ -28,17 +28,18 @@ export default function CreateUserModal(props: ModalProps) {
         { username, password },
         { withCredentials: true }
       )
-      .then((res) => {
-        console.log(res);
+      .then(() => {
         toast.update(toastLoading, {
           render: "Berhasil membuat user!",
           type: "success",
           isLoading: false,
           autoClose: 2000,
         });
+        props.setIsOpen(false);
+        setUsername("");
+        setPassword("");
       })
       .catch((err) => {
-        console.log(err);
         toast.update(toastLoading, {
           render: err.response.data ?? "Gagal membuat user!",
           type: "error",

@@ -54,8 +54,8 @@ export default function UserManagementPage() {
   };
 
   useEffect(() => {
-    getUsers();
-  }, []);
+    if(isModalOpen === false) getUsers();
+  }, [isModalOpen]);
 
   return (
     <>
