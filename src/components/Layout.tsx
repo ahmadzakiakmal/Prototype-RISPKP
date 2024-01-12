@@ -71,10 +71,20 @@ export default function Layout({ children }: { children: React.ReactNode }) {
 
         <div
           className={
-            "pt-[120px] sm:mb-10 px-3 !overflow-x-hidden h-max " +
+            "pt-[60px] sm:mb-10 px-3 !overflow-x-hidden h-max " +
             (isMenuOpen ? "" : "!p-0")
           }
         >
+          <a 
+            href="https://wa.me/628112828113"
+            target="null"
+            rel="noreferrer noopener"
+            className="block relative w-fit mb-4 rounded-[8px]">
+            <button className="bg-red-500 w-fit px-5 py-3 rounded-[8px] text-white font-bold relative z-[1] hover:translate-y-[1px] hover:bg-red-500/90 transition active:translate-y-[5px] active:shadow-[0_0_10px_rgb(255,255,255)]">
+              Panic Button
+            </button>
+            <div className="absolute top-[5px] rounded-[8px] left-0 w-full h-full bg-red-800 z-0" />
+          </a>
           <section
             className={
               "border-t-2 border-neutral-400 py-3 " +
