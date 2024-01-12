@@ -150,7 +150,7 @@ export default function Home() {
         <Image
           src={Background}
           alt="Background"
-          className="w-full h-full absolute z-[3] min-w-[800px] min-h-[1140px] aspect-[720/1024]"
+          className="w-full h-full absolute z-[3] min-w-[800px] min-h-[1064px] aspect-[600/375]"
           priority
           placeholder="blur"
         />
