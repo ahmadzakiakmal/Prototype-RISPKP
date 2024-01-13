@@ -39,7 +39,7 @@ export default function MapBahayaSPBU(props: any) {
         onEachFeature={(feature, layer) => {
           const level = feature.properties.gridcode;
           layer.bindTooltip(
-            `<span style="font-weight:600">Sebaran SPBU Mini: ${
+            `<span class="font-semibold font-poppins">Sebaran SPBU Mini: ${
               level === 1 ? "Tinggi" : level === 2 ? "Sedang" : "Rendah"
             }</span>`
           );

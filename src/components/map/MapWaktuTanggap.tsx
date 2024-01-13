@@ -48,7 +48,7 @@ export default function MapWaktuTanggap(props: any) {
         onEachFeature={(feature, layer) => {
           const level = feature.properties.gridcode;
           layer.bindTooltip(
-            `<span style="font-weight:600">${
+            `<span class="font-poppins font-semibold">${
               level === 1
                 ? "5 Menit"
                 : level === 2

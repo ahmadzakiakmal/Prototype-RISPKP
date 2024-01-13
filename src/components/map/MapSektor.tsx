@@ -50,7 +50,7 @@ export default function MapWaktuTanggap(props: any) {
         onEachFeature={(feature, layer) => {
           const sektor = feature.properties.Sektor;
           layer.bindTooltip(
-            `<span style="font-weight:600">${sektor}</span><br/>`
+            `<span class="font-semibold font-poppins">${sektor}</span><br/>`
           );
         }}
       ></GeoJSON>

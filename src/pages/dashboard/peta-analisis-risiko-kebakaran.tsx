@@ -40,7 +40,7 @@ export default function PetaAnalisisRisikoKebakaranPage() {
           }}
           geoJsonOnEachFeature={(feature, layer) => {
             const level = feature.properties.gridcode === 1 ? "Rendah" : feature.properties.gridcode === 2 ? "Sedang" : "Tinggi";
-            layer.bindTooltip(`<span style="font-weight:600">Tingkat Risiko: ${level}</span>`);
+            layer.bindTooltip(`<span class="font-semibold font-poppins">Tingkat Risiko: ${level}</span>`);
           }}
         />
       </main>

@@ -91,7 +91,7 @@ const HeatmapComponent = () => {
               }
             });
             layer.bindTooltip(
-              `<span style="font-weight:600">${feature.properties.gridcode === 3 ? "Tinggi" : feature.properties.gridcode === 2 ? "Sedang" : "Rendah"}</span><br/>`
+              `<span class="font-semibold font-poppins">${feature.properties.gridcode === 3 ? "Tinggi" : feature.properties.gridcode === 2 ? "Sedang" : "Rendah"}</span><br/>`
             );
           }}
           style={(feature) => {
@@ -115,7 +115,7 @@ const HeatmapComponent = () => {
       >
         <GeoJSON data={data} onEachFeature={(feature, layer) => {
           layer.bindTooltip(
-            `<span style="font-weight:600">${feature.properties.gridcode}</span><br/>`
+            `<span class="font-semibold font-poppins">${feature.properties.gridcode}</span><br/>`
           );
         }} />
         <TileLayer

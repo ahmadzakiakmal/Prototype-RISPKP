@@ -41,7 +41,7 @@ export default function MapFrekuensiKebakaran(props: any) {
           const desa = feature.properties.DESA;
           const level = feature.properties.Klasifik_1;
           layer.bindTooltip(
-            `<span style="font-weight:600">${desa}</span><br/>
+            `<span class="font-semibold font-poppins">${desa}</span><br/>
           <span>Frekuensi: ${level}</span>`
           );
         }}

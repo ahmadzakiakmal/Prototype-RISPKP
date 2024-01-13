@@ -43,7 +43,7 @@ export default function MapWaktuTanggap(props: any) {
           const point = feature.properties.Point;
           const area = feature.properties.Kota;
           layer.bindTooltip(
-            `<span style="font-weight:600;display:">${
+            `<span class="font-semibold font-poppins">${
               point ?? area
             }</span><br/>`
           );

@@ -66,7 +66,7 @@ export default function MapWaktuTanggap(props: any) {
             layer.bindTooltip(
               `
               <div style="font-family: 'poppins'">
-                <span style="font-weight:600">Area ${sektor}</span>
+                <span class="font-semibold font-poppins">Area ${sektor}</span>
                 <br/>
               </div>
               `
@@ -83,11 +83,11 @@ export default function MapWaktuTanggap(props: any) {
                   <div class="flex gap-[10px]">
                   <div>
                       <img class="w-[250px]" src="/jpgs/Pos${posId}.jpg" alt="${pos}" /> 
-                      <h2 style="font-weight:600">Kelurahan:</h2>
+                      <h2 class="font-semibold font-poppins">Kelurahan:</h2>
                       <p class="w-[250px]">${htmlKelurahan.join("<br/>")}</p>
                     </div>
                     <div>
-                      <h2 style="font-weight:600">Fasilitas:</h2>
+                      <h2 class="font-semibold font-poppins">Fasilitas:</h2>
                       <p class="w-[250px]">${htmlFasilitas?.join("<br />")}</p>
                     </div>
                   </div>

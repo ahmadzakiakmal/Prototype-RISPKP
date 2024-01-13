@@ -52,8 +52,12 @@ export default function MapKepadatanPenduduk(props: any) {
           const kelurahan = feature.properties.DESA;
           const level = feature.properties.Klas_ha;
           layer.bindTooltip(
-            `<span style="font-weight:600">${kelurahan}</span><br/>
-            <span>Kepadatan Penduduk: ${level}</span>`
+            `
+            <div class="font-poppins">
+              <span class="font-semibold ">${kelurahan}</span><br/>
+              <span>Kepadatan Penduduk: ${level}</span>
+            </div>
+            `
           );
         }}
       ></GeoJSON>

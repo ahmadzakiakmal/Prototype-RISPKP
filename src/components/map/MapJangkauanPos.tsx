@@ -41,7 +41,7 @@ export default function MapBahayaSPBU(props: any) {
           const sektor = feature.properties.Sektor;
           const level = feature.properties.Klas_ha;
           layer.bindTooltip(
-            `<span style="font-weight:600">${sektor}</span><br/>
+            `<span class="font-semibold font-poppins">${sektor}</span><br/>
           <span>Kepadatan Penduduk: ${level}</span>`
           );
         }}
