@@ -52,7 +52,7 @@ export default function UserManagementPage() {
             });
           }
           // ! Change to "/dashboard" if dashboard is ready
-          router.push("/dashboard/peta-waktu-tanggap");
+          router.push("/dashboard/wilayah-manajemen-kebakaran/peta-waktu-tanggap");
           return;
         }
         toast.update(toastLoading, {

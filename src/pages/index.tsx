@@ -46,8 +46,7 @@ export default function Home() {
             isLoading: false,
           });
           // ! Change to "/dashboard" if dashboard is ready
-          router.push("/dashboard/peta-waktu-tanggap");
-          router.push("/dashboard");
+          router.push("/dashboard/wilayah-manajemen-kebakaran/peta-waktu-tanggap");
         })
         .catch((err) => {
           const statusCode = err?.response?.status;
