@@ -49,7 +49,7 @@ body {
 .map-tooltip {
   display: flex;
   flex-direction: row-reverse;
-  justify-content: start;
+  justify-content: flex-start;
   align-items: flex-start;
   min-width: fit-content !important;
   text-wrap: wrap !important;
