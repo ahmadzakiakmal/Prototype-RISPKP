@@ -92,6 +92,81 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             }
           >
             <h2 className="text-[14px] font-bold leading-[105%]">
+              WILAYAH MANAJEMEN KEBAKARAN
+            </h2>
+            <ul className="flex flex-col text-[15px] mt-2 gap-2 leading-[105%] list-disc">
+              <Link
+                href="/dashboard/peta-waktu-tanggap"
+                className={isMenuActive("/dashboard/peta-waktu-tanggap")}
+              >
+                Peta Waktu Tanggap
+              </Link>
+              <Link
+                href="/dashboard/peta-wmk"
+                className={isMenuActive("/dashboard/peta-wmk")}
+              >
+                Peta WMK
+              </Link>
+              <Link
+                href="/dashboard/peta-sektor"
+                className={isMenuActive("/dashboard/peta-sektor")}
+              >
+                Peta Sektor
+              </Link>
+              <Link
+                href="/dashboard/peta-pos"
+                className={isMenuActive("/dashboard/peta-pos")}
+              >
+                Peta Pos
+              </Link>
+            </ul>
+          </section>
+          <section
+            className={
+              "border-t-2 border-neutral-400 py-3 " +
+              (isMenuOpen ? "" : "sm:hidden")
+            }
+          >
+            <h2 className="text-[14px] font-bold leading-[105%]">
+              STATISTIK KEJADIAN KEBAKARAN
+            </h2>
+            <ul className="flex flex-col text-[15px] mt-2 gap-2 leading-[105%] list-disc">
+              <Link
+                href="/dashboard/peta-kejadian-kebakaran"
+                className={isMenuActive("/dashboard/peta-kejadian-kebakaran")}
+              >
+                Peta Kejadian Kebakaran
+              </Link>
+              <Link
+                href="/dashboard/statistik-ketangguhan-kebakaran"
+                className={isMenuActive(
+                  "/dashboard/statistik-ketangguhan-kebakaran"
+                )}
+              >
+                Statistik Ketangguhan Kebakaran
+              </Link>
+              {/* //! Enable when GeoJSON is ready */}
+              {/* <Link
+                href="/dashboard/peta-tanggap-kebakaran"
+                className={isMenuActive("/dashboard/peta-tanggap-kebakaran")}
+              >
+                Peta Tanggap Kebakaran
+              </Link> */}
+              <Link
+                href="/dashboard/akumulasi-penyelamatan"
+                className={isMenuActive("/dashboard/akumulasi-penyelamatan")}
+              >
+                Akumulasi Penyelamatan
+              </Link>
+            </ul>
+          </section>
+          <section
+            className={
+              "border-t-2 border-neutral-400 py-3 " +
+              (isMenuOpen ? "" : "sm:hidden")
+            }
+          >
+            <h2 className="text-[14px] font-bold leading-[105%]">
               ANALISIS RISIKO KEBAKARAN
             </h2>
             <ul className="flex flex-col text-[15px] mt-2 gap-2 leading-[105%]">
@@ -147,81 +222,6 @@ export default function Layout({ children }: { children: React.ReactNode }) {
                 )}
               >
                 Peta Analisis Risiko Kebakaran
-              </Link>
-            </ul>
-          </section>
-          <section
-            className={
-              "border-t-2 border-neutral-400 py-3 " +
-              (isMenuOpen ? "" : "sm:hidden")
-            }
-          >
-            <h2 className="text-[14px] font-bold leading-[105%]">
-              STATISTIK KEJADIAN KEBAKARAN
-            </h2>
-            <ul className="flex flex-col text-[15px] mt-2 gap-2 leading-[105%] list-disc">
-              <Link
-                href="/dashboard/peta-kejadian-kebakaran"
-                className={isMenuActive("/dashboard/peta-kejadian-kebakaran")}
-              >
-                Peta Kejadian Kebakaran
-              </Link>
-              <Link
-                href="/dashboard/statistik-ketangguhan-kebakaran"
-                className={isMenuActive(
-                  "/dashboard/statistik-ketangguhan-kebakaran"
-                )}
-              >
-                Statistik Ketangguhan Kebakaran
-              </Link>
-              {/* //! Enable when GeoJSON is ready */}
-              {/* <Link
-                href="/dashboard/peta-tanggap-kebakaran"
-                className={isMenuActive("/dashboard/peta-tanggap-kebakaran")}
-              >
-                Peta Tanggap Kebakaran
-              </Link> */}
-              <Link
-                href="/dashboard/akumulasi-penyelamatan"
-                className={isMenuActive("/dashboard/akumulasi-penyelamatan")}
-              >
-                Akumulasi Penyelamatan
-              </Link>
-            </ul>
-          </section>
-          <section
-            className={
-              "border-t-2 border-neutral-400 py-3 " +
-              (isMenuOpen ? "" : "sm:hidden")
-            }
-          >
-            <h2 className="text-[14px] font-bold leading-[105%]">
-              WILAYAH MANAJEMEN KEBAKARAN
-            </h2>
-            <ul className="flex flex-col text-[15px] mt-2 gap-2 leading-[105%] list-disc">
-              <Link
-                href="/dashboard/peta-waktu-tanggap"
-                className={isMenuActive("/dashboard/peta-waktu-tanggap")}
-              >
-                Peta Waktu Tanggap
-              </Link>
-              <Link
-                href="/dashboard/peta-wmk"
-                className={isMenuActive("/dashboard/peta-wmk")}
-              >
-                Peta WMK
-              </Link>
-              <Link
-                href="/dashboard/peta-sektor"
-                className={isMenuActive("/dashboard/peta-sektor")}
-              >
-                Peta Sektor
-              </Link>
-              <Link
-                href="/dashboard/peta-pos"
-                className={isMenuActive("/dashboard/peta-pos")}
-              >
-                Peta Pos
               </Link>
             </ul>
           </section>
