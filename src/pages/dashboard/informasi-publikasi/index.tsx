@@ -58,43 +58,43 @@ export default function InformasiDanPublikasi() {
         <section>
           <ul className="list-disc ml-5">
             <Document
-              path="anggaran-program-dan-kegiatan-dinas-damkarmat-kota-yogyakarta-tahun-2023.pdf"
+              path="/pdfs/anggaran-program-dan-kegiatan-dinas-damkarmat-kota-yogyakarta-tahun-2023.pdf"
               title="Anggaran Program dan Kegiatan Dinas Damkarmat Kota Yogyakarta Tahun 2023"
             />
             <Document
-              path="laporan-aset-dinas-damkarmat-kota-yogyakarta-tahun-2022.pdf"
+              path="/pdfs/laporan-aset-dinas-damkarmat-kota-yogyakarta-tahun-2022.pdf"
               title="Laporan Aset Dinas Damkarmat Kota Yogyakarta Tahun 2022"
             />
             <Document
-              path="laporan-harta-kekayaanpenyelenggara-negara-dinas-damkarmat-kota-yogyakarta-yahun-2022.pdf"
+              path="/pdfs/laporan-harta-kekayaan-penyelenggara-negara-dinas-damkarmat-kota-yogyakarta-tahun-2022.pdf"
               title="Laporan Harta Kekayaan Penyelenggara Negara Dinas Damkarmat Kota Yogyakarta Tahun 2022"
             />
             <Document
-              path="laporan-inventarisasi-dinas-damkarmat-kota-yogyakarta-tahun-2022.pdf"
+              path="/pdfs/laporan-inventarisasi-dinas-damkarmat-kota-yogyakarta-tahun-2022.pdf"
               title="Laporan Inventarisasi Dinas Damkarmat Kota Yogyakarta Tahun 2022"
             />
-            <Document
-              path="laporan-kinerja-damkarmat-kota-yogyakarta-tahun-2022.pdf"
+            {/* <Document
+              path="/pdfs/laporan-kinerja-damkarmat-kota-yogyakarta-tahun-2022.pdf"
               title="Laporan Kinerja Damkarmat Kota Yogyakarta Tahun 2022"
-            />
-            <Document
-              path="penanggung-jawab-program-dan-kegiatan-dinas-damkarmat-kota-yogyakarta-tahun-2023.pdf"
+            /> */}
+            {/* <Document
+              path="/pdfs/penanggung-jawab-program-dan-kegiatan-dinas-damkarmat-kota-yogyakarta-tahun-2023.pdf"
               title="Penanggung Jawab Program dan Kegiatan Dinas Damkarmat Kota Yogyakarta Tahun 2023"
-            />
+            /> */}
             <Document
-              path="pengadaan-barang-dan-jasa-dinas-damkarmat-kota-yogyakarta-tahun-2023.pdf"
+              path="/pdfs/pengadaan-barang-dan-jasa-dinas-damkarmat-kota-yogyakarta-tahun-2023.pdf"
               title="Pengadaan Barang dan Jasa Dinas Damkarmat Kota Yogyakarta Tahun 2023"
             />
             <Document
-              path="program-dan-kegiatan-dinas-damkarmat-kota-yogyakarta-tahun-2023.pdf"
+              path="/pdfs/program-dan-kegiatan-dinas-damkarmat-kota-yogyakarta-tahun-2023.pdf"
               title="Program dan Kegiatan Dinas Damkarmat Kota Yogyakarta Tahun 2023"
             />
-            <Document
-              path="standar-operasional-prosedur-dinas-damkarmat-kota-yogyakarta.pdf"
+            {/* <Document
+              path="/pdfs/standar-operasional-prosedur-dinas-damkarmat-kota-yogyakarta.pdf"
               title="Standar Operasional Prosedur Dinas Damkarmat Kota Yogyakarta"
-            />
+            /> */}
             <Document
-              path="target-dan-capaian-kegiatan-apbd-dinas-damkarmat-kota-yogyakarta-triwulan-1-tahun-2023.pdf"
+              path="/pdfs/target-dan-capaian-kegiatan-apbd-dinas-damkarmat-kota-yogyakarta-triwulan-1-tahun-2023.pdf"
               title="Target dan Capaian Kegiatan APBD Dinas Damkarmat Kota Yogyakarta Triwulan 1 Tahun 2023"
             />
           </ul>
@@ -112,10 +112,10 @@ interface MainDocumentProps {
 function MainDocument(props: MainDocumentProps) {
   return (
     <a 
-      href={props.path} 
-      className="flex justify-start items-center gap-5 bg-white p-3 xl:p-5 rounded-[10px] shadow-[0_4px_5px_rgba(0,0,0,.3)] max-w-[620px] lg:max-w-none min-h-[100px] hover:shadow-[0_4px_8px_rgba(0,0,0,.5)] active:shadow-[0_4px_10px_rgba(0,0,0,.7)] transition"
       target="null"
       rel="noopener noreferrer"
+      href={props.path} 
+      className="flex justify-start items-center gap-5 bg-white p-3 xl:p-5 rounded-[10px] shadow-[0_4px_5px_rgba(0,0,0,.3)] max-w-[620px] lg:max-w-none min-h-[100px] hover:shadow-[0_4px_8px_rgba(0,0,0,.5)] active:shadow-[0_4px_10px_rgba(0,0,0,.7)] transition"
     >
       <Image
         src={props.image}
@@ -134,7 +134,12 @@ interface DocumentProps {
 function Document(props:DocumentProps) {
   return(
     <li>
-      <a href={props.path} className="hover:underline active:text-black">
+      <a 
+        href={props.path} 
+        className="hover:underline active:text-black"
+        target="null"
+        rel="noopener noreferrer"
+      >
         <h2>{props.title}</h2>
       </a>
     </li>
