@@ -45,3 +45,12 @@ body {
 .blur-polygon {
   filter: blur(8px);
 }
+
+.map-tooltip {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: start;
+  align-items: flex-start;
+  min-width: fit-content !important;
+  text-wrap: wrap !important;
+}
