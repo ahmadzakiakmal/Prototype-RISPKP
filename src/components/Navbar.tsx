@@ -46,7 +46,7 @@ export default function Navbar() {
     >
       <Link 
         //! Change to "/dashboard" if dashboard is ready
-        href="/dashboard/peta-kepadatan-penduduk"  
+        href="/dashboard/peta-waktu-tanggap"  
         className="flex items-center">
         <div className="hidden sm:flex gap-1 items-start">
           <Image src={Pemkot} alt="Pemkot" className="w-[30px]" />

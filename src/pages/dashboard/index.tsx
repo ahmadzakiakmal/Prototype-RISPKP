@@ -5,7 +5,7 @@ import { useEffect } from "react";
 export default function Dashboard() {
   const router = useRouter();
   useEffect(() => {
-    router.push("/dashboard/peta-kepadatan-penduduk");
+    router.push("/dashboard/peta-waktu-tanggap");
   }, []);
   return(
     <Layout>

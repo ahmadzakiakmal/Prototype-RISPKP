@@ -46,7 +46,7 @@ export default function Home() {
             isLoading: false,
           });
           // ! Change to "/dashboard" if dashboard is ready
-          router.push("/dashboard/peta-kepadatan-penduduk");
+          router.push("/dashboard/peta-waktu-tanggap");
           router.push("/dashboard");
         })
         .catch((err) => {
