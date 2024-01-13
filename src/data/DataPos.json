@@ -1,0 +1,263 @@
+[
+  {
+    "Sektor": 1,
+    "Pos": ["1A"],
+    "Kelurahan": [
+      "1. Bener",
+      "2. Kricak",
+      "3. Karangwaru",
+      "4. Cokrodiningratan",
+      "5. Gowongan",
+      "6.  Bumijo",
+      "7. Tegalrejo (Utara Rel)",
+      "8. Sosromenduran (Utara Rel)"
+    ],
+    "Titik Pos": ["Kantor Kemantren Jetis"],
+    "Fasilitas": [
+      "1. Bangunan pos pemadam",
+      "2. Mobil pemadam",
+      "3. Mobil penyelamatan (rescue)",
+      "4. Mobil komando",
+      "5. Mobil angkut personil",
+      "6. Mobil tangga",
+      "7. Mobil ambulan",
+      "8. Alat pemadam api ringan (APAR)",
+      "9. Pompa portable pemadam kebakaran",
+      "10. Pompa apung pemadam kebakaran (floating pump)",
+      "11. Selang pemadam kebakaran",
+      "12. Pemancar pemadam kebakaran (nozzle)",
+      "13. Pipa cabang pemadam kebakaran (y connection)",
+      "14. APD"
+    ]
+  },
+  {
+    "Sektor": null,
+    "Pos": ["1B"],
+    "Kelurahan": ["1. Terban", "2. Kotabaru", "3. Klitren", "4. Demangan"],
+    "Titik Pos": ["Balai Gotong Royong Kotabaru"],
+    "Fasilitas": [
+      "1. Bangunan pos pemadam",
+      "2. Mobil pemadam",
+      "3. Mobil penyelamatan (rescue)",
+      "4. Mobil komando",
+      "5. Mobil angkut personil",
+      "6. Mobil ambulan",
+      "7. Alat pemadam api ringan (APAR)",
+      "8. Pompa portable pemadam kebakaran",
+      "9. Pompa apung pemadam kebakaran (floating pump)",
+      "10. Selang pemadam kebakaran",
+      "11. Pemancar pemadam kebakaran (nozzle)",
+      "12. Pipa cabang pemadam kebakaran (y connection)",
+      "13. APD"
+    ]
+  },
+  {
+    "Sektor": 2,
+    "Pos": ["2A"],
+    "Kelurahan": [
+      "1. Tegalrejo (Selatan Rel)",
+      "2. Pakuncen",
+      "3. Wirobrajan",
+      "4. Patangpuluhan"
+    ],
+    "Titik Pos": ["RTH sebelah SMP Muh 3 Yogyakarta"],
+    "Fasilitas": [
+      "1. Bangunan pos pemadam",
+      "2. Mobil pemadam",
+      "3. Mobil penyelamatan (rescue)",
+      "4. Mobil komando",
+      "5. Mobil angkut personil",
+      "6. Mobil ambulan",
+      "7. Alat pemadam api ringan (APAR)",
+      "8. Pompa portable pemadam kebakaran",
+      "9. Pompa apung pemadam kebakaran (floating pump)",
+      "10. Selang pemadam kebakaran",
+      "11. Pemancar pemadam kebakaran (nozzle)",
+      "12. Pipa cabang pemadam kebakaran (y connection)",
+      "13. APD"
+    ]
+  },
+  {
+    "Sektor": null,
+    "Pos": ["2B"],
+    "Kelurahan": [
+      "1. Pringgokusuman",
+      "2. Sosromenduran (Selatan Rel)",
+      "3. Ngampilan",
+      "4. Ngupasan",
+      "5. Suryatman",
+      "6. Tegalpanggung",
+      "7. Bausasran",
+      "8. Purwokinanti"
+    ],
+    "Titik Pos": ["Eks Kampus AKUB (Purwanggan)"],
+    "Fasilitas": [
+      "1. Bangunan pos pemadam",
+      "2. Mobil pemadam",
+      "3. Mobil penyelamatan (rescue)",
+      "4. Mobil komando",
+      "5. Mobil angkut personil",
+      "6. Mobil ambulan",
+      "7. Alat pemadam api ringan (APAR)",
+      "8. Pompa portable pemadam kebakaran",
+      "9. Pompa apung pemadam kebakaran (floating pump)",
+      "10. Selang pemadam kebakaran",
+      "11. Pemancar pemadam kebakaran (nozzle)",
+      "12. Pipa cabang pemadam kebakaran (y connection)",
+      "13. APD"
+    ]
+  },
+  {
+    "Sektor": null,
+    "Pos": ["2C"],
+    "Kelurahan": ["1. Baciro", "2. Semaki", "3. Mujamuju"],
+    "Titik Pos": ["Balai Kota"],
+    "Fasilitas": [
+      "1. Bangunan pos pemadam",
+      "2. Mobil pemadam",
+      "3. Mobil penyelamatan (rescue)",
+      "4. Mobil komando",
+      "5. Mobil angkut personil",
+      "6. Mobil hazardous material",
+      "7. Mobil medan berat",
+      "8. Mobil tangga",
+      "9. Mobil ambulan",
+      "10. Alat pemadam api ringan (APAR)",
+      "11. Pompa portable pemadam kebakaran",
+      "12. Pompa apung pemadam kebakaran (floating pump)",
+      "13. Selang pemadam kebakaran",
+      "14. Pemancar pemadam kebakaran (nozzle)",
+      "15. Pipa cabang pemadam kebakaran (y connection)",
+      "16. APD"
+    ]
+  },
+  {
+    "Sektor": 3,
+    "Pos": ["3A"],
+    "Kelurahan": [
+      "1. Notoprajan",
+      "2. Kadipaten (Kraton)",
+      "3. Panembahan",
+      "4. Patehan"
+    ],
+    "Titik Pos": ["Terminal Ngabean"],
+    "Fasilitas": [
+      "1. Bangunan pos pemadam",
+      "2. Mobil pemadam",
+      "3. Mobil penyelamatan (rescue)",
+      "4. Mobil komando",
+      "5. Mobil angkut personil",
+      "6. Mobil tangga",
+      "7. Mobil ambulan",
+      "8. Alat pemadam api ringan (APAR)",
+      "9. Pompa portable pemadam kebakaran",
+      "10. Pompa apung pemadam kebakaran (floating pump)",
+      "11. Selang pemadam kebakaran",
+      "12. Pemancar pemadam kebakaran (nozzle)",
+      "13. Pipa cabang pemadam kebakaran (y connection)",
+      "14. APD"
+    ]
+  },
+  {
+    "Sektor": null,
+    "Pos": ["3B"],
+    "Kelurahan": [
+      "1. Prawirodirjan",
+      "2. Keparakan",
+      "3. Wirogunan",
+      "4. Tahunan",
+      "5. Pandeyan (Sisi Barat)"
+    ],
+    "Titik Pos": ["Lahan sebelah SDN Margoyasan"],
+    "Fasilitas": [
+      "1. Bangunan pos pemadam",
+      "2. Mobil pemadam",
+      "3. Mobil penyelamatan (rescue)",
+      "4. Mobil komando",
+      "5. Mobil angkut personil",
+      "6. Mobil ambulan",
+      "7. Alat pemadam api ringan (APAR)",
+      "8. Pompa portable pemadam kebakaran",
+      "9. Pompa apung pemadam kebakaran (floating pump)",
+      "10. Selang pemadam kebakaran",
+      "11. Pemancar pemadam kebakaran (nozzle)",
+      "12. Pipa cabang pemadam kebakaran (y connection)",
+      "13. APD"
+    ]
+  },
+  {
+    "Sektor": null,
+    "Pos": ["3C"],
+    "Kelurahan": [
+      "1. Warungboto",
+      "2. Rejowinangun",
+      "3. Pandeyan (Sisi Timur)"
+    ],
+    "Titik Pos": ["Kantor Kemantren Umbulharjo"],
+    "Fasilitas": [
+      "1. Bangunan pos pemadam",
+      "2. Mobil pemadam",
+      "3. Mobil penyelamatan (rescue)",
+      "4. Mobil komando",
+      "5. Mobil angkut personil",
+      "6. Mobil ambulan",
+      "7. Alat pemadam api ringan (APAR)",
+      "8. Pompa portable pemadam kebakaran",
+      "9. Pompa apung pemadam kebakaran (floating pump)",
+      "10. Selang pemadam kebakaran",
+      "11. Pemancar pemadam kebakaran (nozzle)",
+      "12. Pipa cabang pemadam kebakaran (y connection)",
+      "13. APD"
+    ]
+  },
+  {
+    "Sektor": 4,
+    "Pos": ["4A"],
+    "Kelurahan": [
+      "1. Gedongkiwo",
+      "2.Suryodiningratan",
+      "3. Mantrijeron",
+      "4. Brontokusuman"
+    ],
+    "Titik Pos": [
+      "Aset Pemkot Simpang Jl. D.I Pandjaitan-Jl. Jogokaryan\u00a0"
+    ],
+    "Fasilitas": [
+      "1. Bangunan pos pemadam",
+      "2. Mobil pemadam",
+      "3. Mobil penyelamatan (rescue)",
+      "4. Mobil komando",
+      "5. Mobil angkut personil",
+      "6. Mobil ambulan",
+      "7. Alat pemadam api ringan (APAR)",
+      "8. Pompa portable pemadam kebakaran",
+      "9. Pompa apung pemadam kebakaran (floating pump)",
+      "10. Selang pemadam kebakaran",
+      "11. Pemancar pemadam kebakaran (nozzle)",
+      "12. Pipa cabang pemadam kebakaran (y connection)",
+      "13. APD"
+    ]
+  },
+  {
+    "Sektor": null,
+    "Pos": ["4B"],
+    "Kelurahan": ["1. Sorosutan", "2. Giwangan", "3. Prenggan", "4. Purbayan"],
+    "Titik Pos": ["Pos Taman Pintar 2"],
+    "Fasilitas": [
+      "1. Bangunan pos pemadam",
+      "2. Mobil pemadam",
+      "3. Mobil penyelamatan (rescue)",
+      "4. Mobil komando",
+      "5. Mobil angkut personil",
+      "6. Mobil tangga",
+      "7. Mobil ambulan",
+      "8. Alat pemadam api ringan (APAR)",
+      "9. Pompa portable pemadam kebakaran",
+      "10. Pompa apung pemadam kebakaran (floating pump)",
+      "11. Selang pemadam kebakaran",
+      "12. Pemancar pemadam kebakaran (nozzle)",
+      "13. Pipa cabang pemadam kebakaran (y connection)",
+      "14. APD"
+    ]
+  }
+]

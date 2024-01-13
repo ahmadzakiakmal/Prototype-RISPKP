@@ -8,7 +8,14 @@
         "type": "Point",
         "coordinates": [110.36237147899757, -7.7833022355969259]
       },
-      "properties": { "FID": 0, "Id": 0, "Pos": "Pos Kantor Kemantren Jetis" }
+      "properties": {
+        "FID": 0,
+        "Id": 0,
+        "Pos": "Pos Kantor Kemantren Jetis",
+        "PosId": 1,
+        "GMapLink": "https://www.google.com/maps/place/TJ+Diponegoro/@-7.7828694,110.3623104,3a,37.5y,163.45h,89.89t/data=!3m6!1e1!3m4!1s0mO5h-Gm_UkI_YAbu9oAZw!2e0!7i16384!8i8192!4m15!1m5!3m4!2zN8KwNDYnNTkuOSJTIDExMMKwMjEnNDQuNSJF!8m2!3d-7.7833022!4d110.3623715!3m8!1s0x2e7a583ba4782783:0x60128d966d7d7f81!8m2!3d-7.78291!4d110.36254!10e5!14m1!1BCgIgARICCAI!16s%2Fg%2F11hd8jsyqg?entry=ttu",
+        "GoogleCoords": "-7.7833022355969259,110.36237147899757"
+      }
     },
     {
       "type": "Feature",
@@ -20,7 +27,10 @@
       "properties": {
         "FID": 1,
         "Id": 0,
-        "Pos": "Pos Balai Gotong Royong Kotabaru"
+        "Pos": "Pos Balai Gotong Royong Kotabaru",
+        "PosId": 2,
+        "GMapLink": "https://www.google.com/maps/place/Yayasan+Gotong+Royong+Warga+Baru/@-7.7864749,110.3767383,3a,75y,305.12h,90t/data=!3m7!1e1!3m5!1sYMdJlot-nqwpUsUh3_gvpQ!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fpanoid%3DYMdJlot-nqwpUsUh3_gvpQ%26cb_client%3Dsearch.gws-prod.gps%26w%3D211%26h%3D120%26yaw%3D305.12103%26pitch%3D0%26thumbfov%3D100!7i16384!8i8192!4m19!1m12!4m11!1m3!2m2!1d110.4327479!2d-7.8076445!1m6!1m2!1s0x2e7a582d6cbbd663:0x740b44fd71e8f626!2sJl.+Juadi+No.8+001,+001,+Kotabaru,+Kec.+Gondokusuman,+Kota+Yogyakarta,+Daerah+Istimewa+Yogyakarta+55224!2m2!1d110.3766584!2d-7.7864108!3m5!1s0x2e7a582d6cbbd663:0x740b44fd71e8f626!8m2!3d-7.7863932!4d110.3766191!16s%2Fg%2F11bbydbl62?entry=ttu",
+        "GoogleCoords": "-7.7861657482313822,110.37670748570434"
       }
     },
     {
@@ -33,7 +43,10 @@
       "properties": {
         "FID": 2,
         "Id": 0,
-        "Pos": "Pos Eks Kampus AKUB (Purwanggan)"
+        "Pos": "Pos Eks Kampus AKUB (Purwanggan)",
+        "PosId": 3,
+        "GMapLink": "https://www.google.com/maps?q=-7.7976348067872463,110.37549783696224&hl=en&ll=-7.7976348067872463,110.37549783696224&z=16",
+        "GoogleCoords": "-7.7976348067872463,110.37549783696224"
       }
     },
     {
@@ -43,7 +56,14 @@
         "type": "Point",
         "coordinates": [110.39116343379803, -7.8002506101056523]
       },
-      "properties": { "FID": 3, "Id": 0, "Pos": "Pos Balai Kota" }
+      "properties": {
+        "FID": 3,
+        "Id": 0,
+        "Pos": "Pos Balai Kota",
+        "PosId": 4,
+        "GMapLink": "https://www.google.com/maps/place/Yogyakarta+City+Hall/@-7.8007044,110.391151,3a,75y,90t/data=!3m8!1e2!3m6!1sAF1QipMXbsV7jwqa9LFak5yhwOknJeS09_jtLPv9-8_W!2e10!3e12!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipMXbsV7jwqa9LFak5yhwOknJeS09_jtLPv9-8_W%3Dw152-h86-k-no!7i4624!8i2604!4m14!1m6!3m5!2zN8KwNDgnMDAuOSJTIDExMMKwMjMnMjguMiJF!8m2!3d-7.80025!4d110.3911667!10e5!3m6!1s0x2e7a57f27388b60d:0xbff2e6188e98bdb6!8m2!3d-7.8007044!4d110.391151!10e5!16s%2Fg%2F11rjz3xczy?entry=ttu",
+        "GoogleCoords": "-7.8002506101056523,110.39116343379803"
+      }
     },
     {
       "type": "Feature",
@@ -55,7 +75,10 @@
       "properties": {
         "FID": 4,
         "Id": 0,
-        "Pos": "Pos Sebelah SMP Muh 3 Yogyakarta"
+        "Pos": "Pos Sebelah SMP Muh 3 Yogyakarta",
+        "PosId": 5,
+        "GMapLink": "https://www.google.com/maps?q=-7.802532786280806,110.35182872618657&hl=en&ll=-7.802532786280806,110.35182872618657&z=16",
+        "GoogleCoords": "-7.802532786280806,110.35182872618657"
       }
     },
     {
@@ -68,7 +91,10 @@
       "properties": {
         "FID": 5,
         "Id": 0,
-        "Pos": "Pos Lahan Sebelah SDN Margoyasan"
+        "Pos": "Pos Lahan Sebelah SDN Margoyasan",
+        "PosId": 6,
+        "GMapLink": "https://www.google.com/maps?q=-7.8029903336015947,110.37806159898039&hl=en&ll=-7.8029903336015947,110.37806159898039&z=16",
+        "GoogleCoords": "-7.8029903336015947,110.37806159898039"
       }
     },
     {
@@ -78,7 +104,14 @@
         "type": "Point",
         "coordinates": [110.35572001954651, -7.8043877378728164]
       },
-      "properties": { "FID": 6, "Id": 0, "Pos": "Pos Terminal Ngabean" }
+      "properties": {
+        "FID": 6,
+        "Id": 0,
+        "Pos": "Pos Terminal Ngabean",
+        "PosId": 7,
+        "GMapLink": "https://www.google.com/maps/place/Terminal+Ngabean/@-7.8014849,110.3564373,3a,75y,216.99h,85.8t/data=!3m7!1e1!3m5!1swbRKmjlt-MUaCtUQrCGl0w!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fpanoid%3DwbRKmjlt-MUaCtUQrCGl0w%26cb_client%3Dsearch.gws-prod.gps%26w%3D211%26h%3D120%26yaw%3D293.5066%26pitch%3D0%26thumbfov%3D100!7i16384!8i8192!4m14!1m7!3m6!1s0x2e7a57abab26ab47:0xaf364e79192a193a!2sTerminal+Ngabean!8m2!3d-7.8014037!4d110.3562707!16s%2Fg%2F11j9fbcxjq!3m5!1s0x2e7a57abab26ab47:0xaf364e79192a193a!8m2!3d-7.8014037!4d110.3562707!16s%2Fg%2F11j9fbcxjq?hl=en&entry=ttu",
+        "GoogleCoords": "-7.8043877378728164,110.35572001954651"
+      }
     },
     {
       "type": "Feature",
@@ -90,7 +123,10 @@
       "properties": {
         "FID": 7,
         "Id": 0,
-        "Pos": "Pos Aset Pemkot Simpang Jl. Panjaitan-Jogokaryan"
+        "Pos": "Pos Aset Pemkot Simpang Jl. Panjaitan-Jogokaryan",
+        "PosId": 8,
+        "GMapLink": "https://www.google.com/maps?q=-7.8240515570525515,110.36117144850363&hl=en&ll=-7.8240515570525515,110.36117144850363&z=16",
+        "GoogleCoords": "-7.8240515570525515,110.36117144850363"
       }
     },
     {
@@ -103,7 +139,10 @@
       "properties": {
         "FID": 8,
         "Id": 0,
-        "Pos": "Pos Kantor Kemantren Umbulharjo"
+        "Pos": "Pos Kantor Kemantren Umbulharjo",
+        "PosId": 9,
+        "GMapLink": "https://www.google.com/maps/place/Sub-district+Office+Umbulharjo/@-7.8115912,110.3880289,17z/data=!4m6!3m5!1s0x2e7a5771a11fa72f:0x491f18d58350733b!8m2!3d-7.8097895!4d110.3876802!16s%2Fg%2F11bzt3jqyg?entry=ttu",
+        "GoogleCoords": "-7.8089069539291946,110.38823422359714"
       }
     },
     {
@@ -113,7 +152,14 @@
         "type": "Point",
         "coordinates": [110.3933265068129, -7.8264166997708697]
       },
-      "properties": { "FID": 9, "Id": 0, "Pos": "Pos Taman Pintar 2" }
+      "properties": {
+        "FID": 9,
+        "Id": 0,
+        "Pos": "Pos Taman Pintar 2",
+        "PosId": 10,
+        "GMapLink": "https://www.google.com/maps?q=-7.8264166997708697,110.3933265068129&hl=en&ll=-7.8264166997708697,110.3933265068129&z=16",
+        "GoogleCoords": "-7.8264166997708697,110.3933265068129"
+      }
     }
   ]
 }
