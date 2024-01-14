@@ -89,9 +89,24 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             <div className="absolute top-[5px] rounded-[8px] left-0 w-full h-full bg-red-800 z-0" />
           </a>
           <div className="text-[14px] mb-3">
-            <h1 className="font-semibold">Pos terdekat:</h1>
-            <p className="text-[16p]">{closestPost.post.Nama} (Pos {closestPost.post.Pos}) <span className="hidden sm:inline">- {closestPost.distance.toFixed(2)} km</span></p>
-            <p className="sm:hidden">Jarak {closestPost.distance.toFixed(2)} km</p>
+            {isNaN(closestPost.distance) ||
+            closestPost.post.Nama == "" ||
+            isNaN(closestPost.post.Pos) ? (
+                <h1>Gagal mendapatkan lokasi</h1>
+              ) : (
+                <>
+                  <h1 className="font-semibold">Pos terdekat:</h1>
+                  <p className="text-[16p]">
+                    {closestPost.post.Nama} (Pos {closestPost.post.Pos}){" "}
+                    <span className="hidden sm:inline">
+                    - {closestPost.distance.toFixed(2)} km
+                    </span>
+                  </p>
+                  <p className="sm:hidden">
+                  Jarak {closestPost.distance.toFixed(2)} km
+                  </p>
+                </>
+              )}
             {/* <h1 className="font-semibold">Jarak:</h1> */}
             {/* <p className="text-[16p]">{closestPost.distance.toFixed(2)} km <br/> Akurasi radius {closestPost.accuracy.toFixed(2)} meter</p> */}
           </div>
