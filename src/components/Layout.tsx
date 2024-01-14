@@ -4,6 +4,7 @@ import Link from "next/link";
 import useLastScrollDirection from "@/hooks/useLastScrollDirection";
 import { useRouter } from "next/router";
 import axios from "axios";
+import usePostDistance from "@/hooks/usePostDistance";
 
 interface User {
   username: string;
@@ -18,6 +19,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
     role: "",
   });
   const router = useRouter();
+  const closestPost = usePostDistance();
 
   function isMenuActive(route: string): string {
     return router.pathname === route ? " font-semibold underline" : "";
@@ -79,13 +81,21 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             href="https://wa.me/628112828113"
             target="null"
             rel="noreferrer noopener"
-            className="block relative w-fit mb-4 rounded-[8px]"
+            className="block relative w-fit mb-3 rounded-[8px]"
           >
             <button className="bg-red-500 w-fit px-5 py-3 rounded-[8px] text-white font-bold relative z-[1] hover:translate-y-[1px] hover:bg-red-500/90 transition active:translate-y-[5px] active:shadow-[0_0_10px_rgb(255,255,255)]">
               Panic Button
             </button>
             <div className="absolute top-[5px] rounded-[8px] left-0 w-full h-full bg-red-800 z-0" />
           </a>
+          <div className="text-[14px] mb-3">
+            <h1 className="font-semibold">Pos terdekat:</h1>
+            <p className="text-[16p]">{closestPost.post.Nama} (Pos {closestPost.post.Pos}) <span className="hidden sm:inline">- {closestPost.distance.toFixed(2)} km</span></p>
+            <p className="sm:hidden">Jarak {closestPost.distance.toFixed(2)} km</p>
+            {/* <h1 className="font-semibold">Jarak:</h1> */}
+            {/* <p className="text-[16p]">{closestPost.distance.toFixed(2)} km <br/> Akurasi radius {closestPost.accuracy.toFixed(2)} meter</p> */}
+          </div>
+
           <section
             className={
               "border-t-2 border-neutral-400 py-3 " +
