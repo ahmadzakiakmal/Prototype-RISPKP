@@ -11,6 +11,7 @@ interface GeolocationPosition {
 interface ClosestPost {
   post: Post;
   distance: number;
+  accuracy: number;
 }
 
 interface Post {
@@ -30,6 +31,7 @@ const usePostDistance = () => {
       Nama: "",
     },
     distance: NaN,
+    accuracy: NaN
   });
 
   const PostCoords = PostsGeoJSON.features.map((f) => ({
@@ -70,6 +72,7 @@ const usePostDistance = () => {
             Nama: PostData[closestIndex]["Titik Pos"][0]
           },
           distance: minDistance,
+          accuracy: coords.acc
         });
       }
     }
