@@ -68,7 +68,7 @@ const usePostDistance = () => {
       if (closestIndex !== -1) {
         setClosestPost({
           post: {
-            Pos: closestIndex,
+            Pos: closestIndex + 1,
             Nama: PostData[closestIndex]["Titik Pos"][0]
           },
           distance: minDistance,
