@@ -8,7 +8,6 @@ import Background from "@/../public/Landing.jpg";
 import { useRouter } from "next/router";
 import { toast } from "react-toastify";
 import axios from "axios";
-import Cookies from "js-cookie";
 // import usePostDistance from "@/hooks/usePostDistance";
 
 export default function Home() {
