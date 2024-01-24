@@ -8,6 +8,8 @@ import Background from "@/../public/Landing.jpg";
 import { useRouter } from "next/router";
 import { toast } from "react-toastify";
 import axios from "axios";
+import Cookies from "js-cookie";
+// import usePostDistance from "@/hooks/usePostDistance";
 
 export default function Home() {
   const [username, setUsername] = useState("");
@@ -16,6 +18,7 @@ export default function Home() {
   const [isPasswordValid, setIsPasswordValid] = useState(false);
   const [showPassword, setShowPassword] = useState(false);
   const router = useRouter();
+  // const closestPost = usePostDistance();
 
   const Login = (e: any): void => {
     e.preventDefault();
@@ -46,7 +49,9 @@ export default function Home() {
             isLoading: false,
           });
           // ! Change to "/dashboard" if dashboard is ready
-          router.push("/dashboard/wilayah-manajemen-kebakaran/peta-waktu-tanggap");
+          router.push(
+            "/dashboard/wilayah-manajemen-kebakaran/peta-waktu-tanggap"
+          );
         })
         .catch((err) => {
           const statusCode = err?.response?.status;
@@ -78,10 +83,9 @@ export default function Home() {
   };
 
   useEffect(() => {
-    const logoutFlag = localStorage.getItem("logout-flag");
-    if (logoutFlag) {
-      localStorage.removeItem("logout-flag");
-      toast.success("Logout berhasil!");
+    if (Cookies.get("token")) {
+      router.push("/dashboard");
+      toast.info("Anda sudah login, mengalihkan ke dashboard...");
     }
   }, [router]);
 
@@ -105,7 +109,7 @@ export default function Home() {
               value={username}
               onChange={(e) => {
                 setUsername(e.target.value);
-                setIsUsernameValid(e.target.value.length > 0);
+                setIsUsernameValid(e.target.value.length > 1);
               }}
             />
           </label>
@@ -122,7 +126,7 @@ export default function Home() {
                 value={password}
                 onChange={(e) => {
                   setPassword(e.target.value);
-                  setIsPasswordValid(e.target.value.length > 0);
+                  setIsPasswordValid(e.target.value.length > 1);
                 }}
               />
               <button
@@ -135,6 +139,22 @@ export default function Home() {
               </button>
             </div>
           </label>
+
+          {/* <div className="flex flex-col justify-center items-center">
+            {isNaN(closestPost.distance) ||
+            closestPost.post.Nama == "" ||
+            isNaN(closestPost.post.Pos) ? (
+                <h1>Gagal mendapatkan lokasi</h1>
+              ) : (
+                <>
+                  <h1>
+                  Post Terdekat: {closestPost.post.Nama} (Pos{" "}
+                    {closestPost.post.Pos})
+                  </h1>
+                  <h1>Jarak: {closestPost.distance.toFixed(2)} km</h1>
+                </>
+              )}
+          </div> */}
 
           <button
             type="submit"

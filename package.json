@@ -12,6 +12,7 @@
     "axios": "^1.6.4",
     "chart.js": "^4.4.1",
     "js-cookie": "^3.0.5",
+    "js-cookies": "^1.0.4",
     "leaflet": "^1.9.4",
     "leaflet-defaulticon-compatibility": "^0.1.2",
     "leaflet.heat": "^0.2.0",
