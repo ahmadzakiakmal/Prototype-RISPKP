@@ -91,15 +91,24 @@ export default function Navbar() {
                     { withCredentials: true }
                   )
                   .then(() => {
-                    Cookies.remove("token");
-                    toast.update(toastLoading, {
-                      render: "Berhasil logout!",
-                      type: "success",
-                      isLoading: false,
-                      autoClose: 2000,
-                    });
-                    setOpenProfile(false);
-                    router.push("/");
+                    Cookies.remove("token", { path: "/" });
+                    if(Cookies.get("token")) {
+                      toast.update(toastLoading, {
+                        render: "Gagal logout!",
+                        type: "error",
+                        isLoading: false,
+                        autoClose: 2000,
+                      });
+                    } else {
+                      toast.update(toastLoading, {
+                        render: "Berhasil logout!",
+                        type: "success",
+                        isLoading: false,
+                        autoClose: 2000,
+                      });
+                      setOpenProfile(false);
+                      router.push("/");
+                    }
                   })
                   .catch(() => {
                     toast.update(toastLoading, {
