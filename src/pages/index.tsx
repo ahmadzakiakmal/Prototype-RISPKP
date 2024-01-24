@@ -83,11 +83,20 @@ export default function Home() {
   };
 
   useEffect(() => {
-    if (Cookies.get("token")) {
-      router.push("/dashboard");
-      toast.info("Anda sudah login, mengalihkan ke dashboard...");
-    }
-  }, [router]);
+    axios
+      .get(process.env.NEXT_PUBLIC_API_URL + "users/data", {
+        withCredentials: true,
+      })
+      .then(() => {
+        router.push(
+          "/dashboard/wilayah-manajemen-kebakaran/peta-waktu-tanggap"
+        );
+        toast.info("Anda sudah login, mengarahkan ke dashboard...");
+      })
+      .catch(() => {
+        // do nothing
+      });
+  }, []);
 
   return (
     <main className="flex min-h-screen bg-white max-w-[100vw]">
