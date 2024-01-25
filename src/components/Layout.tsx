@@ -155,24 +155,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
               </Link>
             </ul>
           </section>
-          <section
-            className={
-              "border-t-2 border-neutral-400 py-3 " +
-              (isMenuOpen ? "" : "sm:hidden")
-            }
-          >
-            <h2 className="text-[16px] font-bold leading-[105%]">
-              INFORMASI DAN PUBLIKASI
-            </h2>
-            <ul className="flex flex-col text-[15px] mt-2 gap-2 leading-[105%] list-disc">
-              <Link
-                href="/dashboard/informasi-publikasi"
-                className={isMenuActive("/dashboard/informasi-publikasi")}
-              >
-                Lihat Informasi
-              </Link>
-            </ul>
-          </section>
+          
           <section
             className={
               "border-t-2 border-neutral-400 py-3 " +
@@ -288,6 +271,24 @@ export default function Layout({ children }: { children: React.ReactNode }) {
                 )}
               >
                 Peta Analisis Risiko Kebakaran
+              </Link>
+            </ul>
+          </section>
+          <section
+            className={
+              "border-t-2 border-neutral-400 py-3 " +
+              (isMenuOpen ? "" : "sm:hidden")
+            }
+          >
+            <h2 className="text-[16px] font-bold leading-[105%]">
+              INFORMASI DAN PUBLIKASI
+            </h2>
+            <ul className="flex flex-col text-[15px] mt-2 gap-2 leading-[105%] list-disc">
+              <Link
+                href="/dashboard/informasi-publikasi"
+                className={isMenuActive("/dashboard/informasi-publikasi")}
+              >
+                Lihat Informasi
               </Link>
             </ul>
           </section>
