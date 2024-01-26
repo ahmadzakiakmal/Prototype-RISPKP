@@ -30,7 +30,7 @@ export default function JangkauanPosPage() {
   return (
     <Layout>
       <main className="h-[80vh] max-h-[800px] relative">
-        <h1 className="text-xl sm:text-2xl font-bold mb-5">Jangkauan Pos</h1>
+        <h1 className="text-xl sm:text-2xl font-bold mb-5">Titik Sebaran SPBU Mini</h1>
         <Map
           geoJsonStyle={(feature) => {
             const level = feature?.properties.gridcode;
