@@ -1,0 +1,278 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": 0,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.39476160000004, -7.8060090999999261, 0, null]
+      },
+      "properties": {
+        "FID": 0,
+        "OID_": 0,
+        "Name": "PertaShop GLzoo",
+        "FolderPath": "Pertashop/Pertamini",
+        "SymbolID": 0,
+        "AltMode": -1,
+        "Base": 0,
+        "Snippet": " ",
+        "PopupInfo": " ",
+        "HasLabel": -1,
+        "LabelID": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 1,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.36002410000009, -7.7720345999999267, 0, null]
+      },
+      "properties": {
+        "FID": 1,
+        "OID_": 0,
+        "Name": "Pertashop Kricak Tegalrejo",
+        "FolderPath": "Pertashop/Pertamini",
+        "SymbolID": 0,
+        "AltMode": -1,
+        "Base": 0,
+        "Snippet": " ",
+        "PopupInfo": " ",
+        "HasLabel": -1,
+        "LabelID": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.38838350000009, -7.7872910999999476, 0, null]
+      },
+      "properties": {
+        "FID": 2,
+        "OID_": 0,
+        "Name": "SPBU Mini IST AKPRIND",
+        "FolderPath": "Pertashop/Pertamini",
+        "SymbolID": 0,
+        "AltMode": -1,
+        "Base": 0,
+        "Snippet": " ",
+        "PopupInfo": " ",
+        "HasLabel": -1,
+        "LabelID": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.36021510000006, -7.7868863999999576, 0, null]
+      },
+      "properties": {
+        "FID": 3,
+        "OID_": 0,
+        "Name": "POM MINI",
+        "FolderPath": "Pertashop/Pertamini",
+        "SymbolID": 0,
+        "AltMode": -1,
+        "Base": 0,
+        "Snippet": " ",
+        "PopupInfo": " ",
+        "HasLabel": -1,
+        "LabelID": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.35847800000005, -7.8113889999999628, 0, null]
+      },
+      "properties": {
+        "FID": 4,
+        "OID_": 0,
+        "Name": "Toko Kelontong Pallas",
+        "FolderPath": "Pertashop/Pertamini",
+        "SymbolID": 0,
+        "AltMode": -1,
+        "Base": 0,
+        "Snippet": " ",
+        "PopupInfo": " ",
+        "HasLabel": -1,
+        "LabelID": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.38770960000005, -7.8002373999999577, 0, null]
+      },
+      "properties": {
+        "FID": 5,
+        "OID_": 0,
+        "Name": "Pom mini",
+        "FolderPath": "Pertashop/Pertamini",
+        "SymbolID": 0,
+        "AltMode": -1,
+        "Base": 0,
+        "Snippet": " ",
+        "PopupInfo": " ",
+        "HasLabel": -1,
+        "LabelID": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.39853890000006, -7.8140454999999633, 0, null]
+      },
+      "properties": {
+        "FID": 6,
+        "OID_": 0,
+        "Name": "Pom Mini Artomoro",
+        "FolderPath": "Pertashop/Pertamini",
+        "SymbolID": 0,
+        "AltMode": -1,
+        "Base": 0,
+        "Snippet": " ",
+        "PopupInfo": " ",
+        "HasLabel": -1,
+        "LabelID": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.36665510000006, -7.8086694999999509, 0, null]
+      },
+      "properties": {
+        "FID": 7,
+        "OID_": 0,
+        "Name": "Bensin Eceran",
+        "FolderPath": "Pertashop/Pertamini",
+        "SymbolID": 0,
+        "AltMode": -1,
+        "Base": 0,
+        "Snippet": " ",
+        "PopupInfo": " ",
+        "HasLabel": -1,
+        "LabelID": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.36165240000008, -7.8215251999999396, 0, null]
+      },
+      "properties": {
+        "FID": 8,
+        "OID_": 0,
+        "Name": "Kios Bensin Pak Kardi",
+        "FolderPath": "Pertashop/Pertamini",
+        "SymbolID": 0,
+        "AltMode": -1,
+        "Base": 0,
+        "Snippet": " ",
+        "PopupInfo": " ",
+        "HasLabel": -1,
+        "LabelID": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.36036610000008, -7.806199099999958, 0, null]
+      },
+      "properties": {
+        "FID": 9,
+        "OID_": 0,
+        "Name": "Warung Kelontong & Pom Mini ¨Mar's Kios¨",
+        "FolderPath": "Pertashop/Pertamini",
+        "SymbolID": 0,
+        "AltMode": -1,
+        "Base": 0,
+        "Snippet": " ",
+        "PopupInfo": " ",
+        "HasLabel": -1,
+        "LabelID": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 10,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.37203740000007, -7.8141594999999597, 0, null]
+      },
+      "properties": {
+        "FID": 10,
+        "OID_": 0,
+        "Name": "Toko Kelontong dan Pom mini",
+        "FolderPath": "Pertashop/Pertamini",
+        "SymbolID": 0,
+        "AltMode": -1,
+        "Base": 0,
+        "Snippet": " ",
+        "PopupInfo": " ",
+        "HasLabel": -1,
+        "LabelID": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 11,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.35788640000004, -7.8087609999999472, 0, null]
+      },
+      "properties": {
+        "FID": 11,
+        "OID_": 0,
+        "Name": "Tambal Ban dan Bensin Eceran",
+        "FolderPath": "Pertashop/Pertamini",
+        "SymbolID": 0,
+        "AltMode": -1,
+        "Base": 0,
+        "Snippet": " ",
+        "PopupInfo": " ",
+        "HasLabel": -1,
+        "LabelID": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 12,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.37740310000004, -7.8249124999999253, 0, null]
+      },
+      "properties": {
+        "FID": 12,
+        "OID_": 0,
+        "Name": "Tambal Ban dan Bensin Eceran(\uA9A0\uA9A9\uA9C0\uA9A7\uA9AD\uA9C0\uA9A7\uA9A4\uA9C0\uA99D\uA9A4\uA9C0\uA9A7\uA9BA\uA9A4\uA9C0\uA9B1\uA9B6\uA9A4\uA9C0\uA98C\uA995\uA9BA\uA9AB\uA9A4\uA9C0)",
+        "FolderPath": "Pertashop/Pertamini",
+        "SymbolID": 0,
+        "AltMode": -1,
+        "Base": 0,
+        "Snippet": " ",
+        "PopupInfo": " ",
+        "HasLabel": -1,
+        "LabelID": 0
+      }
+    }
+  ]
+}
