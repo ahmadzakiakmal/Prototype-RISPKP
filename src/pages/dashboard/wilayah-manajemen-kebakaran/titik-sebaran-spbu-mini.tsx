@@ -32,16 +32,6 @@ export default function SebaranSpbuMini() {
       <main className="h-[80vh] max-h-[800px] relative">
         <h1 className="text-xl sm:text-2xl font-bold mb-5">Titik Sebaran SPBU Mini</h1>
         <Map
-          geoJsonStyle={(feature) => {
-            const level = feature?.properties.gridcode;
-            return {
-              fillColor:
-                level == 3 ? "#FAD155" : level == 2 ? "#F2A72E" : "#000",
-              fillOpacity: 0.65,
-              color: "#23272A",
-              weight: 2,
-            };
-          }}
           markers={markers}
         />
       </main>
