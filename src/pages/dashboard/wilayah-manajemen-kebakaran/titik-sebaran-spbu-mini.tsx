@@ -4,7 +4,7 @@ import dynamic from "next/dynamic";
 import { useMemo } from "react";
 import data from "@/data/Titik_Sebaran_SPBU_Mini.json";
 
-export default function JangkauanPosPage() {
+export default function SebaranSpbuMini() {
   const markers:object[] = [];
   data.features.forEach((item: any) => {
     const marker = {
