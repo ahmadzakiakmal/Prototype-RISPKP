@@ -193,6 +193,14 @@ export default function Layout({ children }: { children: React.ReactNode }) {
               >
                 Peta Jalan Kota
               </Link>
+              <Link
+                href="/dashboard/wilayah-manajemen-kebakaran/peta-redkar"
+                className={isMenuActive(
+                  "/dashboard/wilayah-manajemen-kebakaran/peta-redkar"
+                )}
+              >
+                Peta Redkar per Kelurahan
+              </Link>
             </ul>
           </section>
           
