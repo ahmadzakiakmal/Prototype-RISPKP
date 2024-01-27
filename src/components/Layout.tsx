@@ -154,6 +154,14 @@ export default function Layout({ children }: { children: React.ReactNode }) {
                 Peta Pos
               </Link>
               <Link
+                href="/dashboard/wilayah-manajemen-kebakaran/titik-sebaran-spbu"
+                className={isMenuActive(
+                  "/dashboard/wilayah-manajemen-kebakaran/titik-sebaran-spbu"
+                )}
+              >
+                Titik Sebaran SPBU
+              </Link>
+              <Link
                 href="/dashboard/wilayah-manajemen-kebakaran/titik-sebaran-spbu-mini"
                 className={isMenuActive(
                   "/dashboard/wilayah-manajemen-kebakaran/titik-sebaran-spbu-mini"

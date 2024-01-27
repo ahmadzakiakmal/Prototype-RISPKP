@@ -1,0 +1,320 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": 0,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.37841730000008, -7.802050999999949, 0, null]
+      },
+      "properties": {
+        "FID": 0,
+        "OID_": 0,
+        "Name": "SPBU Pertamina Sentul Pakualaman 44.551.15",
+        "FolderPath": "SPBU",
+        "SymbolID": 0,
+        "AltMode": -1,
+        "Base": 0,
+        "Snippet": " ",
+        "PopupInfo": " ",
+        "HasLabel": -1,
+        "LabelID": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 1,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.38018280000006, -7.7904519999999593, 0, null]
+      },
+      "properties": {
+        "FID": 1,
+        "OID_": 0,
+        "Name": "SPBU COCO Pertamina 41.551.01",
+        "FolderPath": "SPBU",
+        "SymbolID": 0,
+        "AltMode": -1,
+        "Base": 0,
+        "Snippet": " ",
+        "PopupInfo": " ",
+        "HasLabel": -1,
+        "LabelID": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.39037770000004, -7.8181592999999339, 0, null]
+      },
+      "properties": {
+        "FID": 2,
+        "OID_": 0,
+        "Name": "SPBU 44.551.05 Gambiran",
+        "FolderPath": "SPBU",
+        "SymbolID": 0,
+        "AltMode": -1,
+        "Base": 0,
+        "Snippet": " ",
+        "PopupInfo": " ",
+        "HasLabel": -1,
+        "LabelID": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.35275210000009, -7.7855860999999322, 0, null]
+      },
+      "properties": {
+        "FID": 3,
+        "OID_": 0,
+        "Name": "SPBU Pertamina Tegalrejo 41.552.02",
+        "FolderPath": "SPBU",
+        "SymbolID": 0,
+        "AltMode": -1,
+        "Base": 0,
+        "Snippet": " ",
+        "PopupInfo": " ",
+        "HasLabel": -1,
+        "LabelID": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.35593670000009, -7.8189844999999423, 0, null]
+      },
+      "properties": {
+        "FID": 4,
+        "OID_": 0,
+        "Name": "SPBU Pertamina 44.551.01 Dukuh",
+        "FolderPath": "SPBU",
+        "SymbolID": 0,
+        "AltMode": -1,
+        "Base": 0,
+        "Snippet": " ",
+        "PopupInfo": " ",
+        "HasLabel": -1,
+        "LabelID": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.35140860000007, -7.812302099999954, 0, null]
+      },
+      "properties": {
+        "FID": 5,
+        "OID_": 0,
+        "Name": "SPBU Pertamina Bugisan 44.551.04",
+        "FolderPath": "SPBU",
+        "SymbolID": 0,
+        "AltMode": -1,
+        "Base": 0,
+        "Snippet": " ",
+        "PopupInfo": " ",
+        "HasLabel": -1,
+        "LabelID": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.36744400000003, -7.8245018999999729, 0, null]
+      },
+      "properties": {
+        "FID": 6,
+        "OID_": 0,
+        "Name": "SPBU Pertamina 44.551.08 Jogokariyan",
+        "FolderPath": "SPBU",
+        "SymbolID": 0,
+        "AltMode": -1,
+        "Base": 0,
+        "Snippet": " ",
+        "PopupInfo": " ",
+        "HasLabel": -1,
+        "LabelID": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.38577270000008, -7.8017749999999637, 0, null]
+      },
+      "properties": {
+        "FID": 7,
+        "OID_": 0,
+        "Name": "SPBU Pertamina 44.551.09 Semaki",
+        "FolderPath": "SPBU",
+        "SymbolID": 0,
+        "AltMode": -1,
+        "Base": 0,
+        "Snippet": " ",
+        "PopupInfo": " ",
+        "HasLabel": -1,
+        "LabelID": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.39335840000007, -7.8361487999999326, 0, null]
+      },
+      "properties": {
+        "FID": 8,
+        "OID_": 0,
+        "Name": "SPBU Pertamina 44.551.11 Giwangan",
+        "FolderPath": "SPBU",
+        "SymbolID": 0,
+        "AltMode": -1,
+        "Base": 0,
+        "Snippet": " ",
+        "PopupInfo": " ",
+        "HasLabel": -1,
+        "LabelID": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.37799050000007, -7.8240827999999283, 0, null]
+      },
+      "properties": {
+        "FID": 9,
+        "OID_": 0,
+        "Name": "SPBU Pertamina Lowanu 44.551.13",
+        "FolderPath": "SPBU",
+        "SymbolID": 0,
+        "AltMode": -1,
+        "Base": 0,
+        "Snippet": " ",
+        "PopupInfo": " ",
+        "HasLabel": -1,
+        "LabelID": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 10,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.37214410000007, -7.7821550999999545, 0, null]
+      },
+      "properties": {
+        "FID": 10,
+        "OID_": 0,
+        "Name": "SPBU Pertamina Terban 44.552.06",
+        "FolderPath": "SPBU",
+        "SymbolID": 0,
+        "AltMode": -1,
+        "Base": 0,
+        "Snippet": " ",
+        "PopupInfo": " ",
+        "HasLabel": -1,
+        "LabelID": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 11,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.35200500000008, -7.781220899999937, 0, null]
+      },
+      "properties": {
+        "FID": 11,
+        "OID_": 0,
+        "Name": "SPBU Pertamina 44.552.11",
+        "FolderPath": "SPBU",
+        "SymbolID": 0,
+        "AltMode": -1,
+        "Base": 0,
+        "Snippet": " ",
+        "PopupInfo": " ",
+        "HasLabel": -1,
+        "LabelID": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 12,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.35726900000009, -7.7919597999999723, 0, null]
+      },
+      "properties": {
+        "FID": 12,
+        "OID_": 0,
+        "Name": "SPBU Pertamina 44.552.14 Gedong Tengen",
+        "FolderPath": "SPBU",
+        "SymbolID": 0,
+        "AltMode": -1,
+        "Base": 0,
+        "Snippet": " ",
+        "PopupInfo": " ",
+        "HasLabel": -1,
+        "LabelID": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 13,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.36750380000007, -7.7816898999999466, 0, null]
+      },
+      "properties": {
+        "FID": 13,
+        "OID_": 0,
+        "Name": "SPBU Pertamina Tugu 44.55215",
+        "FolderPath": "SPBU",
+        "SymbolID": 0,
+        "AltMode": -1,
+        "Base": 0,
+        "Snippet": " ",
+        "PopupInfo": " ",
+        "HasLabel": -1,
+        "LabelID": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.38797610000006, -7.7855424999999627, 0, null]
+      },
+      "properties": {
+        "FID": 14,
+        "OID_": 0,
+        "Name": "SPBU Pertamina Demangan 44.552.16",
+        "FolderPath": "SPBU",
+        "SymbolID": 0,
+        "AltMode": -1,
+        "Base": 0,
+        "Snippet": " ",
+        "PopupInfo": " ",
+        "HasLabel": -1,
+        "LabelID": 0
+      }
+    }
+  ]
+}
