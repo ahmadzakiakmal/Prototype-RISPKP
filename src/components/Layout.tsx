@@ -177,6 +177,14 @@ export default function Layout({ children }: { children: React.ReactNode }) {
               >
                 Titik Sebaran Hidran
               </Link>
+              <Link
+                href="/dashboard/wilayah-manajemen-kebakaran/titik-sebaran-hidran-kering"
+                className={isMenuActive(
+                  "/dashboard/wilayah-manajemen-kebakaran/titik-sebaran-hidran-kering"
+                )}
+              >
+                Titik Sebaran Hidran Kering
+              </Link>
             </ul>
           </section>
           

@@ -1,0 +1,7712 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": 0,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.39319999999999, -7.8269000000000002]
+      },
+      "properties": {
+        "FID": 0,
+        "latitude": -7.8269000000000002,
+        "longitude": 110.39319999999999,
+        "lokasi": "PRENGGAN DAN GIWANGAN",
+        "F4": " ",
+        "komponen": "Siamese Conn",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 1,
+      "geometry": { "type": "Point", "coordinates": [110.3933, -7.827] },
+      "properties": {
+        "FID": 1,
+        "latitude": -7.827,
+        "longitude": 110.3933,
+        "lokasi": "PRENGGAN DAN GIWANGAN",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2,
+      "geometry": { "type": "Point", "coordinates": [110.3933, -7.827] },
+      "properties": {
+        "FID": 2,
+        "latitude": -7.827,
+        "longitude": 110.3933,
+        "lokasi": "PRENGGAN DAN GIWANGAN",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.39360000000001, -7.8273999999999999]
+      },
+      "properties": {
+        "FID": 3,
+        "latitude": -7.8273999999999999,
+        "longitude": 110.39360000000001,
+        "lokasi": "PRENGGAN DAN GIWANGAN",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3933, -7.8287000000000004]
+      },
+      "properties": {
+        "FID": 4,
+        "latitude": -7.8287000000000004,
+        "longitude": 110.3933,
+        "lokasi": "PRENGGAN DAN GIWANGAN",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5,
+      "geometry": { "type": "Point", "coordinates": [110.3933, -7.827] },
+      "properties": {
+        "FID": 5,
+        "latitude": -7.827,
+        "longitude": 110.3933,
+        "lokasi": "PRENGGAN DAN GIWANGAN",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.39360000000001, -7.8273999999999999]
+      },
+      "properties": {
+        "FID": 6,
+        "latitude": -7.8273999999999999,
+        "longitude": 110.39360000000001,
+        "lokasi": "PRENGGAN DAN GIWANGAN",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3933, -7.8287000000000004]
+      },
+      "properties": {
+        "FID": 7,
+        "latitude": -7.8287000000000004,
+        "longitude": 110.3933,
+        "lokasi": "PRENGGAN DAN GIWANGAN",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.38460000000001, -7.8234000000000004]
+      },
+      "properties": {
+        "FID": 8,
+        "latitude": -7.8234000000000004,
+        "longitude": 110.38460000000001,
+        "lokasi": "SOROSUTAN",
+        "F4": " ",
+        "komponen": "Siamese Conn",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3794, -7.8186999999999998]
+      },
+      "properties": {
+        "FID": 9,
+        "latitude": -7.8186999999999998,
+        "longitude": 110.3794,
+        "lokasi": "SOROSUTAN",
+        "F4": " ",
+        "komponen": "Siamese Conn",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 10,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3798, -7.8178000000000001]
+      },
+      "properties": {
+        "FID": 10,
+        "latitude": -7.8178000000000001,
+        "longitude": 110.3798,
+        "lokasi": "SOROSUTAN",
+        "F4": " ",
+        "komponen": "Siamese Conn",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 11,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.37869999999999, -7.8182999999999998]
+      },
+      "properties": {
+        "FID": 11,
+        "latitude": -7.8182999999999998,
+        "longitude": 110.37869999999999,
+        "lokasi": "SOROSUTAN",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 12,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.37869999999999, -7.8182999999999998]
+      },
+      "properties": {
+        "FID": 12,
+        "latitude": -7.8182999999999998,
+        "longitude": 110.37869999999999,
+        "lokasi": "SOROSUTAN",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 13,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3832, -7.8247999999999998]
+      },
+      "properties": {
+        "FID": 13,
+        "latitude": -7.8247999999999998,
+        "longitude": 110.3832,
+        "lokasi": "SOROSUTAN",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3832, -7.8247999999999998]
+      },
+      "properties": {
+        "FID": 14,
+        "latitude": -7.8247999999999998,
+        "longitude": 110.3832,
+        "lokasi": "SOROSUTAN",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 15,
+      "geometry": { "type": "Point", "coordinates": [110.3831, -7.8243] },
+      "properties": {
+        "FID": 15,
+        "latitude": -7.8243,
+        "longitude": 110.3831,
+        "lokasi": "SOROSUTAN",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 16,
+      "geometry": { "type": "Point", "coordinates": [110.3831, -7.8243] },
+      "properties": {
+        "FID": 16,
+        "latitude": -7.8243,
+        "longitude": 110.3831,
+        "lokasi": "SOROSUTAN",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 17,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.38379999999999, -7.8278999999999996]
+      },
+      "properties": {
+        "FID": 17,
+        "latitude": -7.8278999999999996,
+        "longitude": 110.38379999999999,
+        "lokasi": "SOROSUTAN",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 18,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.38379999999999, -7.8278999999999996]
+      },
+      "properties": {
+        "FID": 18,
+        "latitude": -7.8278999999999996,
+        "longitude": 110.38379999999999,
+        "lokasi": "SOROSUTAN",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 19,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3847, -7.8228999999999997]
+      },
+      "properties": {
+        "FID": 19,
+        "latitude": -7.8228999999999997,
+        "longitude": 110.3847,
+        "lokasi": "SOROSUTAN",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 20,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3847, -7.8228999999999997]
+      },
+      "properties": {
+        "FID": 20,
+        "latitude": -7.8228999999999997,
+        "longitude": 110.3847,
+        "lokasi": "SOROSUTAN",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 21,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3814, -7.8253000000000004]
+      },
+      "properties": {
+        "FID": 21,
+        "latitude": -7.8253000000000004,
+        "longitude": 110.3814,
+        "lokasi": "SOROSUTAN",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 22,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3814, -7.8253000000000004]
+      },
+      "properties": {
+        "FID": 22,
+        "latitude": -7.8253000000000004,
+        "longitude": 110.3814,
+        "lokasi": "SOROSUTAN",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 23,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.38209999999999, -7.8261000000000003]
+      },
+      "properties": {
+        "FID": 23,
+        "latitude": -7.8261000000000003,
+        "longitude": 110.38209999999999,
+        "lokasi": "SOROSUTAN",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 24,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.38209999999999, -7.8261000000000003]
+      },
+      "properties": {
+        "FID": 24,
+        "latitude": -7.8261000000000003,
+        "longitude": 110.38209999999999,
+        "lokasi": "SOROSUTAN",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 25,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3831, -7.8281000000000001]
+      },
+      "properties": {
+        "FID": 25,
+        "latitude": -7.8281000000000001,
+        "longitude": 110.3831,
+        "lokasi": "SOROSUTAN",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 26,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3831, -7.8281000000000001]
+      },
+      "properties": {
+        "FID": 26,
+        "latitude": -7.8281000000000001,
+        "longitude": 110.3831,
+        "lokasi": "SOROSUTAN",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 27,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3798, -7.8216000000000001]
+      },
+      "properties": {
+        "FID": 27,
+        "latitude": -7.8216000000000001,
+        "longitude": 110.3798,
+        "lokasi": "SOROSUTAN",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 28,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3798, -7.8216000000000001]
+      },
+      "properties": {
+        "FID": 28,
+        "latitude": -7.8216000000000001,
+        "longitude": 110.3798,
+        "lokasi": "SOROSUTAN",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 29,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.38, -7.8216999999999999]
+      },
+      "properties": {
+        "FID": 29,
+        "latitude": -7.8216999999999999,
+        "longitude": 110.38,
+        "lokasi": "SOROSUTAN",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 30,
+      "geometry": { "type": "Point", "coordinates": [110.3835, -7.8289] },
+      "properties": {
+        "FID": 30,
+        "latitude": -7.8289,
+        "longitude": 110.3835,
+        "lokasi": "SOROSUTAN",
+        "F4": " ",
+        "komponen": "Siamese Conn",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 31,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.38460000000001, -7.8232999999999997]
+      },
+      "properties": {
+        "FID": 31,
+        "latitude": -7.8232999999999997,
+        "longitude": 110.38460000000001,
+        "lokasi": "SOROSUTAN",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 32,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.38460000000001, -7.8232999999999997]
+      },
+      "properties": {
+        "FID": 32,
+        "latitude": -7.8232999999999997,
+        "longitude": 110.38460000000001,
+        "lokasi": "SOROSUTAN",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 33,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.37949999999999, -7.8215000000000003]
+      },
+      "properties": {
+        "FID": 33,
+        "latitude": -7.8215000000000003,
+        "longitude": 110.37949999999999,
+        "lokasi": "SOROSUTAN",
+        "F4": " ",
+        "komponen": "Siamese Conn",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 34,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.37949999999999, -7.8234000000000004]
+      },
+      "properties": {
+        "FID": 34,
+        "latitude": -7.8234000000000004,
+        "longitude": 110.37949999999999,
+        "lokasi": "SOROSUTAN",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 35,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.37949999999999, -7.8234000000000004]
+      },
+      "properties": {
+        "FID": 35,
+        "latitude": -7.8234000000000004,
+        "longitude": 110.37949999999999,
+        "lokasi": "SOROSUTAN",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 36,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3792, -7.8227000000000002]
+      },
+      "properties": {
+        "FID": 36,
+        "latitude": -7.8227000000000002,
+        "longitude": 110.3792,
+        "lokasi": "SOROSUTAN",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 37,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3792, -7.8227000000000002]
+      },
+      "properties": {
+        "FID": 37,
+        "latitude": -7.8227000000000002,
+        "longitude": 110.3792,
+        "lokasi": "SOROSUTAN",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 38,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3792, -7.8181000000000003]
+      },
+      "properties": {
+        "FID": 38,
+        "latitude": -7.8181000000000003,
+        "longitude": 110.3792,
+        "lokasi": "SOROSUTAN",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 39,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3792, -7.8181000000000003]
+      },
+      "properties": {
+        "FID": 39,
+        "latitude": -7.8181000000000003,
+        "longitude": 110.3792,
+        "lokasi": "SOROSUTAN",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 40,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3792, -7.8178999999999998]
+      },
+      "properties": {
+        "FID": 40,
+        "latitude": -7.8178999999999998,
+        "longitude": 110.3792,
+        "lokasi": "SOROSUTAN",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 41,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.38, -7.8216999999999999]
+      },
+      "properties": {
+        "FID": 41,
+        "latitude": -7.8216999999999999,
+        "longitude": 110.38,
+        "lokasi": "SOROSUTAN",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 42,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.38, -7.8216999999999999]
+      },
+      "properties": {
+        "FID": 42,
+        "latitude": -7.8216999999999999,
+        "longitude": 110.38,
+        "lokasi": "SOROSUTAN",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 43,
+      "geometry": { "type": "Point", "coordinates": [110.3844, -7.8228] },
+      "properties": {
+        "FID": 43,
+        "latitude": -7.8228,
+        "longitude": 110.3844,
+        "lokasi": "SOROSUTAN",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 44,
+      "geometry": { "type": "Point", "coordinates": [110.3844, -7.8228] },
+      "properties": {
+        "FID": 44,
+        "latitude": -7.8228,
+        "longitude": 110.3844,
+        "lokasi": "SOROSUTAN",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 45,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.379, -7.8238000000000003]
+      },
+      "properties": {
+        "FID": 45,
+        "latitude": -7.8238000000000003,
+        "longitude": 110.379,
+        "lokasi": "SOROSUTAN",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 46,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.379, -7.8238000000000003]
+      },
+      "properties": {
+        "FID": 46,
+        "latitude": -7.8238000000000003,
+        "longitude": 110.379,
+        "lokasi": "SOROSUTAN",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 47,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.37949999999999, -7.8212000000000002]
+      },
+      "properties": {
+        "FID": 47,
+        "latitude": -7.8212000000000002,
+        "longitude": 110.37949999999999,
+        "lokasi": "SOROSUTAN",
+        "F4": " ",
+        "komponen": "Siamese Conn",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 48,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.37990000000001, -7.8235000000000001]
+      },
+      "properties": {
+        "FID": 48,
+        "latitude": -7.8235000000000001,
+        "longitude": 110.37990000000001,
+        "lokasi": "SOROSUTAN",
+        "F4": " ",
+        "komponen": "Siamese Conn",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 49,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3796, -7.8238000000000003]
+      },
+      "properties": {
+        "FID": 49,
+        "latitude": -7.8238000000000003,
+        "longitude": 110.3796,
+        "lokasi": "SOROSUTAN",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 50,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3796, -7.8238000000000003]
+      },
+      "properties": {
+        "FID": 50,
+        "latitude": -7.8238000000000003,
+        "longitude": 110.3796,
+        "lokasi": "SOROSUTAN",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 51,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3789, -7.8212999999999999]
+      },
+      "properties": {
+        "FID": 51,
+        "latitude": -7.8212999999999999,
+        "longitude": 110.3789,
+        "lokasi": "SOROSUTAN",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 52,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3789, -7.8212999999999999]
+      },
+      "properties": {
+        "FID": 52,
+        "latitude": -7.8212999999999999,
+        "longitude": 110.3789,
+        "lokasi": "SOROSUTAN",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 53,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3798, -7.8216000000000001]
+      },
+      "properties": {
+        "FID": 53,
+        "latitude": -7.8216000000000001,
+        "longitude": 110.3798,
+        "lokasi": "SOROSUTAN",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 54,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3798, -7.8216000000000001]
+      },
+      "properties": {
+        "FID": 54,
+        "latitude": -7.8216000000000001,
+        "longitude": 110.3798,
+        "lokasi": "SOROSUTAN",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 55,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.38160000000001, -7.8254000000000001]
+      },
+      "properties": {
+        "FID": 55,
+        "latitude": -7.8254000000000001,
+        "longitude": 110.38160000000001,
+        "lokasi": "SOROSUTAN",
+        "F4": " ",
+        "komponen": "Siamese Conn",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 56,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3797, -7.8217999999999996]
+      },
+      "properties": {
+        "FID": 56,
+        "latitude": -7.8217999999999996,
+        "longitude": 110.3797,
+        "lokasi": "SOROSUTAN",
+        "F4": " ",
+        "komponen": "Siamese Conn",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 57,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.37869999999999, -7.8189000000000002]
+      },
+      "properties": {
+        "FID": 57,
+        "latitude": -7.8189000000000002,
+        "longitude": 110.37869999999999,
+        "lokasi": "SOROSUTAN",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 58,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.37869999999999, -7.8189000000000002]
+      },
+      "properties": {
+        "FID": 58,
+        "latitude": -7.8189000000000002,
+        "longitude": 110.37869999999999,
+        "lokasi": "SOROSUTAN",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 59,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.37869999999999, -7.8208000000000002]
+      },
+      "properties": {
+        "FID": 59,
+        "latitude": -7.8208000000000002,
+        "longitude": 110.37869999999999,
+        "lokasi": "SOROSUTAN",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 60,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.37869999999999, -7.8208000000000002]
+      },
+      "properties": {
+        "FID": 60,
+        "latitude": -7.8208000000000002,
+        "longitude": 110.37869999999999,
+        "lokasi": "SOROSUTAN",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 61,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.38290000000001, -7.8236999999999997]
+      },
+      "properties": {
+        "FID": 61,
+        "latitude": -7.8236999999999997,
+        "longitude": 110.38290000000001,
+        "lokasi": "SOROSUTAN",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 62,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.38290000000001, -7.8236999999999997]
+      },
+      "properties": {
+        "FID": 62,
+        "latitude": -7.8236999999999997,
+        "longitude": 110.38290000000001,
+        "lokasi": "SOROSUTAN",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 63,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3837, -7.8244999999999996]
+      },
+      "properties": {
+        "FID": 63,
+        "latitude": -7.8244999999999996,
+        "longitude": 110.3837,
+        "lokasi": "SOROSUTAN",
+        "F4": " ",
+        "komponen": "Siamese Conn",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 64,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.35509999999999, -7.7946]
+      },
+      "properties": {
+        "FID": 64,
+        "latitude": -7.7946,
+        "longitude": 110.35509999999999,
+        "lokasi": "TEGALREJO PRINGGOKUSUMAN",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 65,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.35509999999999, -7.7946]
+      },
+      "properties": {
+        "FID": 65,
+        "latitude": -7.7946,
+        "longitude": 110.35509999999999,
+        "lokasi": "TEGALREJO PRINGGOKUSUMAN",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 66,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.355, -7.7948000000000004]
+      },
+      "properties": {
+        "FID": 66,
+        "latitude": -7.7948000000000004,
+        "longitude": 110.355,
+        "lokasi": "TEGALREJO PRINGGOKUSUMAN",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 67,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.355, -7.7948000000000004]
+      },
+      "properties": {
+        "FID": 67,
+        "latitude": -7.7948000000000004,
+        "longitude": 110.355,
+        "lokasi": "TEGALREJO PRINGGOKUSUMAN",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 68,
+      "geometry": { "type": "Point", "coordinates": [110.3554, -7.7942] },
+      "properties": {
+        "FID": 68,
+        "latitude": -7.7942,
+        "longitude": 110.3554,
+        "lokasi": "TEGALREJO PRINGGOKUSUMAN",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 69,
+      "geometry": { "type": "Point", "coordinates": [110.3554, -7.7942] },
+      "properties": {
+        "FID": 69,
+        "latitude": -7.7942,
+        "longitude": 110.3554,
+        "lokasi": "TEGALREJO PRINGGOKUSUMAN",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 70,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3553, -7.7944000000000004]
+      },
+      "properties": {
+        "FID": 70,
+        "latitude": -7.7944000000000004,
+        "longitude": 110.3553,
+        "lokasi": "TEGALREJO PRINGGOKUSUMAN",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 71,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3552, -7.7944000000000004]
+      },
+      "properties": {
+        "FID": 71,
+        "latitude": -7.7944000000000004,
+        "longitude": 110.3552,
+        "lokasi": "TEGALREJO PRINGGOKUSUMAN",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 72,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3553, -7.7938999999999998]
+      },
+      "properties": {
+        "FID": 72,
+        "latitude": -7.7938999999999998,
+        "longitude": 110.3553,
+        "lokasi": "TEGALREJO PRINGGOKUSUMAN",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 73,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3553, -7.7938999999999998]
+      },
+      "properties": {
+        "FID": 73,
+        "latitude": -7.7938999999999998,
+        "longitude": 110.3553,
+        "lokasi": "TEGALREJO PRINGGOKUSUMAN",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 74,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3552, -7.7935999999999996]
+      },
+      "properties": {
+        "FID": 74,
+        "latitude": -7.7935999999999996,
+        "longitude": 110.3552,
+        "lokasi": "TEGALREJO PRINGGOKUSUMAN",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 75,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3552, -7.7935999999999996]
+      },
+      "properties": {
+        "FID": 75,
+        "latitude": -7.7935999999999996,
+        "longitude": 110.3552,
+        "lokasi": "TEGALREJO PRINGGOKUSUMAN",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 76,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3554, -7.7939999999999996]
+      },
+      "properties": {
+        "FID": 76,
+        "latitude": -7.7939999999999996,
+        "longitude": 110.3554,
+        "lokasi": "TEGALREJO PRINGGOKUSUMAN",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 77,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3554, -7.7939999999999996]
+      },
+      "properties": {
+        "FID": 77,
+        "latitude": -7.7939999999999996,
+        "longitude": 110.3554,
+        "lokasi": "TEGALREJO PRINGGOKUSUMAN",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 78,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.35550000000001, -7.7933000000000003]
+      },
+      "properties": {
+        "FID": 78,
+        "latitude": -7.7933000000000003,
+        "longitude": 110.35550000000001,
+        "lokasi": "TEGALREJO PRINGGOKUSUMAN",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 79,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.35550000000001, -7.7933000000000003]
+      },
+      "properties": {
+        "FID": 79,
+        "latitude": -7.7933000000000003,
+        "longitude": 110.35550000000001,
+        "lokasi": "TEGALREJO PRINGGOKUSUMAN",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 80,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3558, -7.7930999999999999]
+      },
+      "properties": {
+        "FID": 80,
+        "latitude": -7.7930999999999999,
+        "longitude": 110.3558,
+        "lokasi": "TEGALREJO PRINGGOKUSUMAN",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 81,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3558, -7.7930999999999999]
+      },
+      "properties": {
+        "FID": 81,
+        "latitude": -7.7930999999999999,
+        "longitude": 110.3558,
+        "lokasi": "TEGALREJO PRINGGOKUSUMAN",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 82,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3553, -7.7934000000000001]
+      },
+      "properties": {
+        "FID": 82,
+        "latitude": -7.7934000000000001,
+        "longitude": 110.3553,
+        "lokasi": "TEGALREJO PRINGGOKUSUMAN",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 83,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3553, -7.7934000000000001]
+      },
+      "properties": {
+        "FID": 83,
+        "latitude": -7.7934000000000001,
+        "longitude": 110.3553,
+        "lokasi": "TEGALREJO PRINGGOKUSUMAN",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 84,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.35599999999999, -7.7929000000000004]
+      },
+      "properties": {
+        "FID": 84,
+        "latitude": -7.7929000000000004,
+        "longitude": 110.35599999999999,
+        "lokasi": "TEGALREJO PRINGGOKUSUMAN",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 85,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.35599999999999, -7.7929000000000004]
+      },
+      "properties": {
+        "FID": 85,
+        "latitude": -7.7929000000000004,
+        "longitude": 110.35599999999999,
+        "lokasi": "TEGALREJO PRINGGOKUSUMAN",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 86,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3565, -7.7930000000000001]
+      },
+      "properties": {
+        "FID": 86,
+        "latitude": -7.7930000000000001,
+        "longitude": 110.3565,
+        "lokasi": "TEGALREJO PRINGGOKUSUMAN",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 87,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3565, -7.7930000000000001]
+      },
+      "properties": {
+        "FID": 87,
+        "latitude": -7.7930000000000001,
+        "longitude": 110.3565,
+        "lokasi": "TEGALREJO PRINGGOKUSUMAN",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 88,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3557, -7.7930000000000001]
+      },
+      "properties": {
+        "FID": 88,
+        "latitude": -7.7930000000000001,
+        "longitude": 110.3557,
+        "lokasi": "TEGALREJO PRINGGOKUSUMAN",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 89,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3557, -7.7930000000000001]
+      },
+      "properties": {
+        "FID": 89,
+        "latitude": -7.7930000000000001,
+        "longitude": 110.3557,
+        "lokasi": "TEGALREJO PRINGGOKUSUMAN",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 90,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.35680000000001, -7.7930999999999999]
+      },
+      "properties": {
+        "FID": 90,
+        "latitude": -7.7930999999999999,
+        "longitude": 110.35680000000001,
+        "lokasi": "TEGALREJO PRINGGOKUSUMAN",
+        "F4": " ",
+        "komponen": "Siamese Conn",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 91,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3567, -7.7930000000000001]
+      },
+      "properties": {
+        "FID": 91,
+        "latitude": -7.7930000000000001,
+        "longitude": 110.3567,
+        "lokasi": "TEGALREJO PRINGGOKUSUMAN",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 92,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3567, -7.7930000000000001]
+      },
+      "properties": {
+        "FID": 92,
+        "latitude": -7.7930000000000001,
+        "longitude": 110.3567,
+        "lokasi": "TEGALREJO PRINGGOKUSUMAN",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 93,
+      "geometry": { "type": "Point", "coordinates": [110.3699, -7.7778] },
+      "properties": {
+        "FID": 93,
+        "latitude": -7.7778,
+        "longitude": 110.3699,
+        "lokasi": "JETIS COKRODININGRATAN",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 94,
+      "geometry": { "type": "Point", "coordinates": [110.3699, -7.7778] },
+      "properties": {
+        "FID": 94,
+        "latitude": -7.7778,
+        "longitude": 110.3699,
+        "lokasi": "JETIS COKRODININGRATAN",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 95,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.37090000000001, -7.7766999999999999]
+      },
+      "properties": {
+        "FID": 95,
+        "latitude": -7.7766999999999999,
+        "longitude": 110.37090000000001,
+        "lokasi": "JETIS COKRODININGRATAN",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 96,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.37090000000001, -7.7766999999999999]
+      },
+      "properties": {
+        "FID": 96,
+        "latitude": -7.7766999999999999,
+        "longitude": 110.37090000000001,
+        "lokasi": "JETIS COKRODININGRATAN",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 97,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.37009999999999, -7.7777000000000003]
+      },
+      "properties": {
+        "FID": 97,
+        "latitude": -7.7777000000000003,
+        "longitude": 110.37009999999999,
+        "lokasi": "JETIS COKRODININGRATAN",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 98,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.37009999999999, -7.7777000000000003]
+      },
+      "properties": {
+        "FID": 98,
+        "latitude": -7.7777000000000003,
+        "longitude": 110.37009999999999,
+        "lokasi": "JETIS COKRODININGRATAN",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 99,
+      "geometry": { "type": "Point", "coordinates": [110.371, -7.7778] },
+      "properties": {
+        "FID": 99,
+        "latitude": -7.7778,
+        "longitude": 110.371,
+        "lokasi": "JETIS COKRODININGRATAN",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 100,
+      "geometry": { "type": "Point", "coordinates": [110.371, -7.7778] },
+      "properties": {
+        "FID": 100,
+        "latitude": -7.7778,
+        "longitude": 110.371,
+        "lokasi": "JETIS COKRODININGRATAN",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 101,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3711, -7.7774999999999999]
+      },
+      "properties": {
+        "FID": 101,
+        "latitude": -7.7774999999999999,
+        "longitude": 110.3711,
+        "lokasi": "JETIS COKRODININGRATAN",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 102,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3711, -7.7774999999999999]
+      },
+      "properties": {
+        "FID": 102,
+        "latitude": -7.7774999999999999,
+        "longitude": 110.3711,
+        "lokasi": "JETIS COKRODININGRATAN",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 103,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3703, -7.7781000000000002]
+      },
+      "properties": {
+        "FID": 103,
+        "latitude": -7.7781000000000002,
+        "longitude": 110.3703,
+        "lokasi": "JETIS COKRODININGRATAN",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 104,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3703, -7.7781000000000002]
+      },
+      "properties": {
+        "FID": 104,
+        "latitude": -7.7781000000000002,
+        "longitude": 110.3703,
+        "lokasi": "JETIS COKRODININGRATAN",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 105,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.37050000000001, -7.7781000000000002]
+      },
+      "properties": {
+        "FID": 105,
+        "latitude": -7.7781000000000002,
+        "longitude": 110.37050000000001,
+        "lokasi": "JETIS COKRODININGRATAN",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 106,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.37050000000001, -7.7781000000000002]
+      },
+      "properties": {
+        "FID": 106,
+        "latitude": -7.7781000000000002,
+        "longitude": 110.37050000000001,
+        "lokasi": "JETIS COKRODININGRATAN",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 107,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.37050000000001, -7.7781000000000002]
+      },
+      "properties": {
+        "FID": 107,
+        "latitude": -7.7781000000000002,
+        "longitude": 110.37050000000001,
+        "lokasi": "JETIS COKRODININGRATAN",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 108,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3708, -7.7781000000000002]
+      },
+      "properties": {
+        "FID": 108,
+        "latitude": -7.7781000000000002,
+        "longitude": 110.3708,
+        "lokasi": "JETIS COKRODININGRATAN",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 109,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3708, -7.7781000000000002]
+      },
+      "properties": {
+        "FID": 109,
+        "latitude": -7.7781000000000002,
+        "longitude": 110.3708,
+        "lokasi": "JETIS COKRODININGRATAN",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 110,
+      "geometry": { "type": "Point", "coordinates": [110.3699, -7.7782] },
+      "properties": {
+        "FID": 110,
+        "latitude": -7.7782,
+        "longitude": 110.3699,
+        "lokasi": "JETIS COKRODININGRATAN",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 111,
+      "geometry": { "type": "Point", "coordinates": [110.3699, -7.7782] },
+      "properties": {
+        "FID": 111,
+        "latitude": -7.7782,
+        "longitude": 110.3699,
+        "lokasi": "JETIS COKRODININGRATAN",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 112,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.36969999999999, -7.7782999999999998]
+      },
+      "properties": {
+        "FID": 112,
+        "latitude": -7.7782999999999998,
+        "longitude": 110.36969999999999,
+        "lokasi": "JETIS COKRODININGRATAN",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 113,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.36969999999999, -7.7782999999999998]
+      },
+      "properties": {
+        "FID": 113,
+        "latitude": -7.7782999999999998,
+        "longitude": 110.36969999999999,
+        "lokasi": "JETIS COKRODININGRATAN",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 114,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.37050000000001, -7.7782999999999998]
+      },
+      "properties": {
+        "FID": 114,
+        "latitude": -7.7782999999999998,
+        "longitude": 110.37050000000001,
+        "lokasi": "JETIS COKRODININGRATAN",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 115,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.37050000000001, -7.7782999999999998]
+      },
+      "properties": {
+        "FID": 115,
+        "latitude": -7.7782999999999998,
+        "longitude": 110.37050000000001,
+        "lokasi": "JETIS COKRODININGRATAN",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 116,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.36969999999999, -7.7784000000000004]
+      },
+      "properties": {
+        "FID": 116,
+        "latitude": -7.7784000000000004,
+        "longitude": 110.36969999999999,
+        "lokasi": "JETIS COKRODININGRATAN",
+        "F4": " ",
+        "komponen": "Siamese Conn",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 117,
+      "geometry": { "type": "Point", "coordinates": [110.3693, -7.7782] },
+      "properties": {
+        "FID": 117,
+        "latitude": -7.7782,
+        "longitude": 110.3693,
+        "lokasi": "JETIS COKRODININGRATAN",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 118,
+      "geometry": { "type": "Point", "coordinates": [110.3693, -7.7782] },
+      "properties": {
+        "FID": 118,
+        "latitude": -7.7782,
+        "longitude": 110.3693,
+        "lokasi": "JETIS COKRODININGRATAN",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 119,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3694, -7.7778999999999998]
+      },
+      "properties": {
+        "FID": 119,
+        "latitude": -7.7778999999999998,
+        "longitude": 110.3694,
+        "lokasi": "JETIS COKRODININGRATAN",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 120,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3694, -7.7778999999999998]
+      },
+      "properties": {
+        "FID": 120,
+        "latitude": -7.7778999999999998,
+        "longitude": 110.3694,
+        "lokasi": "JETIS COKRODININGRATAN",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 121,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3702, -7.7766999999999999]
+      },
+      "properties": {
+        "FID": 121,
+        "latitude": -7.7766999999999999,
+        "longitude": 110.3702,
+        "lokasi": "JETIS COKRODININGRATAN",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 122,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3702, -7.7766999999999999]
+      },
+      "properties": {
+        "FID": 122,
+        "latitude": -7.7766999999999999,
+        "longitude": 110.3702,
+        "lokasi": "JETIS COKRODININGRATAN",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 123,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3695, -7.7774999999999999]
+      },
+      "properties": {
+        "FID": 123,
+        "latitude": -7.7774999999999999,
+        "longitude": 110.3695,
+        "lokasi": "JETIS COKRODININGRATAN",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 124,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3695, -7.7774999999999999]
+      },
+      "properties": {
+        "FID": 124,
+        "latitude": -7.7774999999999999,
+        "longitude": 110.3695,
+        "lokasi": "JETIS COKRODININGRATAN",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 125,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.37, -7.7767999999999997]
+      },
+      "properties": {
+        "FID": 125,
+        "latitude": -7.7767999999999997,
+        "longitude": 110.37,
+        "lokasi": "JETIS COKRODININGRATAN",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 126,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.37, -7.7767999999999997]
+      },
+      "properties": {
+        "FID": 126,
+        "latitude": -7.7767999999999997,
+        "longitude": 110.37,
+        "lokasi": "JETIS COKRODININGRATAN",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 127,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3703, -7.7773000000000003]
+      },
+      "properties": {
+        "FID": 127,
+        "latitude": -7.7773000000000003,
+        "longitude": 110.3703,
+        "lokasi": "JETIS COKRODININGRATAN",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 128,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3703, -7.7773000000000003]
+      },
+      "properties": {
+        "FID": 128,
+        "latitude": -7.7773000000000003,
+        "longitude": 110.3703,
+        "lokasi": "JETIS COKRODININGRATAN",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 129,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3706, -7.7774000000000001]
+      },
+      "properties": {
+        "FID": 129,
+        "latitude": -7.7774000000000001,
+        "longitude": 110.3706,
+        "lokasi": "JETIS COKRODININGRATAN",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 130,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3706, -7.7774000000000001]
+      },
+      "properties": {
+        "FID": 130,
+        "latitude": -7.7774000000000001,
+        "longitude": 110.3706,
+        "lokasi": "JETIS COKRODININGRATAN",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 131,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3694, -7.7773000000000003]
+      },
+      "properties": {
+        "FID": 131,
+        "latitude": -7.7773000000000003,
+        "longitude": 110.3694,
+        "lokasi": "JETIS COKRODININGRATAN",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 132,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3694, -7.7773000000000003]
+      },
+      "properties": {
+        "FID": 132,
+        "latitude": -7.7773000000000003,
+        "longitude": 110.3694,
+        "lokasi": "JETIS COKRODININGRATAN",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 133,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3689, -7.7771999999999997]
+      },
+      "properties": {
+        "FID": 133,
+        "latitude": -7.7771999999999997,
+        "longitude": 110.3689,
+        "lokasi": "JETIS COKRODININGRATAN",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 134,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3689, -7.7771999999999997]
+      },
+      "properties": {
+        "FID": 134,
+        "latitude": -7.7771999999999997,
+        "longitude": 110.3689,
+        "lokasi": "JETIS COKRODININGRATAN",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 135,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.37, -7.7773000000000003]
+      },
+      "properties": {
+        "FID": 135,
+        "latitude": -7.7773000000000003,
+        "longitude": 110.37,
+        "lokasi": "JETIS COKRODININGRATAN",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 136,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.37, -7.7773000000000003]
+      },
+      "properties": {
+        "FID": 136,
+        "latitude": -7.7773000000000003,
+        "longitude": 110.37,
+        "lokasi": "JETIS COKRODININGRATAN",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 137,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3685, -7.7767999999999997]
+      },
+      "properties": {
+        "FID": 137,
+        "latitude": -7.7767999999999997,
+        "longitude": 110.3685,
+        "lokasi": "JETIS COKRODININGRATAN",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 138,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3685, -7.7767999999999997]
+      },
+      "properties": {
+        "FID": 138,
+        "latitude": -7.7767999999999997,
+        "longitude": 110.3685,
+        "lokasi": "JETIS COKRODININGRATAN",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 139,
+      "geometry": { "type": "Point", "coordinates": [110.3685, -7.7763] },
+      "properties": {
+        "FID": 139,
+        "latitude": -7.7763,
+        "longitude": 110.3685,
+        "lokasi": "JETIS COKRODININGRATAN",
+        "F4": " ",
+        "komponen": "Siamese Conn",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 140,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3685, -7.7770999999999999]
+      },
+      "properties": {
+        "FID": 140,
+        "latitude": -7.7770999999999999,
+        "longitude": 110.3685,
+        "lokasi": "JETIS COKRODININGRATAN",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 141,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3685, -7.7770999999999999]
+      },
+      "properties": {
+        "FID": 141,
+        "latitude": -7.7770999999999999,
+        "longitude": 110.3685,
+        "lokasi": "JETIS COKRODININGRATAN",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 142,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3694, -7.7790999999999997]
+      },
+      "properties": {
+        "FID": 142,
+        "latitude": -7.7790999999999997,
+        "longitude": 110.3694,
+        "lokasi": "JETIS COKRODININGRATAN",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 143,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3694, -7.7790999999999997]
+      },
+      "properties": {
+        "FID": 143,
+        "latitude": -7.7790999999999997,
+        "longitude": 110.3694,
+        "lokasi": "JETIS COKRODININGRATAN",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 144,
+      "geometry": { "type": "Point", "coordinates": [110.3689, -7.7786] },
+      "properties": {
+        "FID": 144,
+        "latitude": -7.7786,
+        "longitude": 110.3689,
+        "lokasi": "JETIS COKRODININGRATAN",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 145,
+      "geometry": { "type": "Point", "coordinates": [110.3689, -7.7786] },
+      "properties": {
+        "FID": 145,
+        "latitude": -7.7786,
+        "longitude": 110.3689,
+        "lokasi": "JETIS COKRODININGRATAN",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 146,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3691, -7.7794999999999996]
+      },
+      "properties": {
+        "FID": 146,
+        "latitude": -7.7794999999999996,
+        "longitude": 110.3691,
+        "lokasi": "JETIS COKRODININGRATAN",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 147,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3691, -7.7794999999999996]
+      },
+      "properties": {
+        "FID": 147,
+        "latitude": -7.7794999999999996,
+        "longitude": 110.3691,
+        "lokasi": "JETIS COKRODININGRATAN",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 148,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.36969999999999, -7.7793000000000001]
+      },
+      "properties": {
+        "FID": 148,
+        "latitude": -7.7793000000000001,
+        "longitude": 110.36969999999999,
+        "lokasi": "JETIS COKRODININGRATAN",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 149,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.36969999999999, -7.7793000000000001]
+      },
+      "properties": {
+        "FID": 149,
+        "latitude": -7.7793000000000001,
+        "longitude": 110.36969999999999,
+        "lokasi": "JETIS COKRODININGRATAN",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 150,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.36969999999999, -7.7790999999999997]
+      },
+      "properties": {
+        "FID": 150,
+        "latitude": -7.7790999999999997,
+        "longitude": 110.36969999999999,
+        "lokasi": "JETIS COKRODININGRATAN",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 151,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.36969999999999, -7.7790999999999997]
+      },
+      "properties": {
+        "FID": 151,
+        "latitude": -7.7790999999999997,
+        "longitude": 110.36969999999999,
+        "lokasi": "JETIS COKRODININGRATAN",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 152,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.36960000000001, -7.7794999999999996]
+      },
+      "properties": {
+        "FID": 152,
+        "latitude": -7.7794999999999996,
+        "longitude": 110.36960000000001,
+        "lokasi": "JETIS COKRODININGRATAN",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 153,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.36960000000001, -7.7794999999999996]
+      },
+      "properties": {
+        "FID": 153,
+        "latitude": -7.7794999999999996,
+        "longitude": 110.36960000000001,
+        "lokasi": "JETIS COKRODININGRATAN",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 154,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3694, -7.7786999999999997]
+      },
+      "properties": {
+        "FID": 154,
+        "latitude": -7.7786999999999997,
+        "longitude": 110.3694,
+        "lokasi": "JETIS COKRODININGRATAN",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 155,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3694, -7.7786999999999997]
+      },
+      "properties": {
+        "FID": 155,
+        "latitude": -7.7786999999999997,
+        "longitude": 110.3694,
+        "lokasi": "JETIS COKRODININGRATAN",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 156,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3699, -7.7788000000000004]
+      },
+      "properties": {
+        "FID": 156,
+        "latitude": -7.7788000000000004,
+        "longitude": 110.3699,
+        "lokasi": "JETIS COKRODININGRATAN",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 157,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3699, -7.7788000000000004]
+      },
+      "properties": {
+        "FID": 157,
+        "latitude": -7.7788000000000004,
+        "longitude": 110.3699,
+        "lokasi": "JETIS COKRODININGRATAN",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 158,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3694, -7.7784000000000004]
+      },
+      "properties": {
+        "FID": 158,
+        "latitude": -7.7784000000000004,
+        "longitude": 110.3694,
+        "lokasi": "JETIS COKRODININGRATAN",
+        "F4": " ",
+        "komponen": "Siamese Conn",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 159,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3982, -7.7998000000000003]
+      },
+      "properties": {
+        "FID": 159,
+        "latitude": -7.7998000000000003,
+        "longitude": 110.3982,
+        "lokasi": "MUJAMUJU",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 160,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3982, -7.7998000000000003]
+      },
+      "properties": {
+        "FID": 160,
+        "latitude": -7.7998000000000003,
+        "longitude": 110.3982,
+        "lokasi": "MUJAMUJU",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 161,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3984, -7.8000999999999996]
+      },
+      "properties": {
+        "FID": 161,
+        "latitude": -7.8000999999999996,
+        "longitude": 110.3984,
+        "lokasi": "MUJAMUJU",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 162,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3984, -7.8000999999999996]
+      },
+      "properties": {
+        "FID": 162,
+        "latitude": -7.8000999999999996,
+        "longitude": 110.3984,
+        "lokasi": "MUJAMUJU",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 163,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3981, -7.7995000000000001]
+      },
+      "properties": {
+        "FID": 163,
+        "latitude": -7.7995000000000001,
+        "longitude": 110.3981,
+        "lokasi": "MUJAMUJU",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 164,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3981, -7.7995000000000001]
+      },
+      "properties": {
+        "FID": 164,
+        "latitude": -7.7995000000000001,
+        "longitude": 110.3981,
+        "lokasi": "MUJAMUJU",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 165,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3985, -7.8007999999999997]
+      },
+      "properties": {
+        "FID": 165,
+        "latitude": -7.8007999999999997,
+        "longitude": 110.3985,
+        "lokasi": "MUJAMUJU",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 166,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3985, -7.8007999999999997]
+      },
+      "properties": {
+        "FID": 166,
+        "latitude": -7.8007999999999997,
+        "longitude": 110.3985,
+        "lokasi": "MUJAMUJU",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 167,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3985, -7.8003999999999998]
+      },
+      "properties": {
+        "FID": 167,
+        "latitude": -7.8003999999999998,
+        "longitude": 110.3985,
+        "lokasi": "MUJAMUJU",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 168,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3985, -7.8003999999999998]
+      },
+      "properties": {
+        "FID": 168,
+        "latitude": -7.8003999999999998,
+        "longitude": 110.3985,
+        "lokasi": "MUJAMUJU",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 169,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3982, -7.8015999999999996]
+      },
+      "properties": {
+        "FID": 169,
+        "latitude": -7.8015999999999996,
+        "longitude": 110.3982,
+        "lokasi": "MUJAMUJU",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 170,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3982, -7.8015999999999996]
+      },
+      "properties": {
+        "FID": 170,
+        "latitude": -7.8015999999999996,
+        "longitude": 110.3982,
+        "lokasi": "MUJAMUJU",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 171,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.39790000000001, -7.8015999999999996]
+      },
+      "properties": {
+        "FID": 171,
+        "latitude": -7.8015999999999996,
+        "longitude": 110.39790000000001,
+        "lokasi": "MUJAMUJU",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 172,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.39790000000001, -7.8015999999999996]
+      },
+      "properties": {
+        "FID": 172,
+        "latitude": -7.8015999999999996,
+        "longitude": 110.39790000000001,
+        "lokasi": "MUJAMUJU",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 173,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3984, -7.8010999999999999]
+      },
+      "properties": {
+        "FID": 173,
+        "latitude": -7.8010999999999999,
+        "longitude": 110.3984,
+        "lokasi": "MUJAMUJU",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 174,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3984, -7.8010999999999999]
+      },
+      "properties": {
+        "FID": 174,
+        "latitude": -7.8010999999999999,
+        "longitude": 110.3984,
+        "lokasi": "MUJAMUJU",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 175,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.39660000000001, -7.7967000000000004]
+      },
+      "properties": {
+        "FID": 175,
+        "latitude": -7.7967000000000004,
+        "longitude": 110.39660000000001,
+        "lokasi": "MUJAMUJU",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 176,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.39660000000001, -7.7967000000000004]
+      },
+      "properties": {
+        "FID": 176,
+        "latitude": -7.7967000000000004,
+        "longitude": 110.39660000000001,
+        "lokasi": "MUJAMUJU",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 177,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3963, -7.7962999999999996]
+      },
+      "properties": {
+        "FID": 177,
+        "latitude": -7.7962999999999996,
+        "longitude": 110.3963,
+        "lokasi": "MUJAMUJU",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 178,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3963, -7.7962999999999996]
+      },
+      "properties": {
+        "FID": 178,
+        "latitude": -7.7962999999999996,
+        "longitude": 110.3963,
+        "lokasi": "MUJAMUJU",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 179,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.39619999999999, -7.7956000000000003]
+      },
+      "properties": {
+        "FID": 179,
+        "latitude": -7.7956000000000003,
+        "longitude": 110.39619999999999,
+        "lokasi": "MUJAMUJU",
+        "F4": " ",
+        "komponen": "Siamese Conn",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 180,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3954, -7.7977999999999996]
+      },
+      "properties": {
+        "FID": 180,
+        "latitude": -7.7977999999999996,
+        "longitude": 110.3954,
+        "lokasi": "MUJAMUJU",
+        "F4": " ",
+        "komponen": "Siamese Conn",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 181,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3963, -7.7960000000000003]
+      },
+      "properties": {
+        "FID": 181,
+        "latitude": -7.7960000000000003,
+        "longitude": 110.3963,
+        "lokasi": "MUJAMUJU",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 182,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3963, -7.7979000000000003]
+      },
+      "properties": {
+        "FID": 182,
+        "latitude": -7.7979000000000003,
+        "longitude": 110.3963,
+        "lokasi": "MUJAMUJU",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 183,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3963, -7.7979000000000003]
+      },
+      "properties": {
+        "FID": 183,
+        "latitude": -7.7979000000000003,
+        "longitude": 110.3963,
+        "lokasi": "MUJAMUJU",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 184,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.39579999999999, -7.7979000000000003]
+      },
+      "properties": {
+        "FID": 184,
+        "latitude": -7.7979000000000003,
+        "longitude": 110.39579999999999,
+        "lokasi": "MUJAMUJU",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 185,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.39579999999999, -7.7979000000000003]
+      },
+      "properties": {
+        "FID": 185,
+        "latitude": -7.7979000000000003,
+        "longitude": 110.39579999999999,
+        "lokasi": "MUJAMUJU",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 186,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.39660000000001, -7.7979000000000003]
+      },
+      "properties": {
+        "FID": 186,
+        "latitude": -7.7979000000000003,
+        "longitude": 110.39660000000001,
+        "lokasi": "MUJAMUJU",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 187,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3972, -7.7977999999999996]
+      },
+      "properties": {
+        "FID": 187,
+        "latitude": -7.7977999999999996,
+        "longitude": 110.3972,
+        "lokasi": "MUJAMUJU",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 188,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3972, -7.7977999999999996]
+      },
+      "properties": {
+        "FID": 188,
+        "latitude": -7.7977999999999996,
+        "longitude": 110.3972,
+        "lokasi": "MUJAMUJU",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 189,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.39700000000001, -7.7972000000000001]
+      },
+      "properties": {
+        "FID": 189,
+        "latitude": -7.7972000000000001,
+        "longitude": 110.39700000000001,
+        "lokasi": "MUJAMUJU",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 190,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.39700000000001, -7.7979000000000003]
+      },
+      "properties": {
+        "FID": 190,
+        "latitude": -7.7979000000000003,
+        "longitude": 110.39700000000001,
+        "lokasi": "MUJAMUJU",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 191,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.39700000000001, -7.7979000000000003]
+      },
+      "properties": {
+        "FID": 191,
+        "latitude": -7.7979000000000003,
+        "longitude": 110.39700000000001,
+        "lokasi": "MUJAMUJU",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 192,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.39749999999999, -7.7977999999999996]
+      },
+      "properties": {
+        "FID": 192,
+        "latitude": -7.7977999999999996,
+        "longitude": 110.39749999999999,
+        "lokasi": "MUJAMUJU",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 193,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.39749999999999, -7.7977999999999996]
+      },
+      "properties": {
+        "FID": 193,
+        "latitude": -7.7977999999999996,
+        "longitude": 110.39749999999999,
+        "lokasi": "MUJAMUJU",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 194,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3977, -7.7983000000000002]
+      },
+      "properties": {
+        "FID": 194,
+        "latitude": -7.7983000000000002,
+        "longitude": 110.3977,
+        "lokasi": "MUJAMUJU",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 195,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3977, -7.7983000000000002]
+      },
+      "properties": {
+        "FID": 195,
+        "latitude": -7.7983000000000002,
+        "longitude": 110.3977,
+        "lokasi": "MUJAMUJU",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 196,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3973, -7.7976000000000001]
+      },
+      "properties": {
+        "FID": 196,
+        "latitude": -7.7976000000000001,
+        "longitude": 110.3973,
+        "lokasi": "MUJAMUJU",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 197,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3973, -7.7976000000000001]
+      },
+      "properties": {
+        "FID": 197,
+        "latitude": -7.7976000000000001,
+        "longitude": 110.3973,
+        "lokasi": "MUJAMUJU",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 198,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3978, -7.7988999999999997]
+      },
+      "properties": {
+        "FID": 198,
+        "latitude": -7.7988999999999997,
+        "longitude": 110.3978,
+        "lokasi": "MUJAMUJU",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 199,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3978, -7.7988999999999997]
+      },
+      "properties": {
+        "FID": 199,
+        "latitude": -7.7988999999999997,
+        "longitude": 110.3978,
+        "lokasi": "MUJAMUJU",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 200,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3847, -7.8006000000000002]
+      },
+      "properties": {
+        "FID": 200,
+        "latitude": -7.8006000000000002,
+        "longitude": 110.3847,
+        "lokasi": "SEMAKI",
+        "F4": " ",
+        "komponen": "Siamese Conn",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 201,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3852, -7.8005000000000004]
+      },
+      "properties": {
+        "FID": 201,
+        "latitude": -7.8005000000000004,
+        "longitude": 110.3852,
+        "lokasi": "SEMAKI",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 202,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3848, -7.7999000000000001]
+      },
+      "properties": {
+        "FID": 202,
+        "latitude": -7.7999000000000001,
+        "longitude": 110.3848,
+        "lokasi": "SEMAKI",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 203,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3858, -7.8000999999999996]
+      },
+      "properties": {
+        "FID": 203,
+        "latitude": -7.8000999999999996,
+        "longitude": 110.3858,
+        "lokasi": "SEMAKI",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 204,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.38500000000001, -7.8007999999999997]
+      },
+      "properties": {
+        "FID": 204,
+        "latitude": -7.8007999999999997,
+        "longitude": 110.38500000000001,
+        "lokasi": "SEMAKI",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 205,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.37690000000001, -7.7937000000000003]
+      },
+      "properties": {
+        "FID": 205,
+        "latitude": -7.7937000000000003,
+        "longitude": 110.37690000000001,
+        "lokasi": "BAUSASRAN",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 206,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.37690000000001, -7.7939999999999996]
+      },
+      "properties": {
+        "FID": 206,
+        "latitude": -7.7939999999999996,
+        "longitude": 110.37690000000001,
+        "lokasi": "BAUSASRAN",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 207,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.37690000000001, -7.7939999999999996]
+      },
+      "properties": {
+        "FID": 207,
+        "latitude": -7.7939999999999996,
+        "longitude": 110.37690000000001,
+        "lokasi": "BAUSASRAN",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 208,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3766, -7.7934999999999999]
+      },
+      "properties": {
+        "FID": 208,
+        "latitude": -7.7934999999999999,
+        "longitude": 110.3766,
+        "lokasi": "BAUSASRAN",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 209,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.37690000000001, -7.7939999999999996]
+      },
+      "properties": {
+        "FID": 209,
+        "latitude": -7.7939999999999996,
+        "longitude": 110.37690000000001,
+        "lokasi": "BAUSASRAN",
+        "F4": " ",
+        "komponen": "Siamese Conn",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 210,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.371, -7.7944000000000004]
+      },
+      "properties": {
+        "FID": 210,
+        "latitude": -7.7944000000000004,
+        "longitude": 110.371,
+        "lokasi": "TEGALPANGGUNG",
+        "F4": " ",
+        "komponen": "Siamese Conn",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 211,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.372, -7.7945000000000002]
+      },
+      "properties": {
+        "FID": 211,
+        "latitude": -7.7945000000000002,
+        "longitude": 110.372,
+        "lokasi": "TEGAL PANGGUNG",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 212,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.372, -7.7945000000000002]
+      },
+      "properties": {
+        "FID": 212,
+        "latitude": -7.7945000000000002,
+        "longitude": 110.372,
+        "lokasi": "TEGAL PANGGUNG",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 213,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.37179999999999, -7.7942]
+      },
+      "properties": {
+        "FID": 213,
+        "latitude": -7.7942,
+        "longitude": 110.37179999999999,
+        "lokasi": "TEGAL PANGGUNG",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 214,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.36879999999999, -7.7946]
+      },
+      "properties": {
+        "FID": 214,
+        "latitude": -7.7946,
+        "longitude": 110.36879999999999,
+        "lokasi": "SURYATMAJAN",
+        "F4": " ",
+        "komponen": "Siamese Conn",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 215,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.36879999999999, -7.7946]
+      },
+      "properties": {
+        "FID": 215,
+        "latitude": -7.7946,
+        "longitude": 110.36879999999999,
+        "lokasi": "SURYATMAJAN",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 216,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.36879999999999, -7.7946]
+      },
+      "properties": {
+        "FID": 216,
+        "latitude": -7.7946,
+        "longitude": 110.36879999999999,
+        "lokasi": "SURYATMAJAN",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 217,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3689, -7.7934000000000001]
+      },
+      "properties": {
+        "FID": 217,
+        "latitude": -7.7934000000000001,
+        "longitude": 110.3689,
+        "lokasi": "SURYATMAJAN",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 218,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3689, -7.7934000000000001]
+      },
+      "properties": {
+        "FID": 218,
+        "latitude": -7.7934000000000001,
+        "longitude": 110.3689,
+        "lokasi": "SURYATMAJAN",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 219,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.369, -7.7934000000000001]
+      },
+      "properties": {
+        "FID": 219,
+        "latitude": -7.7934000000000001,
+        "longitude": 110.369,
+        "lokasi": "SURYATMAJAN",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 220,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.369, -7.7934000000000001]
+      },
+      "properties": {
+        "FID": 220,
+        "latitude": -7.7934000000000001,
+        "longitude": 110.369,
+        "lokasi": "SURYATMAJAN",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 221,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.36879999999999, -7.7942999999999998]
+      },
+      "properties": {
+        "FID": 221,
+        "latitude": -7.7942999999999998,
+        "longitude": 110.36879999999999,
+        "lokasi": "SURYATMAJAN",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 222,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.36879999999999, -7.7942999999999998]
+      },
+      "properties": {
+        "FID": 222,
+        "latitude": -7.7942999999999998,
+        "longitude": 110.36879999999999,
+        "lokasi": "SURYATMAJAN",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 223,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.369, -7.7934000000000001]
+      },
+      "properties": {
+        "FID": 223,
+        "latitude": -7.7934000000000001,
+        "longitude": 110.369,
+        "lokasi": "SURYATMAJAN",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 224,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.369, -7.7934000000000001]
+      },
+      "properties": {
+        "FID": 224,
+        "latitude": -7.7934000000000001,
+        "longitude": 110.369,
+        "lokasi": "SURYATMAJAN",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 225,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3682, -7.7934999999999999]
+      },
+      "properties": {
+        "FID": 225,
+        "latitude": -7.7934999999999999,
+        "longitude": 110.3682,
+        "lokasi": "SURYATMAJAN",
+        "F4": " ",
+        "komponen": "Siamese Conn",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 226,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.36790000000001, -7.7931999999999997]
+      },
+      "properties": {
+        "FID": 226,
+        "latitude": -7.7931999999999997,
+        "longitude": 110.36790000000001,
+        "lokasi": "SURYATMAJAN",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 227,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.369, -7.7934000000000001]
+      },
+      "properties": {
+        "FID": 227,
+        "latitude": -7.7934000000000001,
+        "longitude": 110.369,
+        "lokasi": "SURYATMAJAN",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 228,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3682, -7.7931999999999997]
+      },
+      "properties": {
+        "FID": 228,
+        "latitude": -7.7931999999999997,
+        "longitude": 110.3682,
+        "lokasi": "SURYATMAJAN",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 229,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3569, -7.7919999999999998]
+      },
+      "properties": {
+        "FID": 229,
+        "latitude": -7.7919999999999998,
+        "longitude": 110.3569,
+        "lokasi": "GEDONG TENGEN",
+        "F4": " ",
+        "komponen": "Siamese Conn",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 230,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3569, -7.7919999999999998]
+      },
+      "properties": {
+        "FID": 230,
+        "latitude": -7.7919999999999998,
+        "longitude": 110.3569,
+        "lokasi": "GEDONG TENGEN",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 231,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3566, -7.7915000000000001]
+      },
+      "properties": {
+        "FID": 231,
+        "latitude": -7.7915000000000001,
+        "longitude": 110.3566,
+        "lokasi": "GEDONG TENGEN",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 232,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3566, -7.7915000000000001]
+      },
+      "properties": {
+        "FID": 232,
+        "latitude": -7.7915000000000001,
+        "longitude": 110.3566,
+        "lokasi": "GEDONG TENGEN",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 233,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3566, -7.7915000000000001]
+      },
+      "properties": {
+        "FID": 233,
+        "latitude": -7.7915000000000001,
+        "longitude": 110.3566,
+        "lokasi": "GEDONG TENGEN",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 234,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.35720000000001, -7.7965]
+      },
+      "properties": {
+        "FID": 234,
+        "latitude": -7.7965,
+        "longitude": 110.35720000000001,
+        "lokasi": "NGAMPILAN PATUK",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 235,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3565, -7.7965999999999998]
+      },
+      "properties": {
+        "FID": 235,
+        "latitude": -7.7965999999999998,
+        "longitude": 110.3565,
+        "lokasi": "NGAMPILAN PATUK",
+        "F4": " ",
+        "komponen": "Siamese Conn",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 236,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3569, -7.7957999999999998]
+      },
+      "properties": {
+        "FID": 236,
+        "latitude": -7.7957999999999998,
+        "longitude": 110.3569,
+        "lokasi": "NGAMPILAN PATUK",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 237,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.35720000000001, -7.7965]
+      },
+      "properties": {
+        "FID": 237,
+        "latitude": -7.7965,
+        "longitude": 110.35720000000001,
+        "lokasi": "NGAMPILAN PATUK",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 238,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3569, -7.7957999999999998]
+      },
+      "properties": {
+        "FID": 238,
+        "latitude": -7.7957999999999998,
+        "longitude": 110.3569,
+        "lokasi": "NGAMPILAN PATUK",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 239,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.35760000000001, -7.7962999999999996]
+      },
+      "properties": {
+        "FID": 239,
+        "latitude": -7.7962999999999996,
+        "longitude": 110.35760000000001,
+        "lokasi": "NGAMPILAN PATUK",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 240,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3569, -7.7957999999999998]
+      },
+      "properties": {
+        "FID": 240,
+        "latitude": -7.7957999999999998,
+        "longitude": 110.3569,
+        "lokasi": "NGAMPILAN PATUK",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 241,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.35850000000001, -7.7967000000000004]
+      },
+      "properties": {
+        "FID": 241,
+        "latitude": -7.7967000000000004,
+        "longitude": 110.35850000000001,
+        "lokasi": "NGAMPILAN PATUK",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 242,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3587, -7.7964000000000002]
+      },
+      "properties": {
+        "FID": 242,
+        "latitude": -7.7964000000000002,
+        "longitude": 110.3587,
+        "lokasi": "NGAMPILAN PATUK",
+        "F4": " ",
+        "komponen": "Siamese Conn",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 243,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3587, -7.7964000000000002]
+      },
+      "properties": {
+        "FID": 243,
+        "latitude": -7.7964000000000002,
+        "longitude": 110.3587,
+        "lokasi": "NGAMPILAN PATUK",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 244,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3586, -7.7961999999999998]
+      },
+      "properties": {
+        "FID": 244,
+        "latitude": -7.7961999999999998,
+        "longitude": 110.3586,
+        "lokasi": "NGAMPILAN PATUK",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 245,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3579, -7.7957000000000001]
+      },
+      "properties": {
+        "FID": 245,
+        "latitude": -7.7957000000000001,
+        "longitude": 110.3579,
+        "lokasi": "NGAMPILAN PATUK",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 246,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3584, -7.7967000000000004]
+      },
+      "properties": {
+        "FID": 246,
+        "latitude": -7.7967000000000004,
+        "longitude": 110.3584,
+        "lokasi": "NGAMPILAN PATUK",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 247,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.36150000000001, -7.7976000000000001]
+      },
+      "properties": {
+        "FID": 247,
+        "latitude": -7.7976000000000001,
+        "longitude": 110.36150000000001,
+        "lokasi": "NGAMPILAN PATUK",
+        "F4": " ",
+        "komponen": "Siamese Conn",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 248,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.36109999999999, -7.7958999999999996]
+      },
+      "properties": {
+        "FID": 248,
+        "latitude": -7.7958999999999996,
+        "longitude": 110.36109999999999,
+        "lokasi": "NGAMPILAN PATUK",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 249,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3617, -7.7965999999999998]
+      },
+      "properties": {
+        "FID": 249,
+        "latitude": -7.7965999999999998,
+        "longitude": 110.3617,
+        "lokasi": "NGAMPILAN PATUK",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 250,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3617, -7.7965999999999998]
+      },
+      "properties": {
+        "FID": 250,
+        "latitude": -7.7965999999999998,
+        "longitude": 110.3617,
+        "lokasi": "NGAMPILAN PATUK",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 251,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3614, -7.7960000000000003]
+      },
+      "properties": {
+        "FID": 251,
+        "latitude": -7.7960000000000003,
+        "longitude": 110.3614,
+        "lokasi": "NGAMPILAN PATUK",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 252,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3614, -7.7973999999999997]
+      },
+      "properties": {
+        "FID": 252,
+        "latitude": -7.7973999999999997,
+        "longitude": 110.3614,
+        "lokasi": "NGAMPILAN PATUK",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 253,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.36150000000001, -7.7960000000000003]
+      },
+      "properties": {
+        "FID": 253,
+        "latitude": -7.7960000000000003,
+        "longitude": 110.36150000000001,
+        "lokasi": "NGAMPILAN PATUK",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 254,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3567, -7.7952000000000004]
+      },
+      "properties": {
+        "FID": 254,
+        "latitude": -7.7952000000000004,
+        "longitude": 110.3567,
+        "lokasi": "NOTOYUDAN",
+        "F4": " ",
+        "komponen": "Siamese Conn",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 255,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3561, -7.7950999999999997]
+      },
+      "properties": {
+        "FID": 255,
+        "latitude": -7.7950999999999997,
+        "longitude": 110.3561,
+        "lokasi": "NOTOYUDAN",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 256,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3561, -7.7950999999999997]
+      },
+      "properties": {
+        "FID": 256,
+        "latitude": -7.7950999999999997,
+        "longitude": 110.3561,
+        "lokasi": "NOTOYUDAN",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 257,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3554, -7.7949000000000002]
+      },
+      "properties": {
+        "FID": 257,
+        "latitude": -7.7949000000000002,
+        "longitude": 110.3554,
+        "lokasi": "NOTOYUDAN",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 258,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3554, -7.7949000000000002]
+      },
+      "properties": {
+        "FID": 258,
+        "latitude": -7.7949000000000002,
+        "longitude": 110.3554,
+        "lokasi": "NOTOYUDAN",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 259,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3554, -7.7952000000000004]
+      },
+      "properties": {
+        "FID": 259,
+        "latitude": -7.7952000000000004,
+        "longitude": 110.3554,
+        "lokasi": "NOTOYUDAN",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 260,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3554, -7.7952000000000004]
+      },
+      "properties": {
+        "FID": 260,
+        "latitude": -7.7952000000000004,
+        "longitude": 110.3554,
+        "lokasi": "NOTOYUDAN",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 261,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.35509999999999, -7.7976000000000001]
+      },
+      "properties": {
+        "FID": 261,
+        "latitude": -7.7976000000000001,
+        "longitude": 110.35509999999999,
+        "lokasi": "NGAMPILAN",
+        "F4": " ",
+        "komponen": "Siamese Conn",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 262,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.35509999999999, -7.7976000000000001]
+      },
+      "properties": {
+        "FID": 262,
+        "latitude": -7.7976000000000001,
+        "longitude": 110.35509999999999,
+        "lokasi": "NGAMPILAN",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 263,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.35509999999999, -7.7976000000000001]
+      },
+      "properties": {
+        "FID": 263,
+        "latitude": -7.7976000000000001,
+        "longitude": 110.35509999999999,
+        "lokasi": "NGAMPILAN",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 264,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.35509999999999, -7.7976000000000001]
+      },
+      "properties": {
+        "FID": 264,
+        "latitude": -7.7976000000000001,
+        "longitude": 110.35509999999999,
+        "lokasi": "NGAMPILAN",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 265,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.35590000000001, -7.7984999999999998]
+      },
+      "properties": {
+        "FID": 265,
+        "latitude": -7.7984999999999998,
+        "longitude": 110.35590000000001,
+        "lokasi": "NGAMPILAN",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 266,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.35599999999999, -7.7984999999999998]
+      },
+      "properties": {
+        "FID": 266,
+        "latitude": -7.7984999999999998,
+        "longitude": 110.35599999999999,
+        "lokasi": "NGAMPILAN",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 267,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.35599999999999, -7.7984999999999998]
+      },
+      "properties": {
+        "FID": 267,
+        "latitude": -7.7984999999999998,
+        "longitude": 110.35599999999999,
+        "lokasi": "NGAMPILAN",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 268,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3557, -7.8006000000000002]
+      },
+      "properties": {
+        "FID": 268,
+        "latitude": -7.8006000000000002,
+        "longitude": 110.3557,
+        "lokasi": "NGAMPILAN",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 269,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3557, -7.8006000000000002]
+      },
+      "properties": {
+        "FID": 269,
+        "latitude": -7.8006000000000002,
+        "longitude": 110.3557,
+        "lokasi": "NGAMPILAN",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 270,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.35550000000001, -7.8000999999999996]
+      },
+      "properties": {
+        "FID": 270,
+        "latitude": -7.8000999999999996,
+        "longitude": 110.35550000000001,
+        "lokasi": "NGAMPILAN",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 271,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.35550000000001, -7.8000999999999996]
+      },
+      "properties": {
+        "FID": 271,
+        "latitude": -7.8000999999999996,
+        "longitude": 110.35550000000001,
+        "lokasi": "NGAMPILAN",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 272,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3563, -7.7960000000000003]
+      },
+      "properties": {
+        "FID": 272,
+        "latitude": -7.7960000000000003,
+        "longitude": 110.3563,
+        "lokasi": "NGAMPILAN",
+        "F4": " ",
+        "komponen": "Siamese Conn",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 273,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.35639999999999, -7.7961999999999998]
+      },
+      "properties": {
+        "FID": 273,
+        "latitude": -7.7961999999999998,
+        "longitude": 110.35639999999999,
+        "lokasi": "NGAMPILAN",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 274,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.35639999999999, -7.7961999999999998]
+      },
+      "properties": {
+        "FID": 274,
+        "latitude": -7.7961999999999998,
+        "longitude": 110.35639999999999,
+        "lokasi": "NGAMPILAN",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 275,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.35639999999999, -7.7961999999999998]
+      },
+      "properties": {
+        "FID": 275,
+        "latitude": -7.7961999999999998,
+        "longitude": 110.35639999999999,
+        "lokasi": "NGAMPILAN",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 276,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.357, -7.7975000000000003]
+      },
+      "properties": {
+        "FID": 276,
+        "latitude": -7.7975000000000003,
+        "longitude": 110.357,
+        "lokasi": "NGAMPILAN",
+        "F4": " ",
+        "komponen": "Siamese Conn",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 277,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.35639999999999, -7.7961999999999998]
+      },
+      "properties": {
+        "FID": 277,
+        "latitude": -7.7961999999999998,
+        "longitude": 110.35639999999999,
+        "lokasi": "NGAMPILAN",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 278,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3561, -7.7983000000000002]
+      },
+      "properties": {
+        "FID": 278,
+        "latitude": -7.7983000000000002,
+        "longitude": 110.3561,
+        "lokasi": "NGAMPILAN",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 279,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3561, -7.7983000000000002]
+      },
+      "properties": {
+        "FID": 279,
+        "latitude": -7.7983000000000002,
+        "longitude": 110.3561,
+        "lokasi": "NGAMPILAN",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 280,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3561, -7.7983000000000002]
+      },
+      "properties": {
+        "FID": 280,
+        "latitude": -7.7983000000000002,
+        "longitude": 110.3561,
+        "lokasi": "NGAMPILAN",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 281,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3561, -7.7983000000000002]
+      },
+      "properties": {
+        "FID": 281,
+        "latitude": -7.7983000000000002,
+        "longitude": 110.3561,
+        "lokasi": "NGAMPILAN",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 282,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3558, -7.8018999999999998]
+      },
+      "properties": {
+        "FID": 282,
+        "latitude": -7.8018999999999998,
+        "longitude": 110.3558,
+        "lokasi": "SERANGAN",
+        "F4": " ",
+        "komponen": "Siamese Conn",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 283,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3558, -7.8018999999999998]
+      },
+      "properties": {
+        "FID": 283,
+        "latitude": -7.8018999999999998,
+        "longitude": 110.3558,
+        "lokasi": "SERANGAN",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 284,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3558, -7.8018999999999998]
+      },
+      "properties": {
+        "FID": 284,
+        "latitude": -7.8018999999999998,
+        "longitude": 110.3558,
+        "lokasi": "SERANGAN",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 285,
+      "geometry": { "type": "Point", "coordinates": [110.3557, -7.8026] },
+      "properties": {
+        "FID": 285,
+        "latitude": -7.8026,
+        "longitude": 110.3557,
+        "lokasi": "SERANGAN",
+        "F4": " ",
+        "komponen": "Siamese Conn",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 286,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3558, -7.8018999999999998]
+      },
+      "properties": {
+        "FID": 286,
+        "latitude": -7.8018999999999998,
+        "longitude": 110.3558,
+        "lokasi": "SERANGAN",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 287,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3558, -7.8018999999999998]
+      },
+      "properties": {
+        "FID": 287,
+        "latitude": -7.8018999999999998,
+        "longitude": 110.3558,
+        "lokasi": "SERANGAN",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 288,
+      "geometry": { "type": "Point", "coordinates": [110.3557, -7.8026] },
+      "properties": {
+        "FID": 288,
+        "latitude": -7.8026,
+        "longitude": 110.3557,
+        "lokasi": "SERANGAN",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 289,
+      "geometry": { "type": "Point", "coordinates": [110.3557, -7.8026] },
+      "properties": {
+        "FID": 289,
+        "latitude": -7.8026,
+        "longitude": 110.3557,
+        "lokasi": "SERANGAN",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 290,
+      "geometry": { "type": "Point", "coordinates": [110.3557, -7.8026] },
+      "properties": {
+        "FID": 290,
+        "latitude": -7.8026,
+        "longitude": 110.3557,
+        "lokasi": "SERANGAN",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 291,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3557, -7.8032000000000004]
+      },
+      "properties": {
+        "FID": 291,
+        "latitude": -7.8032000000000004,
+        "longitude": 110.3557,
+        "lokasi": "SERANGAN",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 292,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3557, -7.8032000000000004]
+      },
+      "properties": {
+        "FID": 292,
+        "latitude": -7.8032000000000004,
+        "longitude": 110.3557,
+        "lokasi": "SERANGAN",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 293,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3557, -7.8032000000000004]
+      },
+      "properties": {
+        "FID": 293,
+        "latitude": -7.8032000000000004,
+        "longitude": 110.3557,
+        "lokasi": "SERANGAN",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 294,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3557, -7.8032000000000004]
+      },
+      "properties": {
+        "FID": 294,
+        "latitude": -7.8032000000000004,
+        "longitude": 110.3557,
+        "lokasi": "SERANGAN",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 295,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3557, -7.8032000000000004]
+      },
+      "properties": {
+        "FID": 295,
+        "latitude": -7.8032000000000004,
+        "longitude": 110.3557,
+        "lokasi": "SERANGAN",
+        "F4": " ",
+        "komponen": "Siamese Conn",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 296,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3694, -7.8056999999999999]
+      },
+      "properties": {
+        "FID": 296,
+        "latitude": -7.8056999999999999,
+        "longitude": 110.3694,
+        "lokasi": "PRAWIRODIRJAN",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 297,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3693, -7.8055000000000003]
+      },
+      "properties": {
+        "FID": 297,
+        "latitude": -7.8055000000000003,
+        "longitude": 110.3693,
+        "lokasi": "PRAWIRODIRJAN",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 298,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3715, -7.8052000000000001]
+      },
+      "properties": {
+        "FID": 298,
+        "latitude": -7.8052000000000001,
+        "longitude": 110.3715,
+        "lokasi": "PRAWIRODIRJAN",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 299,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3715, -7.8052000000000001]
+      },
+      "properties": {
+        "FID": 299,
+        "latitude": -7.8052000000000001,
+        "longitude": 110.3715,
+        "lokasi": "PRAWIRODIRJAN",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 300,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3715, -7.8063000000000002]
+      },
+      "properties": {
+        "FID": 300,
+        "latitude": -7.8063000000000002,
+        "longitude": 110.3715,
+        "lokasi": "PRAWIRODIRJAN",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 301,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3693, -7.8055000000000003]
+      },
+      "properties": {
+        "FID": 301,
+        "latitude": -7.8055000000000003,
+        "longitude": 110.3693,
+        "lokasi": "PRAWIRODIRJAN",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 302,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3717, -7.8066000000000004]
+      },
+      "properties": {
+        "FID": 302,
+        "latitude": -7.8066000000000004,
+        "longitude": 110.3717,
+        "lokasi": "PRAWIRODIRJAN",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 303,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3717, -7.8067000000000002]
+      },
+      "properties": {
+        "FID": 303,
+        "latitude": -7.8067000000000002,
+        "longitude": 110.3717,
+        "lokasi": "PRAWIRODIRJAN",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 304,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3717, -7.8067000000000002]
+      },
+      "properties": {
+        "FID": 304,
+        "latitude": -7.8067000000000002,
+        "longitude": 110.3717,
+        "lokasi": "PRAWIRODIRJAN",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 305,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.37179999999999, -7.8066000000000004]
+      },
+      "properties": {
+        "FID": 305,
+        "latitude": -7.8066000000000004,
+        "longitude": 110.37179999999999,
+        "lokasi": "PRAWIRODIRJAN",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 306,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.37179999999999, -7.8066000000000004]
+      },
+      "properties": {
+        "FID": 306,
+        "latitude": -7.8066000000000004,
+        "longitude": 110.37179999999999,
+        "lokasi": "PRAWIRODIRJAN",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 307,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3716, -7.8080999999999996]
+      },
+      "properties": {
+        "FID": 307,
+        "latitude": -7.8080999999999996,
+        "longitude": 110.3716,
+        "lokasi": "PRAWIRODIRJAN",
+        "F4": " ",
+        "komponen": "Siamese Conn",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 308,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3716, -7.8080999999999996]
+      },
+      "properties": {
+        "FID": 308,
+        "latitude": -7.8080999999999996,
+        "longitude": 110.3716,
+        "lokasi": "PRAWIRODIRJAN",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 309,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3706, -7.8049999999999997]
+      },
+      "properties": {
+        "FID": 309,
+        "latitude": -7.8049999999999997,
+        "longitude": 110.3706,
+        "lokasi": "PRAWIRODIRJAN",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 310,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3706, -7.8049999999999997]
+      },
+      "properties": {
+        "FID": 310,
+        "latitude": -7.8049999999999997,
+        "longitude": 110.3706,
+        "lokasi": "PRAWIRODIRJAN",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 311,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3715, -7.8075000000000001]
+      },
+      "properties": {
+        "FID": 311,
+        "latitude": -7.8075000000000001,
+        "longitude": 110.3715,
+        "lokasi": "PRAWIRODIRJAN",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 312,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3706, -7.8049999999999997]
+      },
+      "properties": {
+        "FID": 312,
+        "latitude": -7.8049999999999997,
+        "longitude": 110.3706,
+        "lokasi": "PRAWIRODIRJAN",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 313,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3706, -7.8049999999999997]
+      },
+      "properties": {
+        "FID": 313,
+        "latitude": -7.8049999999999997,
+        "longitude": 110.3706,
+        "lokasi": "PRAWIRODIRJAN",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 314,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3706, -7.8049999999999997]
+      },
+      "properties": {
+        "FID": 314,
+        "latitude": -7.8049999999999997,
+        "longitude": 110.3706,
+        "lokasi": "PRAWIRODIRJAN",
+        "F4": " ",
+        "komponen": "Siamese Conn",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 315,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.36199999999999, -7.8014999999999999]
+      },
+      "properties": {
+        "FID": 315,
+        "latitude": -7.8014999999999999,
+        "longitude": 110.36199999999999,
+        "lokasi": "NGUPASAN",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 316,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3621, -7.8014999999999999]
+      },
+      "properties": {
+        "FID": 316,
+        "latitude": -7.8014999999999999,
+        "longitude": 110.3621,
+        "lokasi": "NGUPASAN",
+        "F4": " ",
+        "komponen": "Siamese Conn",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 317,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3621, -7.8014999999999999]
+      },
+      "properties": {
+        "FID": 317,
+        "latitude": -7.8014999999999999,
+        "longitude": 110.3621,
+        "lokasi": "NGUPASAN",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 318,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.36199999999999, -7.8014999999999999]
+      },
+      "properties": {
+        "FID": 318,
+        "latitude": -7.8014999999999999,
+        "longitude": 110.36199999999999,
+        "lokasi": "NGUPASAN",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 319,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.36199999999999, -7.8014999999999999]
+      },
+      "properties": {
+        "FID": 319,
+        "latitude": -7.8014999999999999,
+        "longitude": 110.36199999999999,
+        "lokasi": "NGUPASAN",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 320,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.36199999999999, -7.8014999999999999]
+      },
+      "properties": {
+        "FID": 320,
+        "latitude": -7.8014999999999999,
+        "longitude": 110.36199999999999,
+        "lokasi": "NGUPASAN",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 321,
+      "geometry": { "type": "Point", "coordinates": [110.3612, -7.8045] },
+      "properties": {
+        "FID": 321,
+        "latitude": -7.8045,
+        "longitude": 110.3612,
+        "lokasi": "NGUPASAN",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 322,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.36199999999999, -7.8014999999999999]
+      },
+      "properties": {
+        "FID": 322,
+        "latitude": -7.8014999999999999,
+        "longitude": 110.36199999999999,
+        "lokasi": "NGUPASAN",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 323,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3612, -7.8044000000000002]
+      },
+      "properties": {
+        "FID": 323,
+        "latitude": -7.8044000000000002,
+        "longitude": 110.3612,
+        "lokasi": "NGUPASAN",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 324,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.36199999999999, -7.8014999999999999]
+      },
+      "properties": {
+        "FID": 324,
+        "latitude": -7.8014999999999999,
+        "longitude": 110.36199999999999,
+        "lokasi": "NGUPASAN",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 325,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3612, -7.8044000000000002]
+      },
+      "properties": {
+        "FID": 325,
+        "latitude": -7.8044000000000002,
+        "longitude": 110.3612,
+        "lokasi": "NGUPASAN",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 326,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.361, -7.8041999999999998]
+      },
+      "properties": {
+        "FID": 326,
+        "latitude": -7.8041999999999998,
+        "longitude": 110.361,
+        "lokasi": "NGUPASAN",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 327,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.35850000000001, -7.8030999999999997]
+      },
+      "properties": {
+        "FID": 327,
+        "latitude": -7.8030999999999997,
+        "longitude": 110.35850000000001,
+        "lokasi": "NGUPASAN",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 328,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.36109999999999, -7.8018999999999998]
+      },
+      "properties": {
+        "FID": 328,
+        "latitude": -7.8018999999999998,
+        "longitude": 110.36109999999999,
+        "lokasi": "NGUPASAN",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 329,
+      "geometry": { "type": "Point", "coordinates": [110.3614, -7.8041] },
+      "properties": {
+        "FID": 329,
+        "latitude": -7.8041,
+        "longitude": 110.3614,
+        "lokasi": "NGUPASAN",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 330,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3613, -7.8023999999999996]
+      },
+      "properties": {
+        "FID": 330,
+        "latitude": -7.8023999999999996,
+        "longitude": 110.3613,
+        "lokasi": "NGUPASAN",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 331,
+      "geometry": { "type": "Point", "coordinates": [110.3633, -7.8026] },
+      "properties": {
+        "FID": 331,
+        "latitude": -7.8026,
+        "longitude": 110.3633,
+        "lokasi": "NGUPASAN",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 332,
+      "geometry": { "type": "Point", "coordinates": [110.3633, -7.8026] },
+      "properties": {
+        "FID": 332,
+        "latitude": -7.8026,
+        "longitude": 110.3633,
+        "lokasi": "NGUPASAN",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 333,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.36409999999999, -7.8023999999999996]
+      },
+      "properties": {
+        "FID": 333,
+        "latitude": -7.8023999999999996,
+        "longitude": 110.36409999999999,
+        "lokasi": "NGUPASAN",
+        "F4": " ",
+        "komponen": "Siamese Conn",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 334,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3627, -7.8026999999999997]
+      },
+      "properties": {
+        "FID": 334,
+        "latitude": -7.8026999999999997,
+        "longitude": 110.3627,
+        "lokasi": "NGUPASAN",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 335,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3627, -7.8026999999999997]
+      },
+      "properties": {
+        "FID": 335,
+        "latitude": -7.8026999999999997,
+        "longitude": 110.3627,
+        "lokasi": "NGUPASAN",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 336,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3627, -7.8026999999999997]
+      },
+      "properties": {
+        "FID": 336,
+        "latitude": -7.8026999999999997,
+        "longitude": 110.3627,
+        "lokasi": "NGUPASAN",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 337,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.36279999999999, -7.8036000000000003]
+      },
+      "properties": {
+        "FID": 337,
+        "latitude": -7.8036000000000003,
+        "longitude": 110.36279999999999,
+        "lokasi": "NGUPASAN",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 338,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3629, -7.8029999999999999]
+      },
+      "properties": {
+        "FID": 338,
+        "latitude": -7.8029999999999999,
+        "longitude": 110.3629,
+        "lokasi": "NGUPASAN",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 339,
+      "geometry": { "type": "Point", "coordinates": [110.3614, -7.8041] },
+      "properties": {
+        "FID": 339,
+        "latitude": -7.8041,
+        "longitude": 110.3614,
+        "lokasi": "NGUPASAN",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 340,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.355, -7.8080999999999996]
+      },
+      "properties": {
+        "FID": 340,
+        "latitude": -7.8080999999999996,
+        "longitude": 110.355,
+        "lokasi": "SURYOWIJAYAN",
+        "F4": " ",
+        "komponen": "Siamese Conn",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 341,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3527, -7.8109999999999999]
+      },
+      "properties": {
+        "FID": 341,
+        "latitude": -7.8109999999999999,
+        "longitude": 110.3527,
+        "lokasi": "SURYOWIJAYAN",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 342,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3527, -7.8109999999999999]
+      },
+      "properties": {
+        "FID": 342,
+        "latitude": -7.8109999999999999,
+        "longitude": 110.3527,
+        "lokasi": "SURYOWIJAYAN",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 343,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3526, -7.8105000000000002]
+      },
+      "properties": {
+        "FID": 343,
+        "latitude": -7.8105000000000002,
+        "longitude": 110.3526,
+        "lokasi": "SURYOWIJAYAN",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 344,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3526, -7.8105000000000002]
+      },
+      "properties": {
+        "FID": 344,
+        "latitude": -7.8105000000000002,
+        "longitude": 110.3526,
+        "lokasi": "SURYOWIJAYAN",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 345,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3497, -7.8110999999999997]
+      },
+      "properties": {
+        "FID": 345,
+        "latitude": -7.8110999999999997,
+        "longitude": 110.3497,
+        "lokasi": "SURYOWIJAYAN",
+        "F4": " ",
+        "komponen": "Siamese Conn",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 346,
+      "geometry": { "type": "Point", "coordinates": [110.3544, -7.8087] },
+      "properties": {
+        "FID": 346,
+        "latitude": -7.8087,
+        "longitude": 110.3544,
+        "lokasi": "SURYOWIJAYAN",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 347,
+      "geometry": { "type": "Point", "coordinates": [110.3544, -7.8087] },
+      "properties": {
+        "FID": 347,
+        "latitude": -7.8087,
+        "longitude": 110.3544,
+        "lokasi": "SURYOWIJAYAN",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 348,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3532, -7.8097000000000003]
+      },
+      "properties": {
+        "FID": 348,
+        "latitude": -7.8097000000000003,
+        "longitude": 110.3532,
+        "lokasi": "SURYOWIJAYAN",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 349,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3532, -7.8097000000000003]
+      },
+      "properties": {
+        "FID": 349,
+        "latitude": -7.8097000000000003,
+        "longitude": 110.3532,
+        "lokasi": "SURYOWIJAYAN",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 350,
+      "geometry": { "type": "Point", "coordinates": [110.3544, -7.8087] },
+      "properties": {
+        "FID": 350,
+        "latitude": -7.8087,
+        "longitude": 110.3544,
+        "lokasi": "SURYOWIJAYAN",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 351,
+      "geometry": { "type": "Point", "coordinates": [110.3544, -7.8087] },
+      "properties": {
+        "FID": 351,
+        "latitude": -7.8087,
+        "longitude": 110.3544,
+        "lokasi": "SURYOWIJAYAN",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 352,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3533, -7.8090000000000002]
+      },
+      "properties": {
+        "FID": 352,
+        "latitude": -7.8090000000000002,
+        "longitude": 110.3533,
+        "lokasi": "SURYOWIJAYAN",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 353,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3533, -7.8090000000000002]
+      },
+      "properties": {
+        "FID": 353,
+        "latitude": -7.8090000000000002,
+        "longitude": 110.3533,
+        "lokasi": "SURYOWIJAYAN",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 354,
+      "geometry": { "type": "Point", "coordinates": [110.3544, -7.8087] },
+      "properties": {
+        "FID": 354,
+        "latitude": -7.8087,
+        "longitude": 110.3544,
+        "lokasi": "SURYOWIJAYAN",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 355,
+      "geometry": { "type": "Point", "coordinates": [110.3544, -7.8087] },
+      "properties": {
+        "FID": 355,
+        "latitude": -7.8087,
+        "longitude": 110.3544,
+        "lokasi": "SURYOWIJAYAN",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 356,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.35039999999999, -7.8110999999999997]
+      },
+      "properties": {
+        "FID": 356,
+        "latitude": -7.8110999999999997,
+        "longitude": 110.35039999999999,
+        "lokasi": "PATANGPULUHAN",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 357,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.35039999999999, -7.8110999999999997]
+      },
+      "properties": {
+        "FID": 357,
+        "latitude": -7.8110999999999997,
+        "longitude": 110.35039999999999,
+        "lokasi": "PATANGPULUHAN",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 358,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.35120000000001, -7.8112000000000004]
+      },
+      "properties": {
+        "FID": 358,
+        "latitude": -7.8112000000000004,
+        "longitude": 110.35120000000001,
+        "lokasi": "PATANGPULUHAN",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 359,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.35120000000001, -7.8112000000000004]
+      },
+      "properties": {
+        "FID": 359,
+        "latitude": -7.8112000000000004,
+        "longitude": 110.35120000000001,
+        "lokasi": "PATANGPULUHAN",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 360,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3497, -7.8110999999999997]
+      },
+      "properties": {
+        "FID": 360,
+        "latitude": -7.8110999999999997,
+        "longitude": 110.3497,
+        "lokasi": "PATANGPULUHAN",
+        "F4": " ",
+        "komponen": "Siamese Conn",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 361,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3514, -7.8113000000000001]
+      },
+      "properties": {
+        "FID": 361,
+        "latitude": -7.8113000000000001,
+        "longitude": 110.3514,
+        "lokasi": "PATANGPULUHAN",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 362,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3514, -7.8113000000000001]
+      },
+      "properties": {
+        "FID": 362,
+        "latitude": -7.8113000000000001,
+        "longitude": 110.3514,
+        "lokasi": "PATANGPULUHAN",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 363,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3595, -7.8059000000000003]
+      },
+      "properties": {
+        "FID": 363,
+        "latitude": -7.8059000000000003,
+        "longitude": 110.3595,
+        "lokasi": "KADIPATEN KRATON",
+        "F4": " ",
+        "komponen": "Siamese Conn",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 364,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3595, -7.8070000000000004]
+      },
+      "properties": {
+        "FID": 364,
+        "latitude": -7.8070000000000004,
+        "longitude": 110.3595,
+        "lokasi": "KADIPATEN KRATON",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 365,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3595, -7.8070000000000004]
+      },
+      "properties": {
+        "FID": 365,
+        "latitude": -7.8070000000000004,
+        "longitude": 110.3595,
+        "lokasi": "KADIPATEN KRATON",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 366,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3601, -7.8061999999999996]
+      },
+      "properties": {
+        "FID": 366,
+        "latitude": -7.8061999999999996,
+        "longitude": 110.3601,
+        "lokasi": "KADIPATEN KRATON",
+        "F4": " ",
+        "komponen": "Siamese Conn",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 367,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3603, -7.8052000000000001]
+      },
+      "properties": {
+        "FID": 367,
+        "latitude": -7.8052000000000001,
+        "longitude": 110.3603,
+        "lokasi": "KADIPATEN KRATON",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 368,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3603, -7.8052000000000001]
+      },
+      "properties": {
+        "FID": 368,
+        "latitude": -7.8052000000000001,
+        "longitude": 110.3603,
+        "lokasi": "KADIPATEN KRATON",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 369,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3593, -7.8066000000000004]
+      },
+      "properties": {
+        "FID": 369,
+        "latitude": -7.8066000000000004,
+        "longitude": 110.3593,
+        "lokasi": "KADIPATEN KRATON",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 370,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3593, -7.8066000000000004]
+      },
+      "properties": {
+        "FID": 370,
+        "latitude": -7.8066000000000004,
+        "longitude": 110.3593,
+        "lokasi": "KADIPATEN KRATON",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 371,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3603, -7.8052000000000001]
+      },
+      "properties": {
+        "FID": 371,
+        "latitude": -7.8052000000000001,
+        "longitude": 110.3603,
+        "lokasi": "KADIPATEN KRATON",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 372,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3603, -7.8052000000000001]
+      },
+      "properties": {
+        "FID": 372,
+        "latitude": -7.8052000000000001,
+        "longitude": 110.3603,
+        "lokasi": "KADIPATEN KRATON",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 373,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3603, -7.8052000000000001]
+      },
+      "properties": {
+        "FID": 373,
+        "latitude": -7.8052000000000001,
+        "longitude": 110.3603,
+        "lokasi": "KADIPATEN KRATON",
+        "F4": " ",
+        "komponen": "Siamese Conn",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 374,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3573, -7.8070000000000004]
+      },
+      "properties": {
+        "FID": 374,
+        "latitude": -7.8070000000000004,
+        "longitude": 110.3573,
+        "lokasi": "KADIPATEN KRATON",
+        "F4": " ",
+        "komponen": "Siamese Conn",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 375,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3574, -7.8057999999999996]
+      },
+      "properties": {
+        "FID": 375,
+        "latitude": -7.8057999999999996,
+        "longitude": 110.3574,
+        "lokasi": "KADIPATEN KRATON",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 376,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3574, -7.8057999999999996]
+      },
+      "properties": {
+        "FID": 376,
+        "latitude": -7.8057999999999996,
+        "longitude": 110.3574,
+        "lokasi": "KADIPATEN KRATON",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 377,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3537, -7.8068999999999997]
+      },
+      "properties": {
+        "FID": 377,
+        "latitude": -7.8068999999999997,
+        "longitude": 110.3537,
+        "lokasi": "MANCASAN",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 378,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3537, -7.8068999999999997]
+      },
+      "properties": {
+        "FID": 378,
+        "latitude": -7.8068999999999997,
+        "longitude": 110.3537,
+        "lokasi": "MANCASAN",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 379,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3532, -7.8068999999999997]
+      },
+      "properties": {
+        "FID": 379,
+        "latitude": -7.8068999999999997,
+        "longitude": 110.3532,
+        "lokasi": "MANCASAN",
+        "F4": " ",
+        "komponen": "Siamese Conn",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 380,
+      "geometry": { "type": "Point", "coordinates": [110.3532, -7.806] },
+      "properties": {
+        "FID": 380,
+        "latitude": -7.806,
+        "longitude": 110.3532,
+        "lokasi": "MANCASAN",
+        "F4": " ",
+        "komponen": "Siamese Conn",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 381,
+      "geometry": { "type": "Point", "coordinates": [110.3536, -7.8064] },
+      "properties": {
+        "FID": 381,
+        "latitude": -7.8064,
+        "longitude": 110.3536,
+        "lokasi": "MANCASAN",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 382,
+      "geometry": { "type": "Point", "coordinates": [110.3536, -7.8064] },
+      "properties": {
+        "FID": 382,
+        "latitude": -7.8064,
+        "longitude": 110.3536,
+        "lokasi": "MANCASAN",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 383,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3527, -7.7754000000000003]
+      },
+      "properties": {
+        "FID": 383,
+        "latitude": -7.7754000000000003,
+        "longitude": 110.3527,
+        "lokasi": "BENER",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 384,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3527, -7.7754000000000003]
+      },
+      "properties": {
+        "FID": 384,
+        "latitude": -7.7754000000000003,
+        "longitude": 110.3527,
+        "lokasi": "BENER",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 385,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3527, -7.7758000000000003]
+      },
+      "properties": {
+        "FID": 385,
+        "latitude": -7.7758000000000003,
+        "longitude": 110.3527,
+        "lokasi": "BENER",
+        "F4": " ",
+        "komponen": "Siamese Conn",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 386,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.35299999999999, -7.7750000000000004]
+      },
+      "properties": {
+        "FID": 386,
+        "latitude": -7.7750000000000004,
+        "longitude": 110.35299999999999,
+        "lokasi": "BENER",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 387,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.35299999999999, -7.7750000000000004]
+      },
+      "properties": {
+        "FID": 387,
+        "latitude": -7.7750000000000004,
+        "longitude": 110.35299999999999,
+        "lokasi": "BENER",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 388,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.35299999999999, -7.7750000000000004]
+      },
+      "properties": {
+        "FID": 388,
+        "latitude": -7.7750000000000004,
+        "longitude": 110.35299999999999,
+        "lokasi": "BENER",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 389,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.35299999999999, -7.7750000000000004]
+      },
+      "properties": {
+        "FID": 389,
+        "latitude": -7.7750000000000004,
+        "longitude": 110.35299999999999,
+        "lokasi": "BENER",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 390,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3536, -7.7743000000000002]
+      },
+      "properties": {
+        "FID": 390,
+        "latitude": -7.7743000000000002,
+        "longitude": 110.3536,
+        "lokasi": "BENER",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 391,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3536, -7.7743000000000002]
+      },
+      "properties": {
+        "FID": 391,
+        "latitude": -7.7743000000000002,
+        "longitude": 110.3536,
+        "lokasi": "BENER",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 392,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3536, -7.7743000000000002]
+      },
+      "properties": {
+        "FID": 392,
+        "latitude": -7.7743000000000002,
+        "longitude": 110.3536,
+        "lokasi": "BENER",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 393,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3539, -7.7744999999999997]
+      },
+      "properties": {
+        "FID": 393,
+        "latitude": -7.7744999999999997,
+        "longitude": 110.3539,
+        "lokasi": "BENER",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 394,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3539, -7.7744999999999997]
+      },
+      "properties": {
+        "FID": 394,
+        "latitude": -7.7744999999999997,
+        "longitude": 110.3539,
+        "lokasi": "BENER",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 395,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3536, -7.7743000000000002]
+      },
+      "properties": {
+        "FID": 395,
+        "latitude": -7.7743000000000002,
+        "longitude": 110.3536,
+        "lokasi": "BENER",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 396,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3518, -7.7752999999999997]
+      },
+      "properties": {
+        "FID": 396,
+        "latitude": -7.7752999999999997,
+        "longitude": 110.3518,
+        "lokasi": "BENER",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 397,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3518, -7.7752999999999997]
+      },
+      "properties": {
+        "FID": 397,
+        "latitude": -7.7752999999999997,
+        "longitude": 110.3518,
+        "lokasi": "BENER",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 398,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3614, -7.7770000000000001]
+      },
+      "properties": {
+        "FID": 398,
+        "latitude": -7.7770000000000001,
+        "longitude": 110.3614,
+        "lokasi": "KRICAK",
+        "F4": " ",
+        "komponen": "Siamese Conn",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 399,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3595, -7.7766000000000002]
+      },
+      "properties": {
+        "FID": 399,
+        "latitude": -7.7766000000000002,
+        "longitude": 110.3595,
+        "lokasi": "KRICAK",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 400,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3595, -7.7766000000000002]
+      },
+      "properties": {
+        "FID": 400,
+        "latitude": -7.7766000000000002,
+        "longitude": 110.3595,
+        "lokasi": "KRICAK",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 401,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3583, -7.7762000000000002]
+      },
+      "properties": {
+        "FID": 401,
+        "latitude": -7.7762000000000002,
+        "longitude": 110.3583,
+        "lokasi": "KRICAK",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 402,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3583, -7.7762000000000002]
+      },
+      "properties": {
+        "FID": 402,
+        "latitude": -7.7762000000000002,
+        "longitude": 110.3583,
+        "lokasi": "KRICAK",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Rusak",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 403,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.36069999999999, -7.7767999999999997]
+      },
+      "properties": {
+        "FID": 403,
+        "latitude": -7.7767999999999997,
+        "longitude": 110.36069999999999,
+        "lokasi": "KRICAK",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 404,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.36069999999999, -7.7767999999999997]
+      },
+      "properties": {
+        "FID": 404,
+        "latitude": -7.7767999999999997,
+        "longitude": 110.36069999999999,
+        "lokasi": "KRICAK",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 405,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3605, -7.7774000000000001]
+      },
+      "properties": {
+        "FID": 405,
+        "latitude": -7.7774000000000001,
+        "longitude": 110.3605,
+        "lokasi": "KRICAK",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 406,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3605, -7.7774000000000001]
+      },
+      "properties": {
+        "FID": 406,
+        "latitude": -7.7774000000000001,
+        "longitude": 110.3605,
+        "lokasi": "KRICAK",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 407,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3583, -7.7760999999999996]
+      },
+      "properties": {
+        "FID": 407,
+        "latitude": -7.7760999999999996,
+        "longitude": 110.3583,
+        "lokasi": "KRICAK",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Rusak",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 408,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.36, -7.7781000000000002]
+      },
+      "properties": {
+        "FID": 408,
+        "latitude": -7.7781000000000002,
+        "longitude": 110.36,
+        "lokasi": "KRICAK",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 409,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.36, -7.7781000000000002]
+      },
+      "properties": {
+        "FID": 409,
+        "latitude": -7.7781000000000002,
+        "longitude": 110.36,
+        "lokasi": "KRICAK",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Rusak",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 410,
+      "geometry": { "type": "Point", "coordinates": [110.3588, -7.7782] },
+      "properties": {
+        "FID": 410,
+        "latitude": -7.7782,
+        "longitude": 110.3588,
+        "lokasi": "KRICAK",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 411,
+      "geometry": { "type": "Point", "coordinates": [110.3588, -7.7782] },
+      "properties": {
+        "FID": 411,
+        "latitude": -7.7782,
+        "longitude": 110.3588,
+        "lokasi": "KRICAK",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 412,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.35939999999999, -7.7786]
+      },
+      "properties": {
+        "FID": 412,
+        "latitude": -7.7786,
+        "longitude": 110.35939999999999,
+        "lokasi": "KRICAK",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 413,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.35939999999999, -7.7786]
+      },
+      "properties": {
+        "FID": 413,
+        "latitude": -7.7786,
+        "longitude": 110.35939999999999,
+        "lokasi": "KRICAK",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Rusak",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 414,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.35850000000001, -7.7770999999999999]
+      },
+      "properties": {
+        "FID": 414,
+        "latitude": -7.7770999999999999,
+        "longitude": 110.35850000000001,
+        "lokasi": "KRICAK",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 415,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.35850000000001, -7.7770999999999999]
+      },
+      "properties": {
+        "FID": 415,
+        "latitude": -7.7770999999999999,
+        "longitude": 110.35850000000001,
+        "lokasi": "KRICAK",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Rusak",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 416,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.358, -7.7779999999999996]
+      },
+      "properties": {
+        "FID": 416,
+        "latitude": -7.7779999999999996,
+        "longitude": 110.358,
+        "lokasi": "KRICAK",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 417,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.36190000000001, -7.7694999999999999]
+      },
+      "properties": {
+        "FID": 417,
+        "latitude": -7.7694999999999999,
+        "longitude": 110.36190000000001,
+        "lokasi": "KARANGWARU",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 418,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.363, -7.7697000000000003]
+      },
+      "properties": {
+        "FID": 418,
+        "latitude": -7.7697000000000003,
+        "longitude": 110.363,
+        "lokasi": "KARANGWARU",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 419,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.36279999999999, -7.7695999999999996]
+      },
+      "properties": {
+        "FID": 419,
+        "latitude": -7.7695999999999996,
+        "longitude": 110.36279999999999,
+        "lokasi": "KARANGWARU",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 420,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3639, -7.7690999999999999]
+      },
+      "properties": {
+        "FID": 420,
+        "latitude": -7.7690999999999999,
+        "longitude": 110.3639,
+        "lokasi": "KARANGWARU",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 421,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3639, -7.7690999999999999]
+      },
+      "properties": {
+        "FID": 421,
+        "latitude": -7.7690999999999999,
+        "longitude": 110.3639,
+        "lokasi": "KARANGWARU",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 422,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3635, -7.7690000000000001]
+      },
+      "properties": {
+        "FID": 422,
+        "latitude": -7.7690000000000001,
+        "longitude": 110.3635,
+        "lokasi": "KARANGWARU",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 423,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3635, -7.7690000000000001]
+      },
+      "properties": {
+        "FID": 423,
+        "latitude": -7.7690000000000001,
+        "longitude": 110.3635,
+        "lokasi": "KARANGWARU",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 424,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.364, -7.7698999999999998]
+      },
+      "properties": {
+        "FID": 424,
+        "latitude": -7.7698999999999998,
+        "longitude": 110.364,
+        "lokasi": "KARANGWARU",
+        "F4": " ",
+        "komponen": "Siamese Conn",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 425,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3638, -7.7689000000000004]
+      },
+      "properties": {
+        "FID": 425,
+        "latitude": -7.7689000000000004,
+        "longitude": 110.3638,
+        "lokasi": "KARANGWARU",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 426,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3638, -7.7689000000000004]
+      },
+      "properties": {
+        "FID": 426,
+        "latitude": -7.7689000000000004,
+        "longitude": 110.3638,
+        "lokasi": "KARANGWARU",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 427,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.4007, -7.8235999999999999]
+      },
+      "properties": {
+        "FID": 427,
+        "latitude": -7.8235999999999999,
+        "longitude": 110.4007,
+        "lokasi": "BASEN",
+        "F4": " ",
+        "komponen": "Siamese Conn",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 428,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.4004, -7.8240999999999996]
+      },
+      "properties": {
+        "FID": 428,
+        "latitude": -7.8240999999999996,
+        "longitude": 110.4004,
+        "lokasi": "BASEN",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 429,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.4032, -7.8227000000000002]
+      },
+      "properties": {
+        "FID": 429,
+        "latitude": -7.8227000000000002,
+        "longitude": 110.4032,
+        "lokasi": "BASEN",
+        "F4": " ",
+        "komponen": "Siamese Conn",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 430,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.40179999999999, -7.8238000000000003]
+      },
+      "properties": {
+        "FID": 430,
+        "latitude": -7.8238000000000003,
+        "longitude": 110.40179999999999,
+        "lokasi": "BASEN",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 431,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.4037, -7.8238000000000003]
+      },
+      "properties": {
+        "FID": 431,
+        "latitude": -7.8238000000000003,
+        "longitude": 110.4037,
+        "lokasi": "BASEN",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 432,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.40309999999999, -7.8230000000000004]
+      },
+      "properties": {
+        "FID": 432,
+        "latitude": -7.8230000000000004,
+        "longitude": 110.40309999999999,
+        "lokasi": "BASEN",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 433,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.4032, -7.8234000000000004]
+      },
+      "properties": {
+        "FID": 433,
+        "latitude": -7.8234000000000004,
+        "longitude": 110.4032,
+        "lokasi": "BASEN",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 434,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.4032, -7.8234000000000004]
+      },
+      "properties": {
+        "FID": 434,
+        "latitude": -7.8234000000000004,
+        "longitude": 110.4032,
+        "lokasi": "BASEN",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Kering"
+      }
+    }
+  ]
+}
