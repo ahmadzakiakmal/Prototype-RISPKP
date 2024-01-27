@@ -185,6 +185,14 @@ export default function Layout({ children }: { children: React.ReactNode }) {
               >
                 Titik Sebaran Hidran Kering
               </Link>
+              <Link
+                href="/dashboard/wilayah-manajemen-kebakaran/peta-jalan-kota"
+                className={isMenuActive(
+                  "/dashboard/wilayah-manajemen-kebakaran/peta-jalan-kota"
+                )}
+              >
+                Peta Jalan Kota
+              </Link>
             </ul>
           </section>
           
