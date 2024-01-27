@@ -1,0 +1,995 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": 0,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.36091, -7.7944680000000002]
+      },
+      "properties": {
+        "FID": 0,
+        "latitude": -7.7944680000000002,
+        "longitude": 110.36091,
+        "lokasi": "Tegal Panggung",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Aktif"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 1,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.37949999999999, -7.7811000000000003]
+      },
+      "properties": {
+        "FID": 1,
+        "latitude": -7.7811000000000003,
+        "longitude": 110.37949999999999,
+        "lokasi": "JL PROF YOHANES",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Aktif"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3794, -7.7827999999999999]
+      },
+      "properties": {
+        "FID": 2,
+        "latitude": -7.7827999999999999,
+        "longitude": 110.3794,
+        "lokasi": "JL PROF YOHANES",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Aktif"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.37990000000001, -7.7808999999999999]
+      },
+      "properties": {
+        "FID": 3,
+        "latitude": -7.7808999999999999,
+        "longitude": 110.37990000000001,
+        "lokasi": "JL PROF YOHANES",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Aktif"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3674, -7.7926000000000002]
+      },
+      "properties": {
+        "FID": 4,
+        "latitude": -7.7926000000000002,
+        "longitude": 110.3674,
+        "lokasi": "JALAN MATARAM",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Aktif"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.35080000000001, -7.8052999999999999]
+      },
+      "properties": {
+        "FID": 5,
+        "latitude": -7.8052999999999999,
+        "longitude": 110.35080000000001,
+        "lokasi": "JALAN KAPTEN TENDEAN",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Aktif"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3506, -7.8066000000000004]
+      },
+      "properties": {
+        "FID": 6,
+        "latitude": -7.8066000000000004,
+        "longitude": 110.3506,
+        "lokasi": "JALAN KAPTEN TENDEAN",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Aktif"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3511, -7.8044000000000002]
+      },
+      "properties": {
+        "FID": 7,
+        "latitude": -7.8044000000000002,
+        "longitude": 110.3511,
+        "lokasi": "JALAN KAPTEN TENDEAN",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Aktif"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.351, -7.8044000000000002]
+      },
+      "properties": {
+        "FID": 8,
+        "latitude": -7.8044000000000002,
+        "longitude": 110.351,
+        "lokasi": "JALAN KAPTEN TENDEAN",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Aktif"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3882, -7.7831000000000001]
+      },
+      "properties": {
+        "FID": 9,
+        "latitude": -7.7831000000000001,
+        "longitude": 110.3882,
+        "lokasi": "JALAN LAKSDA ADISUCIPTO",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Aktif"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 10,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.36620000000001, -7.7892999999999999]
+      },
+      "properties": {
+        "FID": 10,
+        "latitude": -7.7892999999999999,
+        "longitude": 110.36620000000001,
+        "lokasi": "JALAN MANGKUBUMI",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Aktif"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 11,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.36660000000001, -7.7885999999999997]
+      },
+      "properties": {
+        "FID": 11,
+        "latitude": -7.7885999999999997,
+        "longitude": 110.36660000000001,
+        "lokasi": "JALAN MANGKUBUMI",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Aktif"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 12,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3669, -7.7868000000000004]
+      },
+      "properties": {
+        "FID": 12,
+        "latitude": -7.7868000000000004,
+        "longitude": 110.3669,
+        "lokasi": "JALAN MARGO UTOMO",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Aktif"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 13,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.36660000000001, -7.7874999999999996]
+      },
+      "properties": {
+        "FID": 13,
+        "latitude": -7.7874999999999996,
+        "longitude": 110.36660000000001,
+        "lokasi": "JALAN MANGKUBUMI",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Aktif"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3668, -7.7836999999999996]
+      },
+      "properties": {
+        "FID": 14,
+        "latitude": -7.7836999999999996,
+        "longitude": 110.3668,
+        "lokasi": "JALAN MANGKUBUMI",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Aktif"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 15,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3669, -7.7847999999999997]
+      },
+      "properties": {
+        "FID": 15,
+        "latitude": -7.7847999999999997,
+        "longitude": 110.3669,
+        "lokasi": "JALAN MANGKUBUMI",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Aktif"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 16,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3668, -7.7855999999999996]
+      },
+      "properties": {
+        "FID": 16,
+        "latitude": -7.7855999999999996,
+        "longitude": 110.3668,
+        "lokasi": "JALAN MANGKUBUMI",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Aktif"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 17,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.36620000000001, -7.7915000000000001]
+      },
+      "properties": {
+        "FID": 17,
+        "latitude": -7.7915000000000001,
+        "longitude": 110.36620000000001,
+        "lokasi": "JL MALIOBORO",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Aktif"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 18,
+      "geometry": { "type": "Point", "coordinates": [110.3659, -7.7923] },
+      "properties": {
+        "FID": 18,
+        "latitude": -7.7923,
+        "longitude": 110.3659,
+        "lokasi": "JL MALIOBORO",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Aktif"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 19,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3656, -7.7933000000000003]
+      },
+      "properties": {
+        "FID": 19,
+        "latitude": -7.7933000000000003,
+        "longitude": 110.3656,
+        "lokasi": "JL MALIOBORO",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Aktif"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 20,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.36539999999999, -7.7950999999999997]
+      },
+      "properties": {
+        "FID": 20,
+        "latitude": -7.7950999999999997,
+        "longitude": 110.36539999999999,
+        "lokasi": "JL MALIOBORO",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Aktif"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 21,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3655, -7.7958999999999996]
+      },
+      "properties": {
+        "FID": 21,
+        "latitude": -7.7958999999999996,
+        "longitude": 110.3655,
+        "lokasi": "JL MALIOBORO",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Aktif"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 22,
+      "geometry": { "type": "Point", "coordinates": [110.3655, -7.7942] },
+      "properties": {
+        "FID": 22,
+        "latitude": -7.7942,
+        "longitude": 110.3655,
+        "lokasi": "JL MALIOBORO",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Aktif"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 23,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3651, -7.7979000000000003]
+      },
+      "properties": {
+        "FID": 23,
+        "latitude": -7.7979000000000003,
+        "longitude": 110.3651,
+        "lokasi": "JL MALIOBORO",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Aktif"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 24,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.36539999999999, -7.7968999999999999]
+      },
+      "properties": {
+        "FID": 24,
+        "latitude": -7.7968999999999999,
+        "longitude": 110.36539999999999,
+        "lokasi": "JL MALIOBORO",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Aktif"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 25,
+      "geometry": { "type": "Point", "coordinates": [110.3648, -7.7988] },
+      "properties": {
+        "FID": 25,
+        "latitude": -7.7988,
+        "longitude": 110.3648,
+        "lokasi": "JL MALIOBORO",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Aktif"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 26,
+      "geometry": { "type": "Point", "coordinates": [110.3648, -7.7988] },
+      "properties": {
+        "FID": 26,
+        "latitude": -7.7988,
+        "longitude": 110.3648,
+        "lokasi": "JL MALIOBORO",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Aktif"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 27,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.36490000000001, -7.7987000000000002]
+      },
+      "properties": {
+        "FID": 27,
+        "latitude": -7.7987000000000002,
+        "longitude": 110.36490000000001,
+        "lokasi": "JL MALIOBORO",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Aktif"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 28,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3651, -7.7998000000000003]
+      },
+      "properties": {
+        "FID": 28,
+        "latitude": -7.7998000000000003,
+        "longitude": 110.3651,
+        "lokasi": "JL MALIOBORO",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Aktif"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 29,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3651, -7.8003999999999998]
+      },
+      "properties": {
+        "FID": 29,
+        "latitude": -7.8003999999999998,
+        "longitude": 110.3651,
+        "lokasi": "JL MALIOBORO",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Aktif"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 30,
+      "geometry": { "type": "Point", "coordinates": [110.3665, -7.7786] },
+      "properties": {
+        "FID": 30,
+        "latitude": -7.7786,
+        "longitude": 110.3665,
+        "lokasi": "KANTOR PDAM",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Aktif"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 31,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3922, -7.8007999999999997]
+      },
+      "properties": {
+        "FID": 31,
+        "latitude": -7.8007999999999997,
+        "longitude": 110.3922,
+        "lokasi": "KOMPLEK BALKOT",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Aktif"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 32,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.39190000000001, -7.8010999999999999]
+      },
+      "properties": {
+        "FID": 32,
+        "latitude": -7.8010999999999999,
+        "longitude": 110.39190000000001,
+        "lokasi": "KOMPLEK BALKOT",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Aktif"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 33,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.39190000000001, -7.8010999999999999]
+      },
+      "properties": {
+        "FID": 33,
+        "latitude": -7.8010999999999999,
+        "longitude": 110.39190000000001,
+        "lokasi": "KOMPLEK BALKOT",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Aktif"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 34,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3736, -7.8212000000000002]
+      },
+      "properties": {
+        "FID": 34,
+        "latitude": -7.8212000000000002,
+        "longitude": 110.3736,
+        "lokasi": "PERUM G HOUSE",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Aktif"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 35,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3742, -7.8212999999999999]
+      },
+      "properties": {
+        "FID": 35,
+        "latitude": -7.8212999999999999,
+        "longitude": 110.3742,
+        "lokasi": "PERUM G HOUSE",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Aktif"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 36,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3762, -7.8003999999999998]
+      },
+      "properties": {
+        "FID": 36,
+        "latitude": -7.8003999999999998,
+        "longitude": 110.3762,
+        "lokasi": "KOMPLEK PAKUALAMAN",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Aktif"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 37,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.37609999999999, -7.8003999999999998]
+      },
+      "properties": {
+        "FID": 37,
+        "latitude": -7.8003999999999998,
+        "longitude": 110.37609999999999,
+        "lokasi": "KOMPLEK PAKUALAMAN",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Aktif"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 38,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.37609999999999, -7.8003999999999998]
+      },
+      "properties": {
+        "FID": 38,
+        "latitude": -7.8003999999999998,
+        "longitude": 110.37609999999999,
+        "lokasi": "KOMPLEK PAKUALAMAN",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Aktif"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 39,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.37649999999999, -7.8006000000000002]
+      },
+      "properties": {
+        "FID": 39,
+        "latitude": -7.8006000000000002,
+        "longitude": 110.37649999999999,
+        "lokasi": "KOMPLEK PAKUALAMAN",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Aktif"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 40,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.37649999999999, -7.8006000000000002]
+      },
+      "properties": {
+        "FID": 40,
+        "latitude": -7.8006000000000002,
+        "longitude": 110.37649999999999,
+        "lokasi": "KOMPLEK PAKUALAMAN",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Aktif"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 41,
+      "geometry": { "type": "Point", "coordinates": [110.3567, -7.7965] },
+      "properties": {
+        "FID": 41,
+        "latitude": -7.7965,
+        "longitude": 110.3567,
+        "lokasi": "JLAGRAN",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Aktif"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 42,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3767, -7.8015999999999996]
+      },
+      "properties": {
+        "FID": 42,
+        "latitude": -7.8015999999999996,
+        "longitude": 110.3767,
+        "lokasi": "SULTAN AGUNG",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Aktif"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 43,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.363, -7.8075999999999999]
+      },
+      "properties": {
+        "FID": 43,
+        "latitude": -7.8075999999999999,
+        "longitude": 110.363,
+        "lokasi": "KOMPLEK KRATON",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Aktif"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 44,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.363, -7.8075999999999999]
+      },
+      "properties": {
+        "FID": 44,
+        "latitude": -7.8075999999999999,
+        "longitude": 110.363,
+        "lokasi": "KOMPLEK KRATON",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Aktif"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 45,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.363, -7.8075999999999999]
+      },
+      "properties": {
+        "FID": 45,
+        "latitude": -7.8075999999999999,
+        "longitude": 110.363,
+        "lokasi": "KOMPLEK KRATON",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Aktif"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 46,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.363, -7.8075999999999999]
+      },
+      "properties": {
+        "FID": 46,
+        "latitude": -7.8075999999999999,
+        "longitude": 110.363,
+        "lokasi": "KOMPLEK KRATON",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Aktif"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 47,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.363, -7.8075999999999999]
+      },
+      "properties": {
+        "FID": 47,
+        "latitude": -7.8075999999999999,
+        "longitude": 110.363,
+        "lokasi": "KOMPLEK KRATON",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Aktif"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 48,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.363, -7.8075999999999999]
+      },
+      "properties": {
+        "FID": 48,
+        "latitude": -7.8075999999999999,
+        "longitude": 110.363,
+        "lokasi": "KOMPLEK KRATON",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Aktif"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 49,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.36450000000001, -7.8072999999999997]
+      },
+      "properties": {
+        "FID": 49,
+        "latitude": -7.8072999999999997,
+        "longitude": 110.36450000000001,
+        "lokasi": "KOMPLEK KRATON",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Aktif"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 50,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.36450000000001, -7.8072999999999997]
+      },
+      "properties": {
+        "FID": 50,
+        "latitude": -7.8072999999999997,
+        "longitude": 110.36450000000001,
+        "lokasi": "KOMPLEK KRATON",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Aktif"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 51,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.36450000000001, -7.8072999999999997]
+      },
+      "properties": {
+        "FID": 51,
+        "latitude": -7.8072999999999997,
+        "longitude": 110.36450000000001,
+        "lokasi": "KOMPLEK KRATON",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Aktif"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 52,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.36450000000001, -7.8072999999999997]
+      },
+      "properties": {
+        "FID": 52,
+        "latitude": -7.8072999999999997,
+        "longitude": 110.36450000000001,
+        "lokasi": "KOMPLEK KRATON",
+        "F4": " ",
+        "komponen": "Box Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Aktif"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 53,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.36499999999999, -7.8068]
+      },
+      "properties": {
+        "FID": 53,
+        "latitude": -7.8068,
+        "longitude": 110.36499999999999,
+        "lokasi": "KOMPLEK KRATON",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Aktif"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 54,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.36450000000001, -7.8072999999999997]
+      },
+      "properties": {
+        "FID": 54,
+        "latitude": -7.8072999999999997,
+        "longitude": 110.36450000000001,
+        "lokasi": "KOMPLEK KRATON",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Aktif"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 55,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.3635, -7.8056999999999999]
+      },
+      "properties": {
+        "FID": 55,
+        "latitude": -7.8056999999999999,
+        "longitude": 110.3635,
+        "lokasi": "KOMPLEK KRATON",
+        "F4": " ",
+        "komponen": "Pilar Hidran",
+        "kondisi": "Baik",
+        "kategori_h": "Hidran Aktif"
+      }
+    }
+  ]
+}

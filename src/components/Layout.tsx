@@ -169,6 +169,14 @@ export default function Layout({ children }: { children: React.ReactNode }) {
               >
                 Titik Sebaran SPBU Mini
               </Link>
+              <Link
+                href="/dashboard/wilayah-manajemen-kebakaran/titik-sebaran-hidran"
+                className={isMenuActive(
+                  "/dashboard/wilayah-manajemen-kebakaran/titik-sebaran-hidran"
+                )}
+              >
+                Titik Sebaran Hidran
+              </Link>
             </ul>
           </section>
           
