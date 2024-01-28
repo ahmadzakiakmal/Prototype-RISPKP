@@ -113,8 +113,6 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             weatherTomorrow.push(weather);
           }
         });
-        console.log("today\n", weatherToday);
-        console.log("tmr\n", weatherTomorrow);
         setWeatherForecast({
           today: weatherToday,
           tomorrow: weatherTomorrow,
