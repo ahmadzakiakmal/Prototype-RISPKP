@@ -7,6 +7,7 @@ import axios from "axios";
 import usePostDistance from "@/hooks/usePostDistance";
 import Image from "next/image";
 import { PiCaretDownBold } from "react-icons/pi";
+import { toast } from "react-toastify";
 
 interface User {
   username: string;
@@ -97,6 +98,9 @@ export default function Layout({ children }: { children: React.ReactNode }) {
         const formattedDateToday = `${year}-${month < 10 && "0"}${
           month + 1
         }-${date}`;
+        const formattedDateTomorrow = `${year}-${month < 10 && "0"}${
+          month + 1
+        }-${date + 1}`;
         // console.log(`${year}-${month < 10 && "0"}${month + 1}-${date}`);
         // console.log(res.data);
         const weatherToday: Weather[] = [];
@@ -104,17 +108,20 @@ export default function Layout({ children }: { children: React.ReactNode }) {
         res.data.forEach((weather: Weather) => {
           if (weather.jamCuaca.slice(0, 10) === formattedDateToday) {
             weatherToday.push(weather);
-          } else {
+          }
+          if (weather.jamCuaca.slice(0, 10) === formattedDateTomorrow) {
             weatherTomorrow.push(weather);
           }
         });
+        console.log("today\n", weatherToday);
+        console.log("tmr\n", weatherTomorrow);
         setWeatherForecast({
           today: weatherToday,
           tomorrow: weatherTomorrow,
         });
       })
-      .catch((err) => {
-        console.log(err);
+      .catch(() => {
+        toast.error("Gagal mengambil data cuaca");
       });
   }, []);
 
@@ -192,13 +199,26 @@ export default function Layout({ children }: { children: React.ReactNode }) {
               (isMenuOpen ? "" : "sm:hidden")
             }
           >
-            <button onClick={() => {setOpenWeatherSection(!openWeatherSection);}} className="flex w-full justify-between items-center">
+            <button
+              onClick={() => {
+                setOpenWeatherSection(!openWeatherSection);
+              }}
+              className="flex w-full justify-between items-center"
+            >
               <h2 className="text-[16px] font-bold leading-[105%] cursor-pointer select-none">
-              PREDIKSI CUACA
+                PREDIKSI CUACA
               </h2>
-              <PiCaretDownBold className={`transition duration-200 ${openWeatherSection? "rotate-180" : ""}`} />
+              <PiCaretDownBold
+                className={`transition duration-200 ${
+                  openWeatherSection ? "rotate-180" : ""
+                }`}
+              />
             </button>
-            <div className={`grid transition-[grid-template-rows] duration-200 ${openWeatherSection ? "grid-rows-[1fr]" : "grid-rows-[0fr]"}`}>
+            <div
+              className={`grid transition-[grid-template-rows] duration-200 ${
+                openWeatherSection ? "grid-rows-[1fr]" : "grid-rows-[0fr]"
+              }`}
+            >
               <div className="overflow-y-hidden">
                 <div className="flex gap-3 my-2">
                   <button
@@ -207,7 +227,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
                       showWeatherToday ? "bg-green-200" : "bg-green-300"
                     }`}
                   >
-                Hari ini
+                    Hari ini
                   </button>
                   <button
                     onClick={() => setShowWeatherToday(false)}
@@ -215,7 +235,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
                       !showWeatherToday ? "bg-green-200" : "bg-green-300"
                     }`}
                   >
-                Besok
+                    Besok
                   </button>
                 </div>
                 <div className="flex flex-col gap-2">
@@ -240,12 +260,13 @@ export default function Layout({ children }: { children: React.ReactNode }) {
                       </div>
                     );
                   })}
-                  <p className="text-[12px] font-medium">sumber:&nbsp;
+                  <p className="text-[12px] font-medium">
+                    sumber:&nbsp;
                     <a
                       href="https://data.bmkg.go.id/prakiraan-cuaca/"
                       className="hover:underline"
                     >
-                  Badan Meteorologi, Klimatologi, dan Geofisika
+                      Badan Meteorologi, Klimatologi, dan Geofisika
                     </a>
                   </p>
                 </div>
