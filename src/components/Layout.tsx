@@ -5,11 +5,30 @@ import useLastScrollDirection from "@/hooks/useLastScrollDirection";
 import { useRouter } from "next/router";
 import axios from "axios";
 import usePostDistance from "@/hooks/usePostDistance";
+import Image from "next/image";
+import { PiCaretDownBold } from "react-icons/pi";
 
 interface User {
   username: string;
   role: string;
 }
+
+type Weather = {
+  jamCuaca: string;
+  humidity: number;
+  tempC: number;
+  kodeCuaca: number;
+  cuaca: string;
+};
+
+interface WeatherForecast {
+  today: Weather[] | null;
+  tomorrow: Weather[] | null;
+}
+
+type IconMapper = {
+  [key: number]: string;
+};
 
 export default function Layout({ children }: { children: React.ReactNode }) {
   const [isMenuOpen, setIsMenuOpen] = useState(true);
@@ -18,8 +37,32 @@ export default function Layout({ children }: { children: React.ReactNode }) {
     username: "",
     role: "",
   });
+  const [weatherForecast, setWeatherForecast] = useState<WeatherForecast>({
+    today: null,
+    tomorrow: null,
+  });
+  const [showWeatherToday, setShowWeatherToday] = useState<boolean>(true);
+  const [openWeatherSection, setOpenWeatherSection] = useState<boolean>(true);
   const router = useRouter();
   const closestPost = usePostDistance();
+  const kotaId = "501190";
+  const baseUrl =
+    "https://raw.githubusercontent.com/ahmadzaki2975/Weather-Web/df11260006f649aaec977d63814373212017a6fa/public/Weather%20Icons/";
+  const iconMapper: IconMapper = {
+    1: "Bright%20Sky.svg",
+    2: "Bright%20Sky.svg",
+    3: "Mostly%20Cloudy.svg",
+    4: "Overcast.svg",
+    5: "Haze.svg",
+    10: "Smoke.svg",
+    45: "Fog.svg",
+    60: "Light%20Rain.svg",
+    61: "Rain.svg",
+    63: "Heavy%20Rain.svg",
+    80: "Local%20Rain.svg",
+    95: "Thunderstorm.svg",
+    97: "Thunderstorm.svg",
+  };
 
   function isMenuActive(route: string): string {
     return router.pathname === route ? " font-semibold underline" : "";
@@ -42,6 +85,38 @@ export default function Layout({ children }: { children: React.ReactNode }) {
         console.log("User authentication failed!");
       });
   }, [router]);
+
+  useEffect(() => {
+    axios
+      .get("https://ibnux.github.io/BMKG-importer/cuaca/" + kotaId + ".json")
+      .then((res) => {
+        const today = new Date();
+        const date = today.getDate();
+        const month = today.getMonth();
+        const year = today.getFullYear();
+        const formattedDateToday = `${year}-${month < 10 && "0"}${
+          month + 1
+        }-${date}`;
+        // console.log(`${year}-${month < 10 && "0"}${month + 1}-${date}`);
+        // console.log(res.data);
+        const weatherToday: Weather[] = [];
+        const weatherTomorrow: Weather[] = [];
+        res.data.forEach((weather: Weather) => {
+          if (weather.jamCuaca.slice(0, 10) === formattedDateToday) {
+            weatherToday.push(weather);
+          } else {
+            weatherTomorrow.push(weather);
+          }
+        });
+        setWeatherForecast({
+          today: weatherToday,
+          tomorrow: weatherTomorrow,
+        });
+      })
+      .catch((err) => {
+        console.log(err);
+      });
+  }, []);
 
   return (
     <main className="max-h-screen h-[200vh] bg-proto-100 flex font-poppins">
@@ -110,6 +185,73 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             {/* <h1 className="font-semibold">Jarak:</h1> */}
             {/* <p className="text-[16p]">{closestPost.distance.toFixed(2)} km <br/> Akurasi radius {closestPost.accuracy.toFixed(2)} meter</p> */}
           </div>
+
+          <section
+            className={
+              "border-t-2 border-neutral-400 py-3 " +
+              (isMenuOpen ? "" : "sm:hidden")
+            }
+          >
+            <button onClick={() => {setOpenWeatherSection(!openWeatherSection);}} className="flex w-full justify-between items-center">
+              <h2 className="text-[16px] font-bold leading-[105%] cursor-pointer select-none">
+              PREDIKSI CUACA
+              </h2>
+              <PiCaretDownBold className={`transition duration-200 ${openWeatherSection? "rotate-180" : ""}`} />
+            </button>
+            <div className={`grid transition-[grid-template-rows] duration-200 ${openWeatherSection ? "grid-rows-[1fr]" : "grid-rows-[0fr]"}`}>
+              <div className="overflow-y-hidden">
+                <div className="flex gap-3 my-2">
+                  <button
+                    onClick={() => setShowWeatherToday(true)}
+                    className={`text-[14px] font-semibold px-2 py-1 rounded-full ${
+                      showWeatherToday ? "bg-green-200" : "bg-green-300"
+                    }`}
+                  >
+                Hari ini
+                  </button>
+                  <button
+                    onClick={() => setShowWeatherToday(false)}
+                    className={`text-[14px] font-semibold px-2 py-1 rounded-full ${
+                      !showWeatherToday ? "bg-green-200" : "bg-green-300"
+                    }`}
+                  >
+                Besok
+                  </button>
+                </div>
+                <div className="flex flex-col gap-2">
+                  {weatherForecast[
+                    `${showWeatherToday ? "today" : "tomorrow"}`
+                  ]?.map((weather) => {
+                    return (
+                      <div className="text-[14px] flex items-end gap-2">
+                        <div>
+                          <h1 className="font-medium">
+                            {weather.jamCuaca.slice(11, 16)}
+                          </h1>
+                          <p className="font-bold">{weather.cuaca}</p>
+                        </div>
+                        <p className="font-semibold">{weather.tempC}&deg; C</p>
+                        <Image
+                          alt={weather.cuaca}
+                          src={baseUrl + iconMapper[weather.kodeCuaca]}
+                          width={30}
+                          height={30}
+                        />
+                      </div>
+                    );
+                  })}
+                  <p className="text-[12px] font-medium">sumber:&nbsp;
+                    <a
+                      href="https://data.bmkg.go.id/prakiraan-cuaca/"
+                      className="hover:underline"
+                    >
+                  Badan Meteorologi, Klimatologi, dan Geofisika
+                    </a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
 
           <section
             className={
@@ -203,7 +345,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
               </Link>
             </ul>
           </section>
-          
+
           <section
             className={
               "border-t-2 border-neutral-400 py-3 " +
