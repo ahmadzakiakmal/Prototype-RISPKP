@@ -101,8 +101,6 @@ export default function Layout({ children }: { children: React.ReactNode }) {
         const formattedDateTomorrow = `${year}-${month < 10 && "0"}${
           month + 1
         }-${date + 1}`;
-        // console.log(`${year}-${month < 10 && "0"}${month + 1}-${date}`);
-        // console.log(res.data);
         const weatherToday: Weather[] = [];
         const weatherTomorrow: Weather[] = [];
         res.data.forEach((weather: Weather) => {
@@ -193,7 +191,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
 
           <section
             className={
-              "border-t-2 border-neutral-400 py-3 " +
+              "border-t-2 border-neutral-400 py-3 overflow-y-hidden" +
               (isMenuOpen ? "" : "sm:hidden")
             }
           >
@@ -270,6 +268,27 @@ export default function Layout({ children }: { children: React.ReactNode }) {
                 </div>
               </div>
             </div>
+          </section>
+
+          <section
+            className={
+              "border-t-2 border-neutral-400 py-3 " +
+              (isMenuOpen ? "" : "sm:hidden")
+            }
+          >
+            <h2 className="text-[16px] font-bold leading-[105%]">
+              PETA DASAR
+            </h2>
+            <ul className="flex flex-col text-[15px] mt-2 gap-2 leading-[105%] list-disc">
+              <Link
+                href="/dashboard/peta-dasar"
+                className={isMenuActive(
+                  "/dashboard/peta-dasar"
+                )}
+              >
+                Peta Dasar Manajemen Kebakaran
+              </Link>
+            </ul>
           </section>
 
           <section
