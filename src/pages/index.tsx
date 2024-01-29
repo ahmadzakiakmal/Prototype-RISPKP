@@ -49,7 +49,7 @@ export default function Home() {
           });
           // ! Change to "/dashboard" if dashboard is ready
           router.push(
-            "/dashboard/wilayah-manajemen-kebakaran/peta-waktu-tanggap"
+            "/dashboard/peta-dasar"
           );
         })
         .catch((err) => {
@@ -88,7 +88,7 @@ export default function Home() {
       })
       .then(() => {
         router.push(
-          "/dashboard/wilayah-manajemen-kebakaran/peta-waktu-tanggap"
+          "/dashboard/peta-dasar"
         );
         toast.info("Anda sudah login, mengarahkan ke dashboard...");
       })
